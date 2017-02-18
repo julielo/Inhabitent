@@ -45,7 +45,7 @@ add_action( 'after_setup_theme', 'red_starter_setup' );
  * @global int $content_width
  */
 function red_starter_content_width() {
-	$GLOBALS['content_width'] = apply_filters( 'red_starter_content_width', 640 );
+	$GLOBALS['content_width'] = apply_filters( 'red_starter_content_width', 1120 );
 }
 add_action( 'after_setup_theme', 'red_starter_content_width', 0 );
 
