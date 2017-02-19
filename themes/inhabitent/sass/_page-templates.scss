@@ -18,3 +18,18 @@
 .nav-div {
     width: 55%;
 }
+
+.site-footer {
+    background: url(../../images/dark-wood.png);
+    background-size: 512px 512px;
+}
+
+.footer-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.site-info, .container {
+  display: flex;
+  justify-content: center;
+}
