@@ -273,7 +273,7 @@ input,
 select,
 textarea {
   color: #404040;
-  font-family: sans-serif;
+  font-family: "Merriweather", serif;
   font-size: 16px;
   font-size: 1rem;
   line-height: 1.5; }
@@ -698,15 +698,22 @@ object {
 --------------------------------------------------------------*/
 /* Front page */
 .header-container {
+  position: fixed;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: justify;
       justify-content: space-between;
-  border-bottom: 1px solid lightgrey; }
+  border-bottom: 1px solid lightgrey;
+  width: 100%; }
 
 .logo {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
   width: 50px;
   margin-left: 10px; }
+
+.menu li:first-child {
+  display: none; }
 
 .main-navigation li {
   margin-right: 40px; }

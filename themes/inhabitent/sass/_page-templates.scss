@@ -4,14 +4,26 @@
 
 /* Front page */
 .header-container {
+    position: fixed;
     display:flex;
     justify-content: space-between;
     border-bottom: 1px solid lightgrey;
+    width: 100%;
+
+
 }
 .logo {
-    width: 50px;
-    margin-left: 10px;
+  align-self: flex-start;
+  width: 50px;
+  margin-left: 10px;
+
 }
+
+// Removes Home link from navigation menu
+.menu li:first-child {
+  display:none;
+}
+
 .main-navigation li {
     margin-right: 40px;
 }
