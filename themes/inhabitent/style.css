@@ -725,11 +725,31 @@ object {
   background: url(../../images/dark-wood.png);
   background-size: 512px 512px; }
 
+footer {
+  color: #fff;
+  padding: 50px; }
+
 .footer-info {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: justify;
-      justify-content: space-between; }
+      justify-content: space-between;
+  padding: 10px; }
+
+.footer-info h3 {
+  color: #d99054; }
+
+.contact a {
+  color: #fff;
+  text-decoration: none; }
+
+a:hover {
+  text-decoration: underline; }
+
+.text-logo {
+  margin-top: 10px;
+  margin-right: 5px;
+  width: 250px; }
 
 .site-info, .container {
   display: -ms-flexbox;
