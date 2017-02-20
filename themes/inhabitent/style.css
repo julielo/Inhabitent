@@ -726,8 +726,7 @@ object {
   background-size: 512px 512px; }
 
 footer {
-  color: #fff;
-  padding: 50px; }
+  color: #fff; }
 
 .footer-info {
   display: -ms-flexbox;
@@ -756,3 +755,16 @@ a:hover {
   display: flex;
   -ms-flex-pack: center;
       justify-content: center; }
+
+#primary {
+  width: 73%; }
+
+#secondary {
+  text-align: right;
+  width: 27%; }
+
+#content {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: baseline;
+      align-items: baseline; }

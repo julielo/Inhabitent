@@ -39,13 +39,13 @@
 
 footer {
   color: #fff;
-  padding: 50px;
 }
 
 .footer-info {
   display: flex;
   justify-content: space-between;
   padding: 10px;
+
 }
 
 .footer-info h3 {
@@ -56,9 +56,6 @@ footer {
   color: #fff;
   text-decoration: none;
 }
-// a:hover {
-//   text-decoration: none;
-// }
 
 a:hover {
   text-decoration: underline;
@@ -74,4 +71,18 @@ a:hover {
 .site-info, .container {
   display: flex;
   justify-content: center;
+}
+
+#primary {
+  width: 73%;
+}
+
+#secondary {
+  text-align: right;
+  width: 27%;
+}
+
+#content {
+  display: flex;
+  align-items: baseline;
 }
