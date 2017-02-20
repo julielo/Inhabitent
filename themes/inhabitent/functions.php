@@ -58,7 +58,7 @@ function red_starter_widgets_init() {
 	register_sidebar( array(
 		// 'name'          => esc_html( 'Sidebar' ),
 		// 'id'            => 'sidebar-1',
-		'name'          => esc_html( 'Custom' ),
+		'name'          => esc_html( 'Custom Sidebar' ),
 		'id'            => 'custom',
 		'description'   => '',
 		'before_widget' => '<aside id="%1$s" class="widget %2$s">',

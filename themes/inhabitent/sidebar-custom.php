@@ -6,8 +6,7 @@
  */
 
 if ( ! is_active_sidebar( 'custom' ) ): ?>
-returns;
-<?php endif; ?>
+<!-- <?php endif; ?> -->
 
 <div id="secondary" class="widget-area" role="complementary">
 	<?php dynamic_sidebar( 'custom' ); ?>
