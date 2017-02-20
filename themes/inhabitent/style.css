@@ -276,7 +276,7 @@ textarea {
   font-family: "Merriweather", serif;
   font-size: 16px;
   font-size: 1rem;
-  line-height: 1.5; }
+  line-height: 1.75; }
 
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
@@ -807,6 +807,3 @@ h2.entry-title a {
   padding: 0 17px 0 17px;
   text-transform: uppercase;
   font-size: 0.75rem; }
-
-h1.entry-title {
-  font-family: Novecento; }
