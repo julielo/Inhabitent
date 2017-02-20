@@ -782,3 +782,31 @@ div#content.site-content {
   display: flex;
   -ms-flex-align: baseline;
       align-items: baseline; }
+
+.entry-header {
+  position: relative; }
+
+h2.entry-title a {
+  position: absolute;
+  background-color: #248A83;
+  color: #fff;
+  top: 17px;
+  text-decoration: none;
+  font-family: Novecento;
+  font-weight: bold;
+  font-size: 2rem;
+  max-width: 75%;
+  text-transform: uppercase; }
+
+.entry-meta {
+  position: absolute;
+  background-color: #248A83;
+  color: #fff;
+  right: 0;
+  bottom: 5px;
+  padding: 0 17px 0 17px;
+  text-transform: uppercase;
+  font-size: 0.75rem; }
+
+h1.entry-title {
+  font-family: Novecento; }
