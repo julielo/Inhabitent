@@ -24,15 +24,14 @@ add_filter( 'body_class', 'red_starter_body_classes' );
 // Add a custom logo to the WordPress login page
 function inhabitent_login_logo() {
 	echo '<style type="text/css">
-			h1 a { background-image:url('.get_stylesheet_directory_uri().'/images/logos/inhabitent-logo-text-dark.svg) !important;
-			height: 53px !important; width: 295px !important; background-size: cover !important;}
+			#login h1 a { background: url('.get_stylesheet_directory_uri() . '/images/logos/inhabitent-logo-text-dark.svg) !important;
+			background-size: 300px 53px !important; height: 53px !important; width: 295px !important;
+		}
+
+			#login .button.button-primary {
+				background-color: #248A83;
+			}
 	</style>';
 }
 
 add_action('login_head', 'inhabitent_login_logo');
-
-// Change the WordPress Login Page logo URL
-   function inhabitent_login_logo_url(){
-     return home_url();
-   }
-   add_filter('login_headerurl', 'inhabitent_login_logo_url');
