@@ -712,9 +712,6 @@ object {
   width: 50px;
   margin-left: 10px; }
 
-.menu li:first-child {
-  display: none; }
-
 .main-navigation li {
   margin-right: 40px; }
 
