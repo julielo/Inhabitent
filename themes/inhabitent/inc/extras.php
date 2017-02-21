@@ -44,3 +44,11 @@ add_action('login_head', 'inhabitent_login_logo');
      return home_url();
    }
    add_filter('login_headerurl', 'inhabitent_login_logo_url');
+
+	 // Change title attribute for the  of logo image
+// @return string
+
+function inhabitent_login_title() {
+	return 'Inhabitent';
+}
+add_filter( 'login_headertitle', 'inhabitent_login_title' );
