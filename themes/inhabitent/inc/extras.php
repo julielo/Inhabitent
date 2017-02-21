@@ -20,3 +20,13 @@ function red_starter_body_classes( $classes ) {
 	return $classes;
 }
 add_filter( 'body_class', 'red_starter_body_classes' );
+
+// Add a custom logo to the WordPress login page
+function inhabitent_login_logo() {
+	echo '<style type="text/css">
+			h1 a { background-image:url('.get_stylesheet_directory_uri().'/images/logos/inhabitent-logo-text-dark.svg) !important;
+			height: 53px !important; width: 295px !important; background-size: cover !important;}
+	</style>';
+}
+
+add_action('login_head', 'inhabitent_login_logo');
