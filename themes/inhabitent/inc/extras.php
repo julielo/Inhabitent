@@ -30,3 +30,9 @@ function inhabitent_login_logo() {
 }
 
 add_action('login_head', 'inhabitent_login_logo');
+
+// Change the WordPress Login Page logo URL
+   function inhabitent_login_logo_url(){
+     return home_url();
+   }
+   add_filter('login_headerurl', 'inhabitent_login_logo_url');
