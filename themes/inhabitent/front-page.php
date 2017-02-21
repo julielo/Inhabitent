@@ -10,15 +10,15 @@ get_header(); ?>
     <img src="<?php echo get_template_directory_uri(); ?>/images/logos/inhabitent-logo-full.svg" alt="Image of Inhabitent logo" />
   </section>
 	<section>
-		<h2>Shop Stuff</h2>
+		<h2 class="entry-title">Shop Stuff</h2>
 	</section>
 	<section>
-		<h2>Inhabitent Journal</h2>
+		<h2 class="entry-title">Inhabitent Journal</h2>
 	</section>
 	<section>
-		<h2>Latest Adventures</h2>
+		<h2 class="entry-title">Latest Adventures</h2>
 	</section>
-	
+
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 
