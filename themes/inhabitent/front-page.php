@@ -1,4 +1,3 @@
-<?php /* Template Name: Front-Page */ ?>
 <?php
 /**
  * The template for displaying all pages.
