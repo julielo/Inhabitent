@@ -35,3 +35,12 @@ function inhabitent_login_logo() {
 }
 
 add_action('login_head', 'inhabitent_login_logo');
+
+// Change the WordPress Login Page logo URL
+// @param string $url the URL the logo image link points to.
+//@return string
+
+   function inhabitent_login_logo_url($url) {
+     return home_url();
+   }
+   add_filter('login_headerurl', 'inhabitent_login_logo_url');
