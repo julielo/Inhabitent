@@ -756,12 +756,6 @@ a:hover {
   -ms-flex-pack: center;
       justify-content: center; }
 
-div#content.site-content {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-direction: row;
-      flex-direction: row; }
-
 .site-main {
   display: -ms-flexbox;
   display: flex;
@@ -777,14 +771,11 @@ div#content.site-content {
   width: 30%;
   padding-top: 34px; }
 
-#content {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-align: baseline;
-      align-items: baseline; }
-
 .entry-header {
   position: relative; }
+
+h1.entry-title {
+  display: none; }
 
 h2.entry-title a {
   position: absolute;
@@ -807,3 +798,12 @@ h2.entry-title a {
   padding: 0 17px 0 17px;
   text-transform: uppercase;
   font-size: 0.75rem; }
+
+.home-hero {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.25) 0, rgba(0, 0, 0, 0.25) 100%), url("../../images/home-hero.jpg") top center no-repeat;
+  background-size: cover, cover;
+  height: 100vh; }

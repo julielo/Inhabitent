@@ -73,10 +73,10 @@ a:hover {
   justify-content: center;
 }
 
-div#content.site-content {
-  display: flex;
-  flex-direction: row;
-}
+// div#content.site-content {
+  // display: flex;
+  // flex-direction: row;
+// }
 
 .site-main {
   display: flex;
@@ -94,13 +94,17 @@ div#content.site-content {
   padding-top: 34px;
 }
 
-#content {
-  display: flex;
-  align-items: baseline;
-}
+// #content {
+  // display: flex;
+  // align-items: baseline;
+// }
 
 .entry-header {
   position: relative;
+}
+
+h1.entry-title {
+  display: none;
 }
 
 h2.entry-title a {
