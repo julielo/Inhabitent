@@ -771,9 +771,6 @@ a:hover {
 .entry-header {
   position: relative; }
 
-h3.entry-header {
-  position: relative; }
-
 h1.entry-title {
   display: none; }
 
@@ -804,18 +801,6 @@ h2.entry-title {
   text-transform: uppercase;
   font-size: 0.75rem; }
 
-.journal-container {
-  display: -ms-flexbox;
-  display: flex; }
-
-.home-post {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-direction: row;
-      flex-direction: row;
-  -ms-flex-pack: justify;
-      justify-content: space-between; }
-
 .home-hero {
   display: -ms-flexbox;
   display: flex;
@@ -830,11 +815,8 @@ h2.entry-title {
   display: flex; }
 
 .home-post {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-direction: row;
-      flex-direction: row;
-  width: 33%; }
+  border: 1px #248A83 solid;
+  margin: 5px; }
 
 .home-entry-title a {
   color: #248A83;

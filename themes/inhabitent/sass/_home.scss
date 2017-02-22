@@ -12,9 +12,8 @@
 }
 
 .home-post {
-  display: flex;
-  flex-direction: row;
-  width: 33%;
+  border: 1px $brand_color_green solid;
+  margin: 5px;
 }
 
 .home-entry-title a {
