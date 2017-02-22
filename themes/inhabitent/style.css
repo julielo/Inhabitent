@@ -836,9 +836,12 @@ h2.entry-title {
       flex-direction: row;
   width: 33%; }
 
-.home-entry-title {
+.home-entry-title a {
+  color: #248A83;
   font-size: 1rem;
-  color: #248A83; }
+  text-decoration: none; }
+  .home-entry-title a:hover {
+    color: #2f1339; }
 
 .home-entry-meta {
   font-size: 0.5rem; }

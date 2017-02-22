@@ -17,9 +17,13 @@
   width: 33%;
 }
 
-.home-entry-title {
-  font-size: 1rem;
+.home-entry-title a {
   color: $brand_color_green;
+  font-size: 1rem;
+  text-decoration: none;
+  &:hover {
+  color: $brand_color_purple;
+}
 }
 
 .home-entry-meta {
