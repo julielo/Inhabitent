@@ -805,6 +805,16 @@ h2.entry-title {
   text-transform: uppercase;
   font-size: 0.75rem; }
 
+div#primary.content-area {
+  display: -ms-inline-flexbox;
+  display: inline-flex; }
+
+div#secondary.widget-area {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column; }
+
 .home-hero {
   display: -ms-flexbox;
   display: flex;
