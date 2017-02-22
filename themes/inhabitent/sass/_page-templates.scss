@@ -19,9 +19,15 @@
 
 }
 
+.main-navigation a{
+  font-family: $font_accent;
+  color: #fff;
+}
+
 // Removes Home link from navigation menu
 .main-navigation li {
     margin-right: 40px;
+
 }
 .nav-div {
     width: 55%;
@@ -132,9 +138,3 @@ h2.entry-title {
   text-transform: uppercase;
   font-size: 0.75rem;
 }
-
-// .wrapper {
-  // display: flex;
-  // flex-direction: column;
-    // padding: 15px;
-// }

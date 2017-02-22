@@ -712,6 +712,10 @@ object {
   width: 50px;
   margin-left: 10px; }
 
+.main-navigation a {
+  font-family: "Novecento", sans serif;
+  color: #fff; }
+
 .main-navigation li {
   margin-right: 40px; }
 
