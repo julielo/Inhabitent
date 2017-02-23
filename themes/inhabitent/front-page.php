@@ -10,11 +10,19 @@ get_header(); ?>
     <img src="<?php echo get_template_directory_uri(); ?>/images/logos/inhabitent-logo-full.svg" alt="Image of Inhabitent logo" />
   </section>
 
-
 	<section>
 		<h2 class="entry-title">Shop Stuff</h2>
+		<?php
+			$terms = get_terms('product_type');
+				echo '<div class="wrapper">';
+				foreach ($terms as $term) {
+					echo '<div class="prod_type-container">';
+			  	echo '<a class="prod_type_btn" href="'.get_term_link($term).'">'.$term->name.' stuff</a>';
+					echo '</div>';
+				}
+				echo '</div>';
+	 	?>
 	</section>
-
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">

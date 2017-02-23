@@ -32,3 +32,26 @@
 h3.entry-header {
   position: relative;
 }
+
+.wrapper {
+  display: flex;
+}
+
+.prod_type-container {
+  margin: 3px;
+  border: 1px solid grey;
+  border-top: 3px solid grey;
+}
+
+.prod_type_btn {
+  font-family: $font_accent;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  background-color: $brand_color_green;
+  color: #fff;
+  padding: 5px 10px;
+  text-decoration: none;
+  &:hover {
+    color: #fff;
+  }
+}
