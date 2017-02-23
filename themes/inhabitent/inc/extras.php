@@ -75,4 +75,16 @@ function inhabitent_about_image() {
 		wp_add_inline_style( 'inhabitent-style', $hero_css );
 }
 	add_action( 'wp_enqueue_scripts', 'inhabitent_about_image' );
+
+	function inhabitent_archive_posts_sort( $query ) {
+
+    if ( is_post_type_archive('products') ) {
+
+      $query->set( 'posts_per_page', 16 );
+			$query->set( 'orderby', 'title' );
+      $query->set( 'order', 'ASC' );
+        return;
+    }
+}
+add_action( 'pre_get_posts', 'inhabitent_archive_posts_sort', 16 );
 ?>

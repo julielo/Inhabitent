@@ -25,7 +25,6 @@ get_header(); ?>
 				<?php
 					get_template_part( 'template-parts/content' );
 				?>
-				<h3 class="entry-header-title">Test</h3>
 			<?php endwhile; ?>
 
 			<?php the_posts_navigation(); ?>
