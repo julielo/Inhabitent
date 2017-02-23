@@ -8,17 +8,36 @@
 get_header(); ?>
 	<section class="home-hero">
     <img src="<?php echo get_template_directory_uri(); ?>/images/logos/inhabitent-logo-full.svg" alt="Image of Inhabitent logo" />
-  </section>
+
+	</section>
 
 	<section>
 		<h2 class="entry-title">Shop Stuff</h2>
 		<?php
-			$terms = get_terms('product_type');
+
+			// $terms = get_terms('product_type');
+
+			$terms = get_terms( array(
+    	'taxonomy' => 'product_type',
+			'orderby' => 'name',
+    	'hide_empty' => false,
+) );
+			$slug = $term->slug;
 				echo '<div class="wrapper">';
+/*
+				$dir = "<?php echo get_template_directory_uri();?>/images/icons/";
+				$images = glob( $dir . "*.svg" );
+				foreach ($images as $image) {//
+				 echo '<img src="'.$image.'" />';
+			 }*/
 				foreach ($terms as $term) {
+					$url = get_term_link($term->slug, 'product_type';
 					echo '<div class="prod_type-container">';
-			  	echo '<a class="prod_type_btn" href="'.get_term_link($term).'">'.$term->name.' stuff</a>';
-					echo '</div>';
+
+				  	echo '<a class="prod_type_btn" href="'.get_term_link($term).'">'.$term->name.' stuff</a>';
+						echo '<img src="<?php echo get_template_directory_uri();?>/images/icons/<?php echo term->slug ?>.svg">;
+						<?php echo term->description ?>;
+						echo '</div>';
 				}
 				echo '</div>';
 	 	?>
