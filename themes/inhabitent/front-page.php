@@ -25,7 +25,7 @@
 				foreach ($terms as $term) : ?>
 					<div class="prod_type-container">
 				  	<?php echo '<a class="prod_type_btn" href="'.get_term_link($term).'">'.$term->name.' stuff</a>' ?>
-						<img src="<?php echo get_template_directory_uri(); ?>/images/icons/<?php echo $term->slug; ?>.svg">
+						<img class="prod-icons" src="<?php echo get_template_directory_uri(); ?>/images/icons/<?php echo $term->slug; ?>.svg">
 						<?php echo $term->description; ?>
 					</div>
 				<?php endforeach; ?>

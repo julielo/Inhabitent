@@ -867,3 +867,6 @@ h3.entry-header {
   text-decoration: none; }
   .prod_type_btn:hover {
     color: #fff; }
+
+.prod-icons {
+  max-width: 25%; }
