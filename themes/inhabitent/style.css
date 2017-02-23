@@ -815,6 +815,9 @@ div#secondary.widget-area {
   -ms-flex-direction: column;
       flex-direction: column; }
 
+.page-template-about {
+  height: 500px; }
+
 .home-hero {
   display: -ms-flexbox;
   display: flex;

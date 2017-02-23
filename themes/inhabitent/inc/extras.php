@@ -51,4 +51,28 @@ add_action('login_head', 'inhabitent_login_logo');
 function inhabitent_login_title() {
 	return 'Inhabitent';
 }
+
 add_filter( 'login_headertitle', 'inhabitent_login_title' );
+
+// Add image from custom field for About page
+function inhabitent_about_image() {
+	if (!is_page_template('page-templates/about.php')) {
+		return;
+	}
+
+	$bg_image = CFS()->get( 'about_header_image' );
+
+	if(!$bg_image) {
+		return;
+	}
+
+	$hero_css = ".page-template-about .entry-header {
+    background:
+        linear-gradient( to bottom, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.4) 100% ),
+        url({$bg_image}) no-repeat center bottom;
+    background-size: cover, cover;
+	}";
+		wp_add_inline_style( 'inhabitent-style', $hero_css );
+}
+	add_action( 'wp_enqueue_scripts', 'inhabitent_about_image' );
+?>
