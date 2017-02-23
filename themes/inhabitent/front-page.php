@@ -5,51 +5,42 @@
  * @package RED_Starter_Theme
  */
 
-get_header(); ?>
+	get_header();
+?>
 	<section class="home-hero">
     <img src="<?php echo get_template_directory_uri(); ?>/images/logos/inhabitent-logo-full.svg" alt="Image of Inhabitent logo" />
-
 	</section>
 
 	<section>
 		<h2 class="entry-title">Shop Stuff</h2>
-		<?php
+			<div class="wrapper">
 
-			// $terms = get_terms('product_type');
+			<?php
+				$terms = get_terms( array(
+	    		'taxonomy' => 'product_type',
+					'orderby' => 'name',
+	    		'hide_empty' => false,
+				) );
 
-			$terms = get_terms( array(
-    	'taxonomy' => 'product_type',
-			'orderby' => 'name',
-    	'hide_empty' => false,
-) );
-			$slug = $term->slug;
-				echo '<div class="wrapper">';
-/*
-				$dir = "<?php echo get_template_directory_uri();?>/images/icons/";
-				$images = glob( $dir . "*.svg" );
-				foreach ($images as $image) {//
-				 echo '<img src="'.$image.'" />';
-			 }*/
-				foreach ($terms as $term) {
-					$url = get_term_link($term->slug, 'product_type';
-					echo '<div class="prod_type-container">';
-
-				  	echo '<a class="prod_type_btn" href="'.get_term_link($term).'">'.$term->name.' stuff</a>';
-						echo '<img src="<?php echo get_template_directory_uri();?>/images/icons/<?php echo term->slug ?>.svg">;
-						<?php echo term->description ?>;
-						echo '</div>';
-				}
-				echo '</div>';
-	 	?>
+				foreach ($terms as $term) : ?>
+					<div class="prod_type-container">
+				  	<?php echo '<a class="prod_type_btn" href="'.get_term_link($term).'">'.$term->name.' stuff</a>' ?>
+						<img src="<?php echo get_template_directory_uri(); ?>/images/icons/<?php echo $term->slug; ?>.svg">
+						<?php echo $term->description; ?>
+					</div>
+				<?php endforeach; ?>
+		</div>
 	</section>
+
+
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
 			<h2 class="entry-title">Inhabitent Journal</h2>
 
-					<?php while ( have_posts() ) : the_post(); ?>
-						<?php get_template_part( 'template-parts/content', 'page' ); ?>
-						<?php endwhile; // End of the loop. ?>
+					<?php	while ( have_posts() ) : the_post(); ?>
+						<?php echo get_template_part( 'template-parts/content', 'page' ); ?>
+						<?php endwhile; // End of the loop.	?>
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
@@ -75,13 +66,13 @@ get_header(); ?>
 						</header><!-- .entry-header -->
 					</article><!-- #post-## -->
 				</div>
-			<?php	endforeach;
-			wp_reset_postdata();
+			<?php	endforeach; ?>
+			<?php wp_reset_postdata();
 			?>
 		</div>
 
 	<section>
-	<h2 class="entry-title">Latest Adventures</h2>
+		<h2 class="entry-title">Latest Adventures</h2>
 	</section>
 
 <?php get_sidebar(); ?>
