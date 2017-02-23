@@ -86,5 +86,13 @@ function inhabitent_about_image() {
         return;
     }
 }
-add_action( 'pre_get_posts', 'inhabitent_archive_posts_sort', 16 );
+add_action( 'pre_get_posts', 'inhabitent_archive_posts_sort' );
+
+function change_archive_title ($title) {
+  if( is_post_type_archive('products') ) {
+    $title = ( 'Shop Stuff' );
+  }
+  return $title;
+}
+add_filter( 'get_the_archive_title', 'change_archive_title' );
 ?>
