@@ -1,10 +1,4 @@
-.prod-wrapper {
-  display: flex;
-}
-
-.page-title {
-  text-align: center;
-}
+// Categories at top of page
 
 .shop-category-container {
   display: flex;
@@ -19,6 +13,29 @@
   padding: 10px;
 }
 
-.shop-wrapper .entry-content p {
+// Product grid section
+.product-container {
+  width: 1120px;
+}
+
+.product-grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 20px;
+}
+
+.prod-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  width: 200px;
+  margin: 10px;
+}
+
+.page-title {
+  text-align: center;
+}
+
+// Product descriptions
+.prod-wrapper .entry-content p {
   display: none;
 }

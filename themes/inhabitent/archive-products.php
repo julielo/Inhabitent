@@ -33,13 +33,16 @@ get_header(); ?>
 			</div>
 
 			<?php /* Start the Loop */ ?>
-			<?php while ( have_posts() ) : the_post(); ?>
-				<div class = "prod-wrapper">
+			<div class = "product-container">
+				<div class = "product-grid">
+					<?php while ( have_posts() ) : the_post(); ?>
+						<div class = "prod-wrapper">
 
-					<?php	get_template_part( 'template-parts/content' ); ?>
+							<?php	get_template_part( 'template-parts/content' ); ?>
+						</div>
+					<?php endwhile; ?>
 				</div>
-			<?php endwhile; ?>
-
+			</div>
 			<?php the_posts_navigation(); ?>
 
 		<?php else : ?>

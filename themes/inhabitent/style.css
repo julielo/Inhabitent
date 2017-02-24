@@ -874,13 +874,6 @@ h3.entry-header {
 .prod-type-icons {
   max-width: 25%; }
 
-.prod-wrapper {
-  display: -ms-flexbox;
-  display: flex; }
-
-.page-title {
-  text-align: center; }
-
 .shop-category-container {
   display: -ms-flexbox;
   display: flex;
@@ -895,5 +888,26 @@ h3.entry-header {
   text-decoration: none;
   padding: 10px; }
 
-.shop-wrapper .entry-content p {
+.product-container {
+  width: 1120px; }
+
+.product-grid {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0 20px; }
+
+.prod-wrapper {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 200px;
+  margin: 10px; }
+
+.page-title {
+  text-align: center; }
+
+.prod-wrapper .entry-content p {
   display: none; }
