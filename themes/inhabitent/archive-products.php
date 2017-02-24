@@ -36,12 +36,11 @@ get_header(); ?>
 			<div class = "product-container">
 				<div class = "product-grid">
 					<?php while ( have_posts() ) : the_post(); ?>
+
 						<div class = "prod-wrapper">
-
-
-							<?php the_post_thumbnail( 'medium' ); ?>
+							<a href= "<?php the_permalink(); ?>"><?php the_post_thumbnail( 'medium' ); ?> </a>
 							<div class="entry-title"><?php the_title(); ?></div>
-							<div class="dot-leader">.............................</div>
+							<div class="dot-leader">......................</div>
 							<div class="entry-title"><?php echo CFS()->get('product_price'); ?></div>
 						</div>
 					<?php endwhile; ?>
