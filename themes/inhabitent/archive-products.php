@@ -34,7 +34,7 @@ get_header(); ?>
 
 			<?php /* Start the Loop */ ?>
 			<?php while ( have_posts() ) : the_post(); ?>
-				<div class = "shop-wrapper">
+				<div class = "prod-wrapper">
 
 					<?php	get_template_part( 'template-parts/content' ); ?>
 				</div>
