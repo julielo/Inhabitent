@@ -781,23 +781,6 @@ a:hover {
 h1.entry-title {
   display: none; }
 
-h2.entry-title a {
-  position: absolute;
-  background-color: #248A83;
-  color: #fff;
-  top: 17px;
-  text-decoration: none;
-  font-family: Novecento;
-  font-weight: bold;
-  font-size: 2rem;
-  max-width: 75%;
-  text-transform: uppercase; }
-
-h2.entry-title {
-  font-family: Novecento;
-  font-weight: bold;
-  text-transform: uppercase; }
-
 .entry-meta {
   position: absolute;
   background-color: #248A83;
@@ -903,8 +886,17 @@ h3.entry-header {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
-  width: 200px;
+  width: 250px;
   margin: 10px; }
+
+.prod-wrapper .entry-title {
+  font-family: 'Merriweather', serif;
+  color: #2f1339;
+  background-color: #fff;
+  top: 151px;
+  text-transform: none;
+  font-size: 0.75rem;
+  font-weight: lighter; }
 
 .page-title {
   text-align: center; }

@@ -27,8 +27,18 @@
 .prod-wrapper {
   display: flex;
   flex-wrap: wrap;
-  width: 200px;
+  width: 250px;
   margin: 10px;
+}
+
+.prod-wrapper .entry-title {
+  font-family: 'Merriweather', serif;
+  color: $brand_color_purple;
+  background-color: #fff;
+  top: 151px;
+  text-transform: none;
+  font-size: 0.75rem;
+  font-weight: lighter;
 }
 
 .page-title {
