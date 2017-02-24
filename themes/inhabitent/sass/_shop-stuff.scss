@@ -1,3 +1,24 @@
 .shop-wrapper {
   display: flex;
 }
+
+.page-title {
+  text-align: center;
+}
+
+.shop-category-container {
+  display: flex;
+  justify-content: center;
+}
+
+.shop-category-link {
+  display: flex;
+  font-family: $font_accent;
+  color: $brand_color_green;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.entry-content {
+  display: none;
+}

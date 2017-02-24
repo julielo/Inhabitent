@@ -873,3 +873,27 @@ h3.entry-header {
 
 .prod-type-icons {
   max-width: 25%; }
+
+.shop-wrapper {
+  display: -ms-flexbox;
+  display: flex; }
+
+.page-title {
+  text-align: center; }
+
+.shop-category-container {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center; }
+
+.shop-category-link {
+  display: -ms-flexbox;
+  display: flex;
+  font-family: "Novecento", sans serif;
+  color: #248A83;
+  text-decoration: none;
+  padding: 10px; }
+
+.entry-content {
+  display: none; }
