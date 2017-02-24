@@ -697,6 +697,10 @@ object {
 # Page Templates
 --------------------------------------------------------------*/
 /* Front page */
+.container {
+  width: 1120px;
+  margin: 0 auto; }
+
 .header-container {
   position: fixed;
   display: -ms-flexbox;
@@ -752,12 +756,6 @@ a:hover {
   margin-top: 10px;
   margin-right: 5px;
   width: 250px; }
-
-.site-info, .container {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: center;
-      justify-content: center; }
 
 .site-main {
   display: -ms-flexbox;
@@ -856,6 +854,40 @@ h3.entry-header {
 
 .prod-type-icons {
   max-width: 25%; }
+
+.adventure-container {
+  display: -ms-flexbox;
+  display: flex; }
+
+.adventure-main {
+  display: -ms-flexbox;
+  display: flex;
+  background-color: green;
+  width: 560px;
+  height: 494px;
+  border: 1px solid gray; }
+
+.adventure-top {
+  background-color: yellow;
+  width: 560px;
+  height: 250px;
+  border: 1px solid gray; }
+
+.adventure-bottom1 {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  background-color: gray;
+  width: 268px;
+  height: 227px;
+  border: 1px solid gray; }
+
+.adventure-bottom2 {
+  background-color: blue;
+  width: 268px;
+  height: 227px;
+  border: 1px solid gray; }
 
 .shop-category-container {
   display: -ms-flexbox;

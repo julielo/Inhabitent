@@ -3,6 +3,11 @@
 --------------------------------------------------------------*/
 
 /* Front page */
+.container {
+  width: 1120px;
+  margin: 0 auto;
+}
+
 .header-container {
     position: fixed;
     display:flex;
@@ -71,10 +76,10 @@ a:hover {
 }
 
 // Copyright section
-.site-info, .container {
-  display: flex;
-  justify-content: center;
-}
+// .site-info, .container {
+//   display: flex;
+//   justify-content: center;
+// }
 
 .site-main {
   display: flex;

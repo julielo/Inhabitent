@@ -41,7 +41,7 @@ h3.entry-header {
   margin: 3px;
   border: 1px solid grey;
   border-top: 3px solid grey;
-  
+
 }
 
 .prod-type-btn {
@@ -59,4 +59,39 @@ h3.entry-header {
 
 .prod-type-icons {
   max-width: 25%;
+}
+
+.adventure-container {
+  display: flex;
+}
+
+.adventure-main {
+  display: flex;
+  background-color: green;
+  width: 560px;
+  height: 494px;
+  border: 1px solid gray;
+}
+
+.adventure-top {
+  background-color: yellow;
+  width: 560px;
+  height: 250px;
+  border: 1px solid gray;
+}
+
+.adventure-bottom1 {
+  display: flex;
+  align-self: flex-end;
+  background-color: gray;
+  width: 268px;
+  height: 227px;
+  border: 1px solid gray;
+}
+
+.adventure-bottom2 {
+  background-color: blue;
+  width: 268px;
+  height: 227px;
+  border: 1px solid gray;
 }
