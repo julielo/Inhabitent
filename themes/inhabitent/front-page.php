@@ -76,5 +76,4 @@
 		<h2 class="entry-title">Latest Adventures</h2>
 	</section>
 
-<?php get_sidebar(); ?>
 <?php get_footer(); ?>
