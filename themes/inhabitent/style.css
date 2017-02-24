@@ -898,6 +898,9 @@ h3.entry-header {
   font-size: 0.75rem;
   font-weight: lighter; }
 
+.dot-leader {
+  max-width: 150px; }
+
 .page-title {
   text-align: center; }
 

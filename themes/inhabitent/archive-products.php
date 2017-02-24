@@ -41,6 +41,8 @@ get_header(); ?>
 
 							<?php the_post_thumbnail( 'medium' ); ?>
 							<div class="entry-title"><?php the_title(); ?></div>
+							<div class="dot-leader">.............................</div>
+							<div class="entry-title"><?php echo CFS()->get('product_price'); ?></div>
 						</div>
 					<?php endwhile; ?>
 				</div>
