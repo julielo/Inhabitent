@@ -763,9 +763,10 @@ a:hover {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-direction: column;
-      flex-direction: column; }
+      flex-direction: column;
+  margin-top: 100px; }
 
-#primary {
+.content-area {
   width: 60%; }
 
 #secondary {

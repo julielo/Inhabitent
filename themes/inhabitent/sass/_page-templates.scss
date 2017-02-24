@@ -76,17 +76,13 @@ a:hover {
   justify-content: center;
 }
 
-// div#content.site-content {
-  // display: flex;
-  // flex-direction: row;
-// }
-
 .site-main {
   display: flex;
   flex-direction: column;
+  margin-top: 100px;
 }
 
-#primary {
+.content-area {
   width: 60%;
 }
 
