@@ -37,13 +37,13 @@ h3.entry-header {
   display: flex;
 }
 
-.prod_type-container {
+.prod-type-container {
   margin: 3px;
   border: 1px solid grey;
   border-top: 3px solid grey;
 }
 
-.prod_type_btn {
+.prod-type-btn {
   font-family: $font_accent;
   font-size: 0.75rem;
   text-transform: uppercase;
@@ -56,6 +56,6 @@ h3.entry-header {
   }
 }
 
-.prod-icons {
+.prod-type-icons {
   max-width: 25%;
 }

@@ -852,12 +852,12 @@ h3.entry-header {
   display: -ms-flexbox;
   display: flex; }
 
-.prod_type-container {
+.prod-type-container {
   margin: 3px;
   border: 1px solid grey;
   border-top: 3px solid grey; }
 
-.prod_type_btn {
+.prod-type-btn {
   font-family: "Novecento", sans serif;
   font-size: 0.75rem;
   text-transform: uppercase;
@@ -865,8 +865,8 @@ h3.entry-header {
   color: #fff;
   padding: 5px 10px;
   text-decoration: none; }
-  .prod_type_btn:hover {
+  .prod-type-btn:hover {
     color: #fff; }
 
-.prod-icons {
+.prod-type-icons {
   max-width: 25%; }
