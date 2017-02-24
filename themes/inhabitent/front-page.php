@@ -29,7 +29,6 @@
 						<p> <?php echo $term->description; ?></p>
 						<?php echo '<a class="prod-type-btn" href="'.get_term_link($term).'">'.$term->name.' stuff</a>' ?>
 					</div>
-
 				<?php endforeach; ?>
 		</div>
 	</section>
