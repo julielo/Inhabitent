@@ -803,7 +803,9 @@ div#secondary.widget-area {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: center;
-      justify-content: center; }
+      justify-content: center;
+  -ms-flex-direction: column;
+      flex-direction: column; }
 
 .home-hero {
   display: -ms-flexbox;
@@ -968,7 +970,8 @@ h3.entry-header {
   line-height: 2; }
 
 .prod-title-single {
-  font-size: 2.5rem;
+  font-size: 2.4rem;
+  line-height: 0rem;
   font-family: "Novecento", sans serif;
   color: #d99054;
   text-transform: uppercase;
@@ -976,8 +979,7 @@ h3.entry-header {
 
 .prod-price-single {
   font-family: "Novecento", sans serif;
-  font-size: 1.8rem;
-  line-height: 1.75; }
+  font-size: 1.8rem; }
 
 .prod-desc-single {
   line-height: 1.75; }

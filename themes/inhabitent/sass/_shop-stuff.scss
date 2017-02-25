@@ -72,7 +72,9 @@
 }
 
 .prod-title-single {
-  font-size: 2.5rem;
+  font-size: 2.4rem;
+  line-height: 0rem;
+  // line-spacing: 2rem;
   font-family: $font_accent;
   color: $brand_color_orange;
   text-transform: uppercase;
@@ -82,7 +84,7 @@
 .prod-price-single {
   font-family: $font_accent;
   font-size: 1.8rem;
-  line-height: 1.75;
+  // line-height: 1.75;
 }
 
 .prod-desc-single {
