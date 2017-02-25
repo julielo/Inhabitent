@@ -16,7 +16,7 @@ get_header(); ?>
 				<div class="prod-image"><?php the_post_thumbnail( array(536,403) ); ?></div>
 				<div class = "prod-content">
 						<div class="prod-title-single"><?php the_title(); ?></div>
-						<div><?php echo CFS()->get('product_price'); ?></div>
+						<div class="prod-price-single"><?php echo CFS()->get('product_price'); ?></div>
 						<div><?php echo the_content(); ?></div>
 				</div>
 			</section>

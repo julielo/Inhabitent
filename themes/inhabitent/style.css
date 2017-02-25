@@ -972,3 +972,8 @@ h3.entry-header {
   color: #d99054;
   text-transform: uppercase;
   font-weight: bold; }
+
+.prod-price-single {
+  font-family: "Novecento", sans serif;
+  font-size: 1.8rem;
+  line-height: 1.75; }
