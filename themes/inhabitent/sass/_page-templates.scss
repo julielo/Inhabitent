@@ -1,6 +1,19 @@
 /*--------------------------------------------------------------
 # Page Templates
 --------------------------------------------------------------*/
+.home .site-content {
+  flex-direction: column;
+}
+
+.site-content {
+  display: flex;
+  justify-content: center;
+}
+
+.widget-area {
+  display: flex;
+  flex-direction: column;
+}
 
 /* Front page */
 .container {
@@ -90,22 +103,13 @@ h1.entry-title {
   text-transform: uppercase;
   font-size: 0.75rem;
 }
-div#primary.content-area {
-  display: inline-flex;
-}
+// div#primary.content-area {
+//   display: inline-flex;
+// }
 
-div#secondary.widget-area {
-  display: flex;
-  flex-direction: column;
-}
+
 
 .page-template-about {
   height: 500px;
 
-}
-
-.site-content {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
 }

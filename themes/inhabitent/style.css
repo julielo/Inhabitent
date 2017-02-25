@@ -696,6 +696,22 @@ object {
 /*--------------------------------------------------------------
 # Page Templates
 --------------------------------------------------------------*/
+.home .site-content {
+  -ms-flex-direction: column;
+      flex-direction: column; }
+
+.site-content {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center; }
+
+.widget-area {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column; }
+
 /* Front page */
 .container {
   width: 1120px;
@@ -751,26 +767,8 @@ h1.entry-title {
   text-transform: uppercase;
   font-size: 0.75rem; }
 
-div#primary.content-area {
-  display: -ms-inline-flexbox;
-  display: inline-flex; }
-
-div#secondary.widget-area {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-direction: column;
-      flex-direction: column; }
-
 .page-template-about {
   height: 500px; }
-
-.site-content {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: center;
-      justify-content: center;
-  -ms-flex-direction: column;
-      flex-direction: column; }
 
 .home-hero {
   display: -ms-flexbox;
