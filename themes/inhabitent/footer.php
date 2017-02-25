@@ -49,7 +49,7 @@
           </div><!-- text-logo -->
         </div>
 				<div class="site-info container">
-					<p>Copyright &copy; 2016 Inhabitent</p>
+					<span>Copyright &copy; 2016 Inhabitent</span>
 				</div>
 
 			</div><!--footer-info -->
