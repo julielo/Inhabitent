@@ -33,6 +33,8 @@ get_header(); ?>
 			</div>
 
 			<?php /* Start the Loop */ ?>
+			<div class ="container">
+
 			<div class = "product-container">
 				<div class = "product-grid">
 					<?php while ( have_posts() ) : the_post(); ?>
@@ -46,6 +48,7 @@ get_header(); ?>
 					<?php endwhile; ?>
 				</div>
 			</div>
+		</div>
 			<?php the_posts_navigation(); ?>
 
 		<?php else : ?>

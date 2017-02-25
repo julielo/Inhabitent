@@ -11,11 +11,16 @@ get_header(); ?>
 		<main id="main" class="site-main" role="main">
 
 		<?php while ( have_posts() ) : the_post(); ?>
-
-			<?php get_template_part( 'template-parts/content', 'single' ); ?>
-
-			<?php the_post_navigation(); ?>
-
+<div class="container">
+				<section class="prod-container-single">
+				<div class="prod-image"><?php the_post_thumbnail( array(536,403) ); ?></div>
+				<div class = "prod-content">
+						<div class="prod-title-single"><?php the_title(); ?></div>
+						<div><?php echo CFS()->get('product_price'); ?></div>
+						<div><?php echo the_content(); ?></div>
+				</div>
+			</section>
+</div>
 			<?php
 				// If comments are open or we have at least one comment, load up the comment template.
 				if ( comments_open() || get_comments_number() ) :

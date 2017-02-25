@@ -948,3 +948,27 @@ h3.entry-header {
 
 .prod-wrapper .entry-content p {
   display: none; }
+
+.prod-container-single {
+  display: -ms-flexbox;
+  display: flex; }
+
+.prod-image {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  width: 60%;
+  margin: 5px; }
+
+.prod-content {
+  width: 40%;
+  font-size: 1rem;
+  line-height: 2; }
+
+.prod-title-single {
+  font-size: 2.5rem;
+  font-family: "Novecento", sans serif;
+  color: #d99054;
+  text-transform: uppercase;
+  font-weight: bold; }
