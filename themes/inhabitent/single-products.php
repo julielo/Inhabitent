@@ -17,7 +17,7 @@ get_header(); ?>
 				<div class = "prod-content">
 						<div class="prod-title-single"><?php the_title(); ?></div>
 						<div class="prod-price-single"><?php echo CFS()->get('product_price'); ?></div>
-						<div><?php echo the_content(); ?></div>
+						<div class="prod-desc-single"><?php echo the_content(); ?></div>
 				</div>
 			</section>
 </div>
