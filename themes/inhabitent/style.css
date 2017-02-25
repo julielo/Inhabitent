@@ -857,7 +857,19 @@ h3.entry-header {
 
 .adventure-container {
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+  margin-bottom: 20px; }
+
+.adventure-left {
+  width: 100%;
+  margin-right: 15px; }
+
+.adventure-right {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%; }
 
 .adventure-main {
   display: -ms-flexbox;
@@ -871,17 +883,15 @@ h3.entry-header {
   background-color: yellow;
   width: 560px;
   height: 250px;
-  border: 1px solid gray; }
+  border: 1px solid gray;
+  margin-bottom: 15px; }
 
 .adventure-bottom1 {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-item-align: end;
-      align-self: flex-end;
   background-color: gray;
   width: 268px;
   height: 227px;
-  border: 1px solid gray; }
+  border: 1px solid gray;
+  margin-right: 23px; }
 
 .adventure-bottom2 {
   background-color: blue;

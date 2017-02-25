@@ -72,12 +72,16 @@
 
 	<section class="container">
 		<h2 class="entry-title">Latest Adventures</h2>
-		<div class = "adventure-container">
+		<div class="adventure-container">
+		<div class = "adventure-left">
 			<div class="adventure-main"></div>
+		</div>
+		<div class="adventure-right">
 			<div class="adventure-top"></div>
 			<div class="adventure-bottom1"></div>
 			<div class="adventure-bottom2"></div>
 		</div>
+	</div>
 	</section>
 
 <?php get_footer(); ?>

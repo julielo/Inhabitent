@@ -63,6 +63,18 @@ h3.entry-header {
 
 .adventure-container {
   display: flex;
+  margin-bottom: 20px;
+}
+
+.adventure-left {
+  width: 100%;
+  margin-right: 15px;
+}
+
+.adventure-right {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
 }
 
 .adventure-main {
@@ -78,15 +90,15 @@ h3.entry-header {
   width: 560px;
   height: 250px;
   border: 1px solid gray;
+  margin-bottom: 15px;
 }
 
 .adventure-bottom1 {
-  display: flex;
-  align-self: flex-end;
   background-color: gray;
   width: 268px;
   height: 227px;
   border: 1px solid gray;
+  margin-right: 23px;
 }
 
 .adventure-bottom2 {
