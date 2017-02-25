@@ -87,9 +87,9 @@ a:hover {
   margin-top: 100px;
 }
 
-.content-area {
-  width: 60%;
-}
+// .content-area {
+//   width: 60%;
+// }
 
 #secondary {
   text-align: left;
@@ -158,4 +158,9 @@ div#secondary.widget-area {
 .page-template-about {
   height: 500px;
 
+}
+
+.site-content {
+  display: flex;
+  justify-content: center;
 }

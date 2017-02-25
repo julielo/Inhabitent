@@ -764,9 +764,6 @@ a:hover {
       flex-direction: column;
   margin-top: 100px; }
 
-.content-area {
-  width: 60%; }
-
 #secondary {
   text-align: left;
   margin: 0 auto;
@@ -801,6 +798,12 @@ div#secondary.widget-area {
 
 .page-template-about {
   height: 500px; }
+
+.site-content {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center; }
 
 .home-hero {
   display: -ms-flexbox;
@@ -951,18 +954,16 @@ h3.entry-header {
 
 .prod-container-single {
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+  width: 1120px; }
 
 .prod-image {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-align: center;
-      align-items: center;
-  width: 60%;
-  margin: 5px; }
+  margin-right: 43px;
+  margin-bottom: 115px;
+  width: 536px; }
 
 .prod-content {
-  width: 40%;
+  width: 48%;
   font-size: 1rem;
   line-height: 2; }
 
