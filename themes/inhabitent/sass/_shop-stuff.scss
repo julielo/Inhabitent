@@ -96,8 +96,31 @@
   right: 353px;
 }
 
-.facebook-btn, .twitter-btn, .pinterest-btn a{
+.facebook-btn a {
   @include button;
+  &:hover {
+    color: #fff;
+	 	background-color: $brand_color_green;
+		border: 1px solid $brand_color_green;
+  }
+}
+
+.twitter-btn a {
+  @include button;
+  &:hover {
+    color: #fff;
+	 	background-color: $brand_color_green;
+		border: 1px solid $brand_color_green;
+  }
+}
+
+.pinterest-btn a {
+  @include button;
+  &:hover {
+    color: #fff;
+	 	background-color: $brand_color_green;
+		border: 1px solid $brand_color_green;
+  }
 }
 
 .fa {
