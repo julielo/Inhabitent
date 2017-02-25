@@ -88,3 +88,18 @@
 .prod-desc-single {
   line-height: 1.75;
 }
+
+.social-media-wrapper {
+  display: flex;
+  position: absolute;
+  top: 484px;
+  right: 353px;
+}
+
+.facebook-btn, .twitter-btn, .pinterest-btn a{
+  @include button;
+}
+
+.fa {
+  padding: 5px;
+}

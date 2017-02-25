@@ -14,13 +14,28 @@ get_header(); ?>
 <div class="container">
 				<section class="prod-container-single">
 				<div class="prod-image"><?php the_post_thumbnail( array(536,403) ); ?></div>
+
 				<div class = "prod-content">
 						<div class="prod-title-single"><?php the_title(); ?></div>
 						<div class="prod-price-single"><?php echo CFS()->get('product_price'); ?></div>
 						<div class="prod-desc-single"><?php echo the_content(); ?></div>
 				</div>
+
 			</section>
+
 </div>
+<div class = "social-media-wrapper">
+	<div class="facebook-btn black-btn">
+			<a href="#"><i class="fa fa-facebook"></i>Like</a>
+	</div>
+	<div class="twitter-btn black-btn">
+			<a href="#"><i class="fa fa-twitter"></i>Tweet</a>
+	</div>
+	<div class="pinterest-btn black-btn">
+			<a href="#"><i class="fa fa-pinterest"></i>Pin</a>
+	</div>
+</div>
+
 			<?php
 				// If comments are open or we have at least one comment, load up the comment template.
 				if ( comments_open() || get_comments_number() ) :
@@ -29,6 +44,8 @@ get_header(); ?>
 			?>
 
 		<?php endwhile; // End of the loop. ?>
+
+
 
 		</main><!-- #main -->
 	</div><!-- #primary -->

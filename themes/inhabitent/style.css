@@ -43,6 +43,11 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 # Page Templates
 	## Front page
 --------------------------------------------------------------*/
+a:hover {
+  color: #fff;
+  background-color: #248A83;
+  border: 1px solid #248A83; }
+
 html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
@@ -981,3 +986,25 @@ h3.entry-header {
 
 .prod-desc-single {
   line-height: 1.75; }
+
+.social-media-wrapper {
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  top: 484px;
+  right: 353px; }
+
+.facebook-btn, .twitter-btn, .pinterest-btn a {
+  font-family: "Novecento", sans serif;
+  font-size: 0.9rem;
+  line-height: 0.9rem;
+  color: #000;
+  background-color: #fff;
+  border: 1px solid black;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  margin: 2px;
+  text-decoration: none; }
+
+.fa {
+  padding: 5px; }
