@@ -915,10 +915,35 @@ a:hover {
   -ms-flex-pack: justify;
       justify-content: space-between; }
 
+.archive .prod-grid-item {
+  border: 1px solid #a1a1a1; }
+
 .archive .prod-thumbnail {
-  width: 250px;
+  max-width: 250px;
   height: 250px; }
 
 .archive .prod-thumbnail img {
+  background-color: #a1a1a1;
   object-fit: cover;
   height: 100%; }
+
+.archive .prod-text {
+  display: -ms-flexbox;
+  display: flex; }
+
+.archive .prod-title {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  font-size: 1rem;
+  line-height: 1.75; }
+
+.archive .dot-leader {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  z-index: 1; }
+
+.archive .prod-price {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  font-size: 0.9rem; }
