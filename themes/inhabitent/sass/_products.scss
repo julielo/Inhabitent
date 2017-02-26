@@ -3,10 +3,13 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    width: 1106px;
   }
 
   .prod-grid-item {
     border: 1px solid $brand_color_lightgrey;
+    margin-bottom: 24px;
+    max-width: 250px;
   }
 
   .prod-thumbnail {
@@ -15,9 +18,13 @@
   }
 
   .prod-thumbnail img{
-    background-color: $brand_color_lightgrey;
+    border-bottom: 4px solid $brand_color_lightgrey;
     object-fit: cover;
     height: 100%;
+  }
+
+  .prod-text-container {
+    padding: 20px;
   }
 
   .prod-text {
@@ -25,18 +32,15 @@
   }
 
   .prod-title {
-    align-self: flex-start;
     font-size: 1rem;
     line-height: 1.75;
   }
 
   .dot-leader {
-    align-self: center;
     z-index: 1;
   }
 
   .prod-price {
-    align-self: flex-end;
     font-size: 0.9rem;
   }
 

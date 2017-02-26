@@ -40,10 +40,12 @@ get_header(); ?>
 						<div class="prod-thumbnail">
 							<a href= "<?php the_permalink(); ?>"><?php the_post_thumbnail( 'medium' ); ?> </a>
 						</div>
-						<div class="prod-text">
-							<div class="prod-title"><?php the_title(); ?></div>
-							<div class="dot-leader">...........</div>
-							<div class="prod-price"><?php echo CFS()->get('product_price'); ?></div>
+						<div class = "prod-text-container">
+							<div class="prod-text">
+								<div class="prod-title"><?php the_title(); ?></div>
+								<div class="dot-leader">............</div>
+								<div class="prod-price"><?php echo CFS()->get('product_price'); ?></div>
+							</div>
 						</div>
 					</div>
 				<?php endwhile; ?>
