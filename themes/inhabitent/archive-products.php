@@ -38,13 +38,15 @@ get_header(); ?>
 				<?php while ( have_posts() ) : the_post(); ?>
 					<div class = "prod-grid-item">
 						<div class="prod-thumbnail">
-							<a href= "<?php the_permalink(); ?>"><?php the_post_thumbnail( 'medium' ); ?> </a>
+							<a href= "<?php the_permalink(); ?>"><?php the_post_thumbnail( 'large' ); ?> </a>
 						</div>
+
 						<div class = "prod-text-container">
 							<div class="prod-text">
-								<div class="prod-title"><?php the_title(); ?></div>
-								<div class="dot-leader">............</div>
-								<div class="prod-price"><?php echo CFS()->get('product_price'); ?></div>
+								<div class="prod-title"><?php the_title(); ?>
+								<span class="dot-leader">.......................</span>
+								<span class="prod-price"><?php echo CFS()->get('product_price'); ?></span>
+							</div>
 							</div>
 						</div>
 					</div>

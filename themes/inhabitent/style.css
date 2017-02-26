@@ -914,15 +914,15 @@ a:hover {
       flex-wrap: wrap;
   -ms-flex-pack: justify;
       justify-content: space-between;
-  width: 1106px; }
+  width: 1150px; }
 
 .archive .prod-grid-item {
   border: 1px solid #a1a1a1;
   margin-bottom: 24px;
-  max-width: 250px; }
+  max-width: 265px; }
 
 .archive .prod-thumbnail {
-  max-width: 250px;
+  max-width: 265px;
   height: 250px; }
 
 .archive .prod-thumbnail img {
@@ -931,7 +931,7 @@ a:hover {
   height: 100%; }
 
 .archive .prod-text-container {
-  padding: 20px; }
+  padding: 15px; }
 
 .archive .prod-text {
   display: -ms-flexbox;
@@ -939,10 +939,17 @@ a:hover {
 
 .archive .prod-title {
   font-size: 1rem;
-  line-height: 1.75; }
+  line-height: 1.75;
+  white-space: nowrap;
+  width: 250px;
+  position: relative; }
 
 .archive .dot-leader {
-  z-index: 1; }
+  display: inline-block; }
 
 .archive .prod-price {
-  font-size: 0.9rem; }
+  font-size: 0.9rem;
+  position: absolute;
+  right: 0;
+  background-color: #fff;
+  padding-right: 13px; }
