@@ -18,6 +18,7 @@ get_header(); ?>
 					the_archive_description( '<div class="taxonomy-description">', '</div>' );
 				?>
 			</header><!-- .page-header -->
+
 			<div class="shop-category-container">
 				<?php
 					$terms = get_terms( array(
@@ -32,23 +33,19 @@ get_header(); ?>
 				<?php endforeach; ?>
 			</div>
 
-			<?php /* Start the Loop */ ?>
-			<div class ="container">
-
-			<div class = "product-container">
-				<div class = "product-grid">
-					<?php while ( have_posts() ) : the_post(); ?>
-
-						<div class = "prod-wrapper">
+			<div class = "prod-grid container">
+				<?php /* Start the Loop */ ?>
+				<?php while ( have_posts() ) : the_post(); ?>
+					<div class = "prod-grid-item">
+						<div class="prod-thumbnail">
 							<a href= "<?php the_permalink(); ?>"><?php the_post_thumbnail( 'medium' ); ?> </a>
-							<div class="entry-title"><?php the_title(); ?></div>
-							<div class="dot-leader">......................</div>
-							<div class="entry-title"><?php echo CFS()->get('product_price'); ?></div>
 						</div>
-					<?php endwhile; ?>
-				</div>
+						<div class="entry-title"><?php the_title(); ?></div>
+						<div class="dot-leader">......................</div>
+						<div class="entry-title"><?php echo CFS()->get('product_price'); ?></div>
+					</div>
+				<?php endwhile; ?>
 			</div>
-		</div>
 			<?php the_posts_navigation(); ?>
 
 		<?php else : ?>

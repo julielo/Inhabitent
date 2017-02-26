@@ -720,6 +720,7 @@ object {
 
 .header-container {
   position: fixed;
+  top: 0;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: justify;
@@ -727,8 +728,7 @@ object {
   border-bottom: 1px solid lightgrey;
   width: 100%;
   z-index: 999;
-  background: rgba(255, 255, 255, 0.5);
-  padding: 0 100px; }
+  background: rgba(255, 255, 255, 0.5); }
 
 .site-branding {
   -ms-flex-pack: start;
@@ -781,7 +781,7 @@ h1.entry-title {
 .page-template-about {
   height: 500px; }
 
-.home-hero {
+.home .home-hero {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: center;
@@ -790,37 +790,37 @@ h1.entry-title {
   background-size: cover, cover;
   height: 100vh; }
 
-.journal-container {
+.home .journal-container {
   display: -ms-flexbox;
   display: flex; }
 
-.home-post {
+.home .home-post {
   border: 1px #248A83 solid;
   margin: 5px; }
 
-.home-entry-title a {
+.home .home-entry-title a {
   color: #248A83;
   font-size: 1rem;
   text-decoration: none; }
-  .home-entry-title a:hover {
+  .home .home-entry-title a:hover {
     color: #2f1339; }
 
-.home-entry-meta {
+.home .home-entry-meta {
   font-size: 0.5rem; }
 
-h3.entry-header {
+.home h3.entry-header {
   position: relative; }
 
-.wrapper {
+.home .wrapper {
   display: -ms-flexbox;
   display: flex; }
 
-.prod-type-container {
+.home .prod-type-container {
   margin: 3px;
   border: 1px solid grey;
   border-top: 3px solid grey; }
 
-.prod-type-btn {
+.home .prod-type-btn {
   font-family: "Novecento", sans serif;
   font-size: 0.75rem;
   text-transform: uppercase;
@@ -828,29 +828,29 @@ h3.entry-header {
   color: #fff;
   padding: 5px 10px;
   text-decoration: none; }
-  .prod-type-btn:hover {
+  .home .prod-type-btn:hover {
     color: #fff; }
 
-.prod-type-icons {
+.home .prod-type-icons {
   max-width: 25%; }
 
-.adventure-container {
+.home .adventure-container {
   display: -ms-flexbox;
   display: flex;
   margin-bottom: 20px; }
 
-.adventure-left {
+.home .adventure-left {
   width: 100%;
   margin-right: 15px; }
 
-.adventure-right {
+.home .adventure-right {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   width: 100%; }
 
-.adventure-main {
+.home .adventure-main {
   display: -ms-flexbox;
   display: flex;
   background-color: green;
@@ -858,163 +858,25 @@ h3.entry-header {
   height: 494px;
   border: 1px solid gray; }
 
-.adventure-top {
+.home .adventure-top {
   background-color: yellow;
   width: 560px;
   height: 250px;
   border: 1px solid gray;
   margin-bottom: 15px; }
 
-.adventure-bottom1 {
+.home .adventure-bottom1 {
   background-color: gray;
   width: 268px;
   height: 227px;
   border: 1px solid gray;
   margin-right: 23px; }
 
-.adventure-bottom2 {
+.home .adventure-bottom2 {
   background-color: blue;
   width: 268px;
   height: 227px;
   border: 1px solid gray; }
-
-.shop-category-container {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: center;
-      justify-content: center; }
-
-.shop-category-link {
-  display: -ms-flexbox;
-  display: flex;
-  font-family: "Novecento", sans serif;
-  color: #248A83;
-  text-decoration: none;
-  padding: 10px; }
-
-.product-container {
-  width: 1120px; }
-
-.product-grid {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  margin: 0 20px; }
-
-.prod-wrapper {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  width: 250px;
-  margin: 10px; }
-
-.prod-wrapper .entry-title {
-  font-family: 'Merriweather', serif;
-  color: #2f1339;
-  background-color: #fff;
-  top: 151px;
-  text-transform: none;
-  font-size: 0.75rem;
-  font-weight: lighter; }
-
-.dot-leader {
-  max-width: 150px; }
-
-.page-title {
-  text-align: center; }
-
-.prod-wrapper .entry-content p {
-  display: none; }
-
-.prod-container-single {
-  display: -ms-flexbox;
-  display: flex;
-  width: 1120px; }
-
-.prod-image {
-  margin-right: 43px;
-  margin-bottom: 115px;
-  width: 536px; }
-
-.prod-content {
-  width: 48%;
-  font-size: 1rem;
-  line-height: 2; }
-
-.prod-title-single {
-  font-size: 2.4rem;
-  line-height: 0rem;
-  font-family: "Novecento", sans serif;
-  color: #d99054;
-  text-transform: uppercase;
-  font-weight: bold; }
-
-.prod-price-single {
-  font-family: "Novecento", sans serif;
-  font-size: 1.8rem; }
-
-.prod-desc-single {
-  line-height: 1.75; }
-
-.social-media-wrapper {
-  display: -ms-flexbox;
-  display: flex;
-  position: absolute;
-  top: 484px;
-  right: 353px; }
-
-.facebook-btn a {
-  font-family: "Novecento", sans serif;
-  font-size: 0.9rem;
-  line-height: 0.9rem;
-  color: #000;
-  background-color: #fff;
-  border: 1px solid black;
-  padding: 10px 20px;
-  text-transform: uppercase;
-  margin: 2px;
-  text-decoration: none; }
-  .facebook-btn a:hover {
-    color: #fff;
-    background-color: #248A83;
-    border: 1px solid #248A83; }
-
-.twitter-btn a {
-  font-family: "Novecento", sans serif;
-  font-size: 0.9rem;
-  line-height: 0.9rem;
-  color: #000;
-  background-color: #fff;
-  border: 1px solid black;
-  padding: 10px 20px;
-  text-transform: uppercase;
-  margin: 2px;
-  text-decoration: none; }
-  .twitter-btn a:hover {
-    color: #fff;
-    background-color: #248A83;
-    border: 1px solid #248A83; }
-
-.pinterest-btn a {
-  font-family: "Novecento", sans serif;
-  font-size: 0.9rem;
-  line-height: 0.9rem;
-  color: #000;
-  background-color: #fff;
-  border: 1px solid black;
-  padding: 10px 20px;
-  text-transform: uppercase;
-  margin: 2px;
-  text-decoration: none; }
-  .pinterest-btn a:hover {
-    color: #fff;
-    background-color: #248A83;
-    border: 1px solid #248A83; }
-
-.fa {
-  padding: 5px; }
 
 .site-footer {
   background: url(../../images/dark-wood.png);
@@ -1044,3 +906,19 @@ a:hover {
   margin-top: 10px;
   margin-right: 5px;
   width: 250px; }
+
+.archive .prod-grid {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: justify;
+      justify-content: space-between; }
+
+.archive .prod-thumbnail {
+  width: 250px;
+  height: 250px; }
+
+.archive .prod-thumbnail img {
+  object-fit: cover;
+  height: 100%; }

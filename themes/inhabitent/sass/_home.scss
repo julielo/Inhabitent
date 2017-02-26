@@ -1,4 +1,5 @@
-.home-hero {
+.home {
+  .home-hero {
   display: flex;
   justify-content: center;
   background: linear-gradient(rgba(0, 0, 0, 0.25) 0, rgba(0, 0, 0, 0.25) 100%), url('../../images/home-hero.jpg') top center no-repeat;
@@ -106,4 +107,5 @@ h3.entry-header {
   width: 268px;
   height: 227px;
   border: 1px solid gray;
+}
 }
