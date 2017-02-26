@@ -1,5 +1,13 @@
 .archive {
   // Categories at top of page
+  h1.page-title {
+    font-family: $font_accent;
+    font-size: 2.4rem;
+    line-height: 1.25;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
   .shop-category-container {
     display: flex;
     justify-content: center;

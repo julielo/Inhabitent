@@ -907,6 +907,13 @@ a:hover {
   margin-right: 5px;
   width: 250px; }
 
+.archive h1.page-title {
+  font-family: "Novecento", sans serif;
+  font-size: 2.4rem;
+  line-height: 1.25;
+  text-align: center;
+  text-transform: uppercase; }
+
 .archive .shop-category-container {
   display: -ms-flexbox;
   display: flex;
