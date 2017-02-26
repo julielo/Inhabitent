@@ -29,7 +29,9 @@ get_header(); ?>
 				?>
 
 				<?php foreach ($terms as $term) : ?>
-					<?php echo '<a class="shop-category-link" href="'.get_term_link($term).'">'.$term->name.'</a>' ?>
+					<div class = "shop-category-link">
+						<?php echo '<a href="'.get_term_link($term).'">'.$term->name.'</a>' ?>
+					</div>
 				<?php endforeach; ?>
 			</div>
 

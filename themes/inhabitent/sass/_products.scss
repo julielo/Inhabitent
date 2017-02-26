@@ -1,4 +1,21 @@
 .archive {
+  // Categories at top of page
+  .shop-category-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .shop-category-link a {
+    display: flex;
+    font-family: $font_accent;
+    color: $brand_color_green;
+    font-size: 1.24rem;
+    line-height: 1;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 10px;
+  }
+
   .prod-grid {
     display: flex;
     flex-wrap: wrap;
