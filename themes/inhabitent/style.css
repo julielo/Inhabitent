@@ -918,7 +918,8 @@ a:hover {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: center;
-      justify-content: center; }
+      justify-content: center;
+  padding-bottom: 44px; }
 
 .archive .shop-category-link a {
   display: -ms-flexbox;
@@ -938,7 +939,9 @@ a:hover {
       flex-wrap: wrap;
   -ms-flex-pack: justify;
       justify-content: space-between;
-  width: 1150px; }
+  width: 1150px;
+  border-top: 1px dashed #c8c8c8;
+  padding-top: 48px; }
 
 .archive .prod-grid-item {
   border: 1px solid #a1a1a1;
