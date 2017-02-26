@@ -727,13 +727,23 @@ object {
   border-bottom: 1px solid lightgrey;
   width: 100%;
   z-index: 999;
-  background: rgba(255, 255, 255, 0.5); }
+  background: rgba(255, 255, 255, 0.5);
+  padding: 0 100px; }
+
+.site-branding {
+  -ms-flex-pack: start;
+      justify-content: flex-start; }
 
 .logo {
   -ms-flex-item-align: start;
       align-self: flex-start;
   width: 50px;
   margin-left: 10px; }
+
+.main-navigation {
+  -ms-flex-pack: end;
+      justify-content: flex-end;
+  padding: 5px; }
 
 .main-navigation a {
   font-family: "Novecento", sans serif;
