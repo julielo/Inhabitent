@@ -922,16 +922,18 @@ a:hover {
       justify-content: center;
   padding-bottom: 44px; }
 
-.archive .shop-category-link a {
+.archive .shop-category-link {
   display: -ms-flexbox;
   display: flex;
   font-family: "Novecento", sans serif;
-  color: #248A83;
   font-size: 1.24rem;
-  line-height: 1;
-  text-decoration: none;
+  line-height: 1.7;
   text-transform: uppercase;
-  padding: 10px; }
+  padding: 0 20px; }
+
+.archive .shop-category-link a {
+  color: #248A83;
+  text-decoration: none; }
 
 .archive .prod-grid {
   display: -ms-flexbox;
