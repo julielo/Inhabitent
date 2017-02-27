@@ -745,9 +745,6 @@ object {
 .nav-div {
   width: 55%; }
 
-.page-template-about {
-  height: 500px; }
-
 .home .home-hero {
   display: -ms-flexbox;
   display: flex;
@@ -1210,3 +1207,17 @@ a:hover {
     width: 0; }
   .search-form fieldset .new-width {
     width: 170px; }
+
+.page-template .page-template-about {
+  height: 500px; }
+
+.page-template h2 {
+  font-family: "Novecento", sans serif;
+  font-size: 2rem;
+  line-height: 2;
+  letter-spacing: 2px;
+  text-align: center; }
+
+.page-template .about-container {
+  width: 800px;
+  margin: 0 auto; }

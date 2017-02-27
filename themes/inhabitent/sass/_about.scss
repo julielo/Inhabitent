@@ -1,0 +1,32 @@
+.page-template {
+  .page-template-about {
+    height: 600px;
+    padding-top: 100px;
+  }
+
+  h1.entry-title .about-title {
+    position: absolute;
+    top: 190px;
+    left: 545px;
+    font-family: $font_accent;
+    font-size: 3rem;
+    line-height: 3;
+    color: #fff;
+    text-transform: uppercase;
+  }
+
+  h2 {
+    font-family: $font_accent;
+    font-size: 2rem;
+    line-height: 2;
+    letter-spacing: 2px;
+    text-align: center;
+  }
+
+  .about-container {
+    width: 800px;
+    margin: 0 auto;
+    padding-bottom: 40px
+  }
+
+}

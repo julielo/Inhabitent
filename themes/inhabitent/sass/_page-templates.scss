@@ -1,16 +1,6 @@
 /*--------------------------------------------------------------
 # Page Templates
 --------------------------------------------------------------*/
-// .home .site-content {
-//   flex-direction: column;
-// }
-
-// .site-content {
-//   display: flex;
-//   justify-content: center;
-// }
-
-
 .widget-area {
   display: flex;
   flex-direction: column;
@@ -23,6 +13,7 @@
   margin: 0 auto;
 }
 
+// header navigation
 .header-container {
     position: fixed;
     top: 0;
@@ -32,7 +23,6 @@
     width: 100%;
     z-index: 999;
     background: rgba(255, 255, 255, 0.5);
-    // padding: 0 100px;
   }
 
 .site-branding {
@@ -51,7 +41,7 @@
   padding: 5px;
 }
 
-.main-navigation a{
+.main-navigation a {
   font-family: $font_accent;
   color: $brand_color_green;
 }
@@ -62,31 +52,4 @@
 }
 .nav-div {
     width: 55%;
-}
-
-
-
-// .site-main {
-//   display: flex;
-//   flex-direction: column;
-//   margin-top: 100px;
-// }
-
-// #secondary {
-//   text-align: left;
-//   margin: 0 auto;
-//   width: 30%;
-//   padding-top: 34px;
-// }
-
-
-// div#primary.content-area {
-//   display: inline-flex;
-// }
-
-
-
-.page-template-about {
-  height: 500px;
-
 }
