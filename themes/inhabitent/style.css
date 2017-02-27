@@ -1061,32 +1061,36 @@ a:hover {
 .blog .entry-header {
   position: relative; }
 
-.blog h2.entry-title a {
+.blog h2.entry-title {
   position: absolute;
-  background-color: #248A83;
-  color: #fff;
-  top: 17px;
-  text-decoration: none;
-  font-family: Novecento;
+  top: 10px;
+  font-family: "Novecento", sans serif;
+  color: #ffffff;
   font-weight: bold;
-  font-size: 2rem;
+  font-size: 2.1rem;
+  line-height: 1.25;
+  letter-spacing: 2px;
+  background-color: #248A83;
   max-width: 75%;
+  padding: 10px 16px;
   text-transform: uppercase; }
 
-.blog h2.entry-title {
-  font-family: Novecento;
-  font-weight: bold;
-  text-transform: uppercase; }
+.blog .entry-title a {
+  color: #ffffff;
+  text-decoration: none; }
+  .blog .entry-title a:hover {
+    color: #f0e4d1; }
 
 .blog .entry-meta {
   position: absolute;
+  right: 0;
+  bottom: 8px;
+  font-family: "Novecento", sans serif;
   background-color: #248A83;
   color: #fff;
-  right: 0;
-  bottom: 5px;
-  padding: 0 17px 0 17px;
+  padding: 0 22px;
   text-transform: uppercase;
-  font-size: 0.75rem; }
+  font-size: 1rem; }
 
 .blog .widget-area {
   width: 20%;
