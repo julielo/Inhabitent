@@ -11,10 +11,20 @@ get_header(); ?>
 		<main id="main" class="site-main" role="main">
 
 		<?php while ( have_posts() ) : the_post(); ?>
+			<div class="journal-wrapper">
+				<?php get_template_part( 'template-parts/content', 'single' ); ?>
 
-			<?php get_template_part( 'template-parts/content', 'single' ); ?>
+			</div>
 
-			<?php the_post_navigation(); ?>
+			<div class = "tax-container">
+				<div class="posted">
+					Posted In &#8594; <?php the_category( ', ' ); ?>
+				</div>
+				<div class="tagged">
+					<?php the_tags( 'Tagged &#8594; ' ); ?>
+				</div>
+			</div>
+
 
 			<?php
 				// If comments are open or we have at least one comment, load up the comment template.
