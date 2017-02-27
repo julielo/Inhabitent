@@ -4,9 +4,8 @@ A WordPress project based on the starter theme for RED Academy students, forked 
 
 This project required customizations to the theme to incorporate functions, plugins, and widgets to simulate real client requests.
 
-![Instanews](images/inhabitent-screenshot.png)
+![Inhabitent](images/inhabitent-screenshot.png)
 Main screen
-
 
 ## Technologies Used
 * Atom (http://atom.io)
@@ -50,3 +49,7 @@ Main screen
 * Adventure section
 
 * Resolve issue with Gulp and stylesheets
+
+* Add more comments and clean up code
+
+* Optimize more with SASS
