@@ -1,0 +1,11 @@
+.page {
+  div#page.hfeed.site {
+    display:flex;
+  }
+
+  .content-area {
+    width: 100%;
+    padding: 125px 78px;
+    border-right: 1px solid $brand_color_lightgrey;
+  }
+}

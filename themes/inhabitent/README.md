@@ -1,21 +1,48 @@
-# RED Starter
+# Project 4: Inhabitent
 
-A WordPress starter theme for RED Academy students, forked from Underscores.
+A WordPress project based on the starter theme for RED Academy students, forked from Underscores.
 
-## Installation
+This project required customizations to the theme to incorporate functions, plugins, and widgets to simulate real client requests.
 
-### 1. Download me (don't clone me!)
+![Instanews](images/inhabitent-screenshot.png)
+Main screen
 
-Then add me to your `wp-content` directory.
 
-### 2. Rename the `redstarter` directory
+## Technologies Used
+* Atom (http://atom.io)
+* Git Bash (https://git-for-windows.github.io/)
+* Google Chrome (https://www.google.com/chrome/)
+* Google Chrome Developer Tools
+* Fontface Ninja (Google Chrome extension)
+* Page Ruler (Google Chrome extension)
+* Eye Dropper (Google Chrome extension)
+* Gulp (eslint, notify, plumber, sass, uglify)
+* Font Squirrel (https://www.fontsquirrel.com/)
+* Font Awesome (https://www.fontawesome.com/)
+* JavaScript
+* PHP
+* Sass
+* WordPress
 
-Make sure that the theme directory name is project appropriate!
+## Personal Learnings
+* I am a visual learner and writing out the design of a site helps me to understand the structure of WordPress.
 
-### 3. Install the dev dependencies
+* The value of plugins and tools can be very helpful in identifying underlying issues in code or assist in making a website consistent across many browsers. The use of GULP makes a huge difference in how I work.
 
-Next you'll need to run `npm install` **inside your theme directory** next to install the node modules you'll need for Gulp, etc.
+* WordPress: working with WordPress was and can be frustrating. To me, it feels like a black box with a lot of documentation to figure out how it ultimately works. It's much like working with someone else's code and documentation can be a bit cryptic which can lead to my frustration BUT this is what it's like being a Developer. One is always working with someone else's code...it's a part of the job description. At this moment, I'm not a huge fan of WordPress but like everything else, with more practice, I'm sure I'll improve my WordPress skills.
 
-### 4. Update the proxy in `gulpfile.js`
+* Working with others: A few times on this project, I've run into a snag/roadblock and my peers/classmates were able to suggest a solution. We're not experts at everything but someone is bound to have encountered a similar issue or a different perspective. Asking for help (after a considerable amount of time troubleshooting) is never wrong.
 
-Lastly, be sure to update your `gulpfile.js` with the appropriate URL for the Browsersync proxy (so change `inhabitent.dev` to the appropriate localhost URL).
+* Colour calibration is important. I had trouble distinguishing the brand colours used for this project and discovered my computer was not colour calibrated when I compared the colours on my screen to a classmate's. I have not resolved this issue yet but I am aware there are third-party devices that can help me colour calibrate my screen.
+
+* This project: as frustrating as it is, it is also satisfying figuring out how to work with this tool.
+
+## Difficulties
+* Aside from the amount of work involved in coding and styling, I also encountered issues where my stylesheets would not load (Gulp crashed at least once) which hampered my progress in completing this project.
+
+## To Do
+* Style the following pages: Main, Journal comment form, About, Find Us, 404, search-form
+
+* fix search button
+
+* Adventure section

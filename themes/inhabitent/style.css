@@ -745,6 +745,12 @@ object {
 .nav-div {
   width: 55%; }
 
+.home div#page.hfeed.site {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column; }
+
 .home .home-hero {
   display: -ms-flexbox;
   display: flex;
@@ -781,8 +787,15 @@ object {
 
 .home .prod-type-container {
   margin: 3px;
-  border: 1px solid grey;
-  border-top: 3px solid grey; }
+  height: 278px;
+  width: 238px;
+  padding: 10px;
+  border: 1px solid #e1e1e1;
+  border-top: 3px solid #e1e1e1;
+  text-align: center; }
+  .home .prod-type-container:hover {
+    border: 1px solid #d99054;
+    border-top: 3px solid #d99054; }
 
 .home .prod-type-btn {
   font-family: "Novecento", sans serif;
@@ -790,7 +803,7 @@ object {
   text-transform: uppercase;
   background-color: #248A83;
   color: #fff;
-  padding: 5px 10px;
+  padding: 13px 25px;
   text-decoration: none; }
   .home .prod-type-btn:hover {
     color: #fff; }
@@ -1209,7 +1222,18 @@ a:hover {
     width: 170px; }
 
 .page-template .page-template-about {
-  height: 500px; }
+  height: 600px;
+  padding-top: 100px; }
+
+.page-template h1.entry-title .about-title {
+  position: absolute;
+  top: 190px;
+  left: 545px;
+  font-family: "Novecento", sans serif;
+  font-size: 3rem;
+  line-height: 3;
+  color: #fff;
+  text-transform: uppercase; }
 
 .page-template h2 {
   font-family: "Novecento", sans serif;
@@ -1220,4 +1244,14 @@ a:hover {
 
 .page-template .about-container {
   width: 800px;
-  margin: 0 auto; }
+  margin: 0 auto;
+  padding-bottom: 40px; }
+
+.page div#page.hfeed.site {
+  display: -ms-flexbox;
+  display: flex; }
+
+.page .content-area {
+  width: 100%;
+  padding: 125px 78px;
+  border-right: 1px solid #e1e1e1; }

@@ -1,4 +1,8 @@
 .home {
+  div#page.hfeed.site {
+    display:flex;
+    flex-direction: column;
+  }
   .home-hero {
     display: flex;
     justify-content: center;
@@ -40,9 +44,16 @@
 
   .prod-type-container {
     margin: 3px;
-    border: 1px solid grey;
-    border-top: 3px solid grey;
-
+    height: 278px;
+    width: 238px;
+    padding: 10px;
+    border: 1px solid $brand_color_lightgrey;
+    border-top: 3px solid $brand_color_lightgrey;
+    text-align:center;
+    &:hover {
+      border: 1px solid $brand_color_orange;
+      border-top: 3px solid $brand_color_orange;
+    } 
   }
 
   .prod-type-btn {
@@ -51,7 +62,7 @@
     text-transform: uppercase;
     background-color: $brand_color_green;
     color: #fff;
-    padding: 5px 10px;
+    padding: 13px 25px;
     text-decoration: none;
     &:hover {
       color: #fff;
