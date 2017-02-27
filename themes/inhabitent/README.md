@@ -46,3 +46,5 @@ Main screen
 * fix search button
 
 * Adventure section
+
+* Resolve issue with Gulp and stylesheets
