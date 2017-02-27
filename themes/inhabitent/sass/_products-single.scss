@@ -1,0 +1,77 @@
+// prod single page
+.single {
+  .prod-container-single {
+    display: flex;
+    width: 1120px;
+  }
+
+  .prod-image {
+    margin-right: 43px;
+    margin-bottom: 115px;
+    width: 536px;
+  }
+
+  .prod-content {
+    width: 48%;
+    font-size: 1rem;
+    line-height: 2;
+  }
+
+  .prod-title-single {
+    font-size: 2.4rem;
+    line-height: 0rem;
+    // line-spacing: 2rem;
+    font-family: $font_accent;
+    color: $brand_color_orange;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+
+  .prod-price-single {
+    font-family: $font_accent;
+    font-size: 1.8rem;
+    // line-height: 1.75;
+  }
+
+  .prod-desc-single {
+    line-height: 1.75;
+  }
+
+  .social-media-wrapper {
+    display: flex;
+    position: absolute;
+    top: 484px;
+    right: 353px;
+  }
+
+  .facebook-btn a {
+    @include button;
+    &:hover {
+      color: #fff;
+  	 	background-color: $brand_color_green;
+  		border: 1px solid $brand_color_green;
+    }
+  }
+
+  .twitter-btn a {
+    @include button;
+    &:hover {
+      color: #fff;
+  	 	background-color: $brand_color_green;
+  		border: 1px solid $brand_color_green;
+    }
+  }
+
+  .pinterest-btn a {
+    @include button;
+    &:hover {
+      color: #fff;
+  	 	background-color: $brand_color_green;
+  		border: 1px solid $brand_color_green;
+    }
+  }
+
+  .fa {
+    padding: 5px;
+  }
+}
