@@ -1198,3 +1198,15 @@ a:hover {
 .single .comment-reply-link, .single .comment-metadata a {
   color: #248A83;
   text-decoration: none; }
+
+.single .comment-respond label {
+  color: #2f1339; }
+
+.search-form {
+  padding-top: 1rem; }
+  .search-form fieldset .search-field {
+    background: transparent;
+    border: solid 0px transparent;
+    width: 0; }
+  .search-form fieldset .new-width {
+    width: 170px; }

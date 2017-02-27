@@ -1,0 +1,12 @@
+// Search form
+.search-form    {
+    padding-top:1rem;
+    fieldset .search-field{
+        background:transparent;
+        border:solid 0px transparent;
+        width:0;
+    }
+    fieldset .new-width{
+        width:170px;
+    }
+}
