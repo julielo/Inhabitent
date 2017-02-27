@@ -58,8 +58,6 @@ function red_starter_widgets_init() {
 	register_sidebar( array(
 		'name'          => esc_html( 'Sidebar' ),
 		'id'            => 'sidebar-1',
-		// 'name'          => esc_html( 'Custom Sidebar' ),
-		// 'id'            => 'custom',
 		'description'   => '',
 		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</aside>',
@@ -95,14 +93,6 @@ function red_starter_scripts() {
 	}
 }
 add_action( 'wp_enqueue_scripts', 'red_starter_scripts' );
-
-
-
-function new_excerpt_more($more) {
-       global $post;
-    return '<a class="moretag" href="'. get_permalink($post->ID) . '"> Read the full article...</a>';
-}
-add_filter('excerpt_more', 'new_excerpt_more');
 
 /**
  * Custom template tags for this theme.

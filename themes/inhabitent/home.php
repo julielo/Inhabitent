@@ -22,6 +22,9 @@ get_header(); ?>
 			<?php while ( have_posts() ) : the_post(); ?>
 				<div class="journal-wrapper">
 				<?php get_template_part( 'template-parts/content' ); ?>
+				<div class = "read-more-btn">
+        	<a href="<?php the_permalink(); ?>">Read More &#8594;</a>
+    		</div>
 			</div>
 			<?php endwhile; ?>
 		</div>

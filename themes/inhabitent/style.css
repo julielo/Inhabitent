@@ -1088,9 +1088,28 @@ a:hover {
   font-family: "Novecento", sans serif;
   background-color: #248A83;
   color: #fff;
-  padding: 0 22px;
+  padding: 0 25px;
   text-transform: uppercase;
   font-size: 1rem; }
+
+.blog .read-more-btn {
+  margin-bottom: 85px; }
+
+.blog .read-more-btn a {
+  font-family: "Novecento", sans serif;
+  font-size: 0.9rem;
+  line-height: 0.9rem;
+  color: #000;
+  background-color: #fff;
+  border: 1px solid black;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  margin: 2px;
+  text-decoration: none; }
+  .blog .read-more-btn a:hover {
+    color: #fff;
+    background-color: #248A83;
+    border: 1px solid #248A83; }
 
 .blog .widget-area {
   width: 20%;
