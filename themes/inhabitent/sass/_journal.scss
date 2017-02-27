@@ -1,3 +1,53 @@
 .blog {
+  div#page.hfeed.site {
+    display:flex;
+  }
 
+  .content-area {
+    width: 67%;
+    padding: 102px 115px;
+    border-right: 1px solid $brand_color_lightgrey;
+  }
+  .journal-wrapper {
+    width: 66%;
+  }
+
+  .entry-header {
+    position: relative;
+  }
+
+  h2.entry-title a {
+    position: absolute;
+    background-color: #248A83;
+    color: #fff;
+    top: 17px;
+    text-decoration: none;
+    font-family: Novecento;
+    font-weight: bold;
+    font-size: 2rem;
+    max-width: 75%;
+    text-transform: uppercase;
+  }
+
+  h2.entry-title {
+    font-family: Novecento;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  .entry-meta {
+    position: absolute;
+    background-color: #248A83;
+    color: #fff;
+    right: 0;
+    bottom: 5px;
+    padding: 0 17px 0 17px;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+  }
+
+  .widget-area {
+    width: 20%;
+    padding-left: 73px;
+  }
 }

@@ -1,111 +1,111 @@
 .home {
   .home-hero {
-  display: flex;
-  justify-content: center;
-  background: linear-gradient(rgba(0, 0, 0, 0.25) 0, rgba(0, 0, 0, 0.25) 100%), url('../../images/home-hero.jpg') top center no-repeat;
-  background-size: cover, cover;
-  height: 100vh;
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.25) 0, rgba(0, 0, 0, 0.25) 100%), url('../../images/home-hero.jpg') top center no-repeat;
+    background-size: cover, cover;
+    height: 100vh;
 
-}
-
-.journal-container {
-  display: flex;
-}
-
-.home-post {
-  border: 1px $brand_color_green solid;
-  margin: 5px;
-}
-
-.home-entry-title a {
-  color: $brand_color_green;
-  font-size: 1rem;
-  text-decoration: none;
-  &:hover {
-  color: $brand_color_purple;
-}
-}
-
-.home-entry-meta {
-  font-size: 0.5rem;
-}
-
-h3.entry-header {
-  position: relative;
-}
-
-.wrapper {
-  display: flex;
-}
-
-.prod-type-container {
-  margin: 3px;
-  border: 1px solid grey;
-  border-top: 3px solid grey;
-
-}
-
-.prod-type-btn {
-  font-family: $font_accent;
-  font-size: 0.75rem;
-  text-transform: uppercase;
-  background-color: $brand_color_green;
-  color: #fff;
-  padding: 5px 10px;
-  text-decoration: none;
-  &:hover {
-    color: #fff;
   }
-}
 
-.prod-type-icons {
-  max-width: 25%;
-}
+  .journal-container {
+    display: flex;
+  }
 
-.adventure-container {
-  display: flex;
-  margin-bottom: 20px;
-}
+  .home-post {
+    border: 1px $brand_color_green solid;
+    margin: 5px;
+  }
 
-.adventure-left {
-  width: 100%;
-  margin-right: 15px;
-}
+  .home-entry-title a {
+    color: $brand_color_green;
+    font-size: 1rem;
+    text-decoration: none;
+    &:hover {
+    color: $brand_color_purple;
+  }
+  }
 
-.adventure-right {
-  display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-}
+  .home-entry-meta {
+    font-size: 0.5rem;
+  }
 
-.adventure-main {
-  display: flex;
-  background-color: green;
-  width: 560px;
-  height: 494px;
-  border: 1px solid gray;
-}
+  h3.entry-header {
+    position: relative;
+  }
 
-.adventure-top {
-  background-color: yellow;
-  width: 560px;
-  height: 250px;
-  border: 1px solid gray;
-  margin-bottom: 15px;
-}
+  .wrapper {
+    display: flex;
+  }
 
-.adventure-bottom1 {
-  background-color: gray;
-  width: 268px;
-  height: 227px;
-  border: 1px solid gray;
-  margin-right: 23px;
-}
+  .prod-type-container {
+    margin: 3px;
+    border: 1px solid grey;
+    border-top: 3px solid grey;
 
-.adventure-bottom2 {
-  background-color: blue;
-  width: 268px;
-  height: 227px;
-  border: 1px solid gray;
-}
+  }
+
+  .prod-type-btn {
+    font-family: $font_accent;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    background-color: $brand_color_green;
+    color: #fff;
+    padding: 5px 10px;
+    text-decoration: none;
+    &:hover {
+      color: #fff;
+    }
+  }
+
+  .prod-type-icons {
+    max-width: 25%;
+  }
+
+  .adventure-container {
+    display: flex;
+    margin-bottom: 20px;
+  }
+
+  .adventure-left {
+    width: 100%;
+    margin-right: 15px;
+  }
+
+  .adventure-right {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+
+  .adventure-main {
+    display: flex;
+    background-color: green;
+    width: 560px;
+    height: 494px;
+    border: 1px solid gray;
+  }
+
+  .adventure-top {
+    background-color: yellow;
+    width: 560px;
+    height: 250px;
+    border: 1px solid gray;
+    margin-bottom: 15px;
+  }
+
+  .adventure-bottom1 {
+    background-color: gray;
+    width: 268px;
+    height: 227px;
+    border: 1px solid gray;
+    margin-right: 23px;
+  }
+
+  .adventure-bottom2 {
+    background-color: blue;
+    width: 268px;
+    height: 227px;
+    border: 1px solid gray;
+  }
 }

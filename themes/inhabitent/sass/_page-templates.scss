@@ -1,14 +1,14 @@
 /*--------------------------------------------------------------
 # Page Templates
 --------------------------------------------------------------*/
-.home .site-content {
-  flex-direction: column;
-}
+// .home .site-content {
+//   flex-direction: column;
+// }
 
-.site-content {
-  display: flex;
-  justify-content: center;
-}
+// .site-content {
+//   display: flex;
+//   justify-content: center;
+// }
 
 
 .widget-area {
@@ -66,11 +66,11 @@
 
 
 
-.site-main {
-  display: flex;
-  flex-direction: column;
-  margin-top: 100px;
-}
+// .site-main {
+//   display: flex;
+//   flex-direction: column;
+//   margin-top: 100px;
+// }
 
 // #secondary {
 //   text-align: left;
@@ -79,43 +79,13 @@
 //   padding-top: 34px;
 // }
 
-.entry-header {
-  position: relative;
-}
+
 
 h1.entry-title {
   display: none;
 }
 
-// h2.entry-title a {
-//   position: absolute;
-//   background-color: #248A83;
-//   color: #fff;
-//   top: 17px;
-//   text-decoration: none;
-//   font-family: Novecento;
-//   font-weight: bold;
-//   font-size: 2rem;
-//   max-width: 75%;
-//   text-transform: uppercase;
-// }
-//
-// h2.entry-title {
-//   font-family: Novecento;
-//   font-weight: bold;
-//   text-transform: uppercase;
-// }
 
-.entry-meta {
-  position: absolute;
-  background-color: #248A83;
-  color: #fff;
-  right: 0;
-  bottom: 5px;
-  padding: 0 17px 0 17px;
-  text-transform: uppercase;
-  font-size: 0.75rem;
-}
 // div#primary.content-area {
 //   display: inline-flex;
 // }

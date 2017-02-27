@@ -696,16 +696,6 @@ object {
 /*--------------------------------------------------------------
 # Page Templates
 --------------------------------------------------------------*/
-.home .site-content {
-  -ms-flex-direction: column;
-      flex-direction: column; }
-
-.site-content {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: center;
-      justify-content: center; }
-
 .widget-area {
   display: -ms-flexbox;
   display: flex;
@@ -755,28 +745,8 @@ object {
 .nav-div {
   width: 55%; }
 
-.site-main {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-direction: column;
-      flex-direction: column;
-  margin-top: 100px; }
-
-.entry-header {
-  position: relative; }
-
 h1.entry-title {
   display: none; }
-
-.entry-meta {
-  position: absolute;
-  background-color: #248A83;
-  color: #fff;
-  right: 0;
-  bottom: 5px;
-  padding: 0 17px 0 17px;
-  text-transform: uppercase;
-  font-size: 0.75rem; }
 
 .page-template-about {
   height: 500px; }
@@ -1075,3 +1045,49 @@ a:hover {
 
 .single .fa {
   padding: 5px; }
+
+.blog div#page.hfeed.site {
+  display: -ms-flexbox;
+  display: flex; }
+
+.blog .content-area {
+  width: 67%;
+  padding: 102px 115px;
+  border-right: 1px solid #e1e1e1; }
+
+.blog .journal-wrapper {
+  width: 66%; }
+
+.blog .entry-header {
+  position: relative; }
+
+.blog h2.entry-title a {
+  position: absolute;
+  background-color: #248A83;
+  color: #fff;
+  top: 17px;
+  text-decoration: none;
+  font-family: Novecento;
+  font-weight: bold;
+  font-size: 2rem;
+  max-width: 75%;
+  text-transform: uppercase; }
+
+.blog h2.entry-title {
+  font-family: Novecento;
+  font-weight: bold;
+  text-transform: uppercase; }
+
+.blog .entry-meta {
+  position: absolute;
+  background-color: #248A83;
+  color: #fff;
+  right: 0;
+  bottom: 5px;
+  padding: 0 17px 0 17px;
+  text-transform: uppercase;
+  font-size: 0.75rem; }
+
+.blog .widget-area {
+  width: 20%;
+  padding-left: 73px; }
