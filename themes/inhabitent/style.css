@@ -984,3 +984,10 @@ a:hover {
   right: 0;
   background-color: #fff;
   padding-right: 13px; }
+
+.tax-product_type .term-do body {
+  background-color: blue; }
+
+.tax-product_type .term-do .tax-product_type .page-header .taxonomy-description p {
+  text-align: center;
+  background-color: green; }

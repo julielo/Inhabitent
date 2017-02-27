@@ -88,6 +88,18 @@ function inhabitent_about_image() {
 }
 add_action( 'pre_get_posts', 'inhabitent_archive_posts_sort' );
 
+// function inhabitent_archive_posts_cat_sort( $query ) {
+//
+// 	if ( is_post_type_archive('products') ) {
+//
+// 		$query->set( 'posts_per_page', 16 );
+// 		$query->set( 'orderby', 'title' );
+// 		$query->set( 'order', 'DSC' );
+// 			return;
+// 	}
+// }
+// add_action( 'pre_get_posts', 'inhabitent_archive_posts_cat_sort' );
+
 function change_archive_title ($title) {
   if( is_post_type_archive('products') ) {
     $title = ( 'Shop Stuff' );
