@@ -1191,3 +1191,10 @@ a:hover {
 .single .widget-area {
   width: 37%;
   padding-left: 73px; }
+
+.single .comment-list, .single .children {
+  list-style-type: none; }
+
+.single .comment-reply-link, .single .comment-metadata a {
+  color: #248A83;
+  text-decoration: none; }

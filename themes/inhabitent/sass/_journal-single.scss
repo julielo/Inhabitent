@@ -92,4 +92,13 @@
     width: 37%;
     padding-left: 73px;
   }
+
+  .comment-list, .children {
+    list-style-type:none;
+  }
+
+  .comment-reply-link, .comment-metadata a {
+    color: $brand_color_green;
+    text-decoration: none;
+  }
 }
