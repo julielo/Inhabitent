@@ -37,6 +37,8 @@ Main screen
 
 * This project: as frustrating as it is, it is also satisfying figuring out how to work with this tool.
 
+* Throughout this project, I noticed I was applying the knowledge I gained up to this point and was more comfortable with what I was working with.
+
 ## Difficulties
 * Aside from the amount of work involved in coding and styling, I also encountered issues where my stylesheets would not load (Gulp crashed at least once) which hampered my progress in completing this project.
 
