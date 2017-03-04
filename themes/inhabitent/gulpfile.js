@@ -7,8 +7,8 @@ var gulp = require('gulp'),
     rename = require('gulp-rename'),
     cssnano = require('gulp-cssnano'),
     uglify = require('gulp-uglify'),
-    eslint = require('gulp-eslint'),
-    browserSync = require('browser-sync');
+    eslint = require('gulp-eslint');
+    // browserSync = require('browser-sync');
 
 var plumberErrorHandler = {
     errorHandler: notify.onError({
@@ -48,24 +48,24 @@ gulp.task('lint', function () {
         .pipe(eslint.failAfterError());
 });
 
-gulp.task('browser-sync', function () {
-    var files = [
-        './build/css/*.css',
-        './build/js/*.js',
-        './*.php',
-        './**/*.php',
-    ];
-
-    browserSync.init(files, {
-        proxy: 'localhost:8888/inhabitent',
-    });
-
-    gulp.watch(files).on('change', browserSync.reload);
-});
+// gulp.task('browser-sync', function () {
+//     var files = [
+//         './build/css/*.css',
+//         './build/js/*.js',
+//         './*.php',
+//         './**/*.php',
+//     ];
+//
+//     browserSync.init(files, {
+//         proxy: 'localhost:8888/inhabitent',
+//     });
+//
+//     gulp.watch(files).on('change', browserSync.reload);
+// });
 
 gulp.task('watch', function () {
     gulp.watch('./sass/*.scss', ['sass']);
     gulp.watch('./js/*.js', ['scripts']);
 });
 
-gulp.task('default', ['watch', 'browser-sync']);
+gulp.task('default', ['watch']);
