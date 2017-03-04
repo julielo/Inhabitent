@@ -788,14 +788,17 @@ object {
 
 .home .home-entry-title a {
   font-family: "Novecento", sans serif;
+  font-size: 1.25rem;
+  line-height: 1.3;
+  letter-spacing: 2px;
   color: #248A83;
-  font-size: 1rem;
+  text-transform: uppercase;
   text-decoration: none; }
   .home .home-entry-title a:hover {
     color: #2f1339; }
 
 .home .home-entry-meta {
-  font-size: 0.5rem; }
+  font-size: 0.75rem; }
 
 .home h3.entry-header {
   position: relative; }
