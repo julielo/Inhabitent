@@ -130,8 +130,9 @@
 
   .adventure-main {
     display: flex;
-    background: url('../../images/canoe-girl.jpg');
-    background-size: cover;
+    background: linear-gradient(rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ),
+    url('../../images/canoe-girl.jpg');
+    background-size: cover,cover;
     width: 560px;
     height: 494px;
     border: 1px solid gray;
