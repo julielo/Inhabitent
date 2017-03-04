@@ -7,6 +7,9 @@
 
 	get_header();
 ?>
+
+<div id="primary" class="content-area">
+	<main id="main" class="site-main" role="main">
 	<section class="home-hero">
     <img src="<?php echo get_template_directory_uri(); ?>/images/logos/inhabitent-logo-full.svg" alt="Image of Inhabitent logo" />
 	</section>
@@ -33,15 +36,11 @@
 		</div>
 	</section>
 
-	<div id="primary" class="content-area">
-		<main id="main" class="site-main" role="main">
+
 			<h2 class="entry-title">Inhabitent Journal</h2>
 
-					<?php	while ( have_posts() ) : the_post(); ?>
-						<?php echo get_template_part( 'template-parts/content', 'page' ); ?>
-						<?php endwhile; // End of the loop.	?>
-		</main><!-- #main -->
-	</div><!-- #primary -->
+
+
 
 	<div class = "journal-container container">
 		<?php global $post;
@@ -83,5 +82,8 @@
 		</div>
 	</div>
 	</section>
+
+</main><!-- #main -->
+</div><!-- #primary
 
 <?php get_footer(); ?>
