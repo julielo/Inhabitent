@@ -56,7 +56,7 @@
 									<?php the_post_thumbnail( 'large' ); ?>
 										<?php if ( 'post' === get_post_type() ) : ?>
 											<div class="home-entry-meta">
-												<?php red_starter_posted_on(); ?> / <?php comments_number( '0 Comments', '1 Comment', '% Comments' ); ?> / <?php red_starter_posted_by(); ?>
+												<?php red_starter_posted_on(); ?> / <?php comments_number( '0 Comments', '1 Comment', '% Comments' ); ?>
 											</div><!-- .entry-meta -->
 										<?php endif; ?>
 									<?php the_title( sprintf( '<h3 class="home-entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' ); ?>
