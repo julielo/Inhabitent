@@ -1053,7 +1053,7 @@ a:hover {
 .single .fa {
   padding: 5px; }
 
-.blog div#page.hfeed.site {
+.blog .site-content {
   display: -ms-flexbox;
   display: flex; }
 
