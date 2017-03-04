@@ -36,11 +36,7 @@
 		</div>
 	</section>
 
-
-			<h2 class="entry-title">Inhabitent Journal</h2>
-
-
-
+	<h2 class="entry-title">Inhabitent Journal</h2>
 
 	<div class = "journal-container container">
 		<?php global $post;
@@ -54,23 +50,25 @@
 							<header class="entry-header">
 								<?php if ( has_post_thumbnail() ) : ?>
 									<?php the_post_thumbnail( 'large' ); ?>
+									<div class = "journal-text-container">
 										<?php if ( 'post' === get_post_type() ) : ?>
 											<div class="home-entry-meta">
 												<?php red_starter_posted_on(); ?> / <?php comments_number( '0 Comments', '1 Comment', '% Comments' ); ?>
-											</div><!-- .entry-meta -->
+											</div><!-- .home-entry-meta -->
 										<?php endif; ?>
-									<?php the_title( sprintf( '<h3 class="home-entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' ); ?>
-									<?php endif; ?>
-									<div class = "read-entry-btn">
-					        	<a href="<?php the_permalink(); ?>">Read Entry</a>
-					    		</div>
-								</div>
-						</header><!-- .entry-header -->
+											<?php the_title( sprintf( '<h3 class="home-entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' ); ?>
+
+										<div class = "read-entry-btn">
+					       			<a href="<?php the_permalink(); ?>">Read Entry</a>
+					    			</div> <!-- read-entry-btn -->
+									</div> <!-- journal-text-container -->
+								<?php endif; ?>	
+							</header><!-- .entry-header -->
 					</article><!-- #post-## -->
-				</div> <!-- .journal-posts-container -->
+				</div> <!-- home-post -->
+				</div> <!-- journal-posts-container -->
 			<?php	endforeach; ?>
-			<?php wp_reset_postdata();
-			?>
+			<?php wp_reset_postdata();?>
 		</div> <!-- journal-container -->
 
 	<section class="container">

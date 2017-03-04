@@ -783,8 +783,16 @@ object {
       flex-basis: 34%; }
 
 .home .home-post {
-  border: 1px #248A83 solid;
+  border: 1px solid #e1e1e1;
   margin: 12px; }
+
+.home h3.entry-header {
+  position: relative; }
+
+.home div.journal-text-container {
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-top: 10px; }
 
 .home .home-entry-title a {
   font-family: "Novecento", sans serif;
@@ -815,9 +823,6 @@ object {
     color: #fff;
     background-color: #248A83;
     border: 1px solid #248A83; }
-
-.home h3.entry-header {
-  position: relative; }
 
 .home .wrapper {
   display: -ms-flexbox;
