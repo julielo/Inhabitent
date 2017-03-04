@@ -745,6 +745,12 @@ object {
 .nav-div {
   width: 55%; }
 
+.home div#content.site-content {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column; }
+
 .home .home-hero {
   display: -ms-flexbox;
   display: flex;

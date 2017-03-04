@@ -1,4 +1,9 @@
 .home {
+  div#content.site-content {
+    display: flex;
+    flex-direction: column;
+  }
+
   .home-hero {
     display: flex;
     justify-content: center;
