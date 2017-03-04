@@ -130,6 +130,7 @@
 
   .adventure-main {
     display: flex;
+    flex-direction: column;
     background: linear-gradient(rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ),
     url('../../images/canoe-girl.jpg');
     background-size: cover,cover;
@@ -139,6 +140,7 @@
   }
 
   .adventure-main-title{
+    display: flex;
     font-size: 3rem;
     line-height: 1.25;
     letter-spacing: 2px;
@@ -146,13 +148,22 @@
     padding: 5px 10px 0 22px;
   }
 
+  .read-more-btn-main a {
+    display: flex;
+    @include clr-button;
+    &:hover {
+      color: #fff;
+  	 	background-color: $brand_color_green;
+  		border: 1px solid $brand_color_green;
+    }
+  }
+
+
   .adventure-right {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
   }
-
-
 
   .adventure-top {
     background-color: yellow;

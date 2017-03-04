@@ -79,6 +79,9 @@
 		<div class = "adventure-left">
 			<div class="adventure-main">
 				<p class="adventure-main-title">Getting Back to Nature in a Canoe</p>
+				<div class = "read-more-btn-main">
+					<a href="<?php the_permalink(); ?>">Read More</a>
+				</div> <!-- read-entry-btn -->
 			</div>
 		</div>
 		<div class="adventure-right">

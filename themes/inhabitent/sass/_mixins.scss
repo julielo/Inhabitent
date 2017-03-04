@@ -17,9 +17,23 @@
   line-height: 0.9rem;
   color: #000;
   background-color: #fff;
-  border: 1px solid black;
+  border: 1px solid #000;
   padding: 10px 20px;
   text-transform: uppercase;
   margin: 2px;
   text-decoration: none;
+}
+
+@mixin clr-button {
+	font-family: $font_accent;
+  font-size: 0.9rem;
+  line-height: 0.9rem;
+  color: #fff;
+  background-color: rgba(255,255,255,0);
+  border: 1px solid #fff;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  margin: 24px;
+  text-decoration: none;
+	width: 125px;
 }
