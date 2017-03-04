@@ -158,7 +158,6 @@
     }
   }
 
-
   .adventure-right {
     display: flex;
     flex-wrap: wrap;
@@ -166,11 +165,32 @@
   }
 
   .adventure-top {
-    background-color: yellow;
+    background: linear-gradient(rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ),
+    url('../../images/beach-bonfire.jpg');
+    background-size: cover,cover;
     width: 560px;
     height: 250px;
     border: 1px solid gray;
     margin-bottom: 15px;
+  }
+
+  .adventure-top-title{
+    display: flex;
+    font-size: 2.4rem;
+    line-height: 1.25;
+    letter-spacing: 2px;
+    color: #fff;
+    padding: 5px 10px 0 22px;
+  }
+
+  .read-more-btn-top a {
+    display: flex;
+    @include clr-button;
+    &:hover {
+      color: #fff;
+  	 	background-color: $brand_color_green;
+  		border: 1px solid $brand_color_green;
+    }
   }
 
   .adventure-bottom1 {
