@@ -1215,6 +1215,9 @@ a:hover {
   .search-form fieldset .new-width {
     width: 170px; }
 
+.page-template div#primary.content-area {
+  padding: 0; }
+
 .page-template .page-template-about {
   height: 600px;
   padding-top: 100px; }

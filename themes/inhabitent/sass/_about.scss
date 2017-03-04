@@ -1,4 +1,9 @@
 .page-template {
+
+  div#primary.content-area {
+    padding: 0;
+  }
+
   .page-template-about {
     height: 600px;
     padding-top: 100px;
