@@ -16,15 +16,7 @@ get_header(); ?>
 
 			</div>
 
-			<div class = "tax-container">
-				<div class="posted">
-					Posted In &#8594; <?php the_category( ', ' ); ?>
-				</div>
-				<div class="tagged">
-					<?php the_tags( 'Tagged &#8594; ' ); ?>
-				</div>
-			</div>
-
+			
 
 			<?php
 				// If comments are open or we have at least one comment, load up the comment template.
