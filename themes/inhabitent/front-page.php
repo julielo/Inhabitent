@@ -49,7 +49,9 @@
 						<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 							<header class="entry-header">
 								<?php if ( has_post_thumbnail() ) : ?>
-									<?php the_post_thumbnail( 'large' ); ?>
+									<div class="journal-image-wrapper">
+										<?php the_post_thumbnail( 'large' ); ?>
+									</div> <!--journal-image-wrapper -->
 									<div class = "journal-text-container">
 										<?php if ( 'post' === get_post_type() ) : ?>
 											<div class="home-entry-meta">
@@ -62,7 +64,7 @@
 					       			<a href="<?php the_permalink(); ?>">Read Entry</a>
 					    			</div> <!-- read-entry-btn -->
 									</div> <!-- journal-text-container -->
-								<?php endif; ?>	
+								<?php endif; ?>
 							</header><!-- .entry-header -->
 					</article><!-- #post-## -->
 				</div> <!-- home-post -->

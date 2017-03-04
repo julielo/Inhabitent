@@ -789,10 +789,16 @@ object {
 .home h3.entry-header {
   position: relative; }
 
+.home img.attachment-large.size-large.wp-post-image {
+  padding-bottom: 2px solid #e1e1e1; }
+
 .home div.journal-text-container {
   padding-left: 12px;
   padding-right: 12px;
   padding-top: 10px; }
+
+.home .home-entry-meta {
+  font-size: 0.75rem; }
 
 .home .home-entry-title a {
   font-family: "Novecento", sans serif;
@@ -801,12 +807,10 @@ object {
   letter-spacing: 2px;
   color: #248A83;
   text-transform: uppercase;
-  text-decoration: none; }
+  text-decoration: none;
+  margin: 0; }
   .home .home-entry-title a:hover {
     color: #2f1339; }
-
-.home .home-entry-meta {
-  font-size: 0.75rem; }
 
 .home .read-entry-btn a {
   font-family: "Novecento", sans serif;

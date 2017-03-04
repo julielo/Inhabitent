@@ -51,6 +51,10 @@
     padding-top: 10px;
   }
 
+  .home-entry-meta {
+    font-size: 0.75rem;
+  }
+
   .home-entry-title a {
     font-family: $font_accent;
     font-size: 1.25rem;
@@ -59,13 +63,10 @@
     color: $brand_color_green;
     text-transform: uppercase;
     text-decoration: none;
+    margin: 0;
     &:hover {
     color: $brand_color_purple;
     }
-  }
-
-  .home-entry-meta {
-    font-size: 0.75rem;
   }
 
   .read-entry-btn a {
@@ -76,8 +77,6 @@
   		border: 1px solid $brand_color_green;
     }
   }
-
-
 
   .wrapper {
     display: flex;
