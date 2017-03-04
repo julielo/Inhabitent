@@ -77,7 +77,9 @@
 		<h2 class="entry-title">Latest Adventures</h2>
 		<div class="adventure-container">
 		<div class = "adventure-left">
-			<div class="adventure-main"></div>
+			<div class="adventure-main">
+				<p class="adventure-main-title">Getting Back to Nature in a Canoe</p>
+			</div>
 		</div>
 		<div class="adventure-right">
 			<div class="adventure-top"></div>

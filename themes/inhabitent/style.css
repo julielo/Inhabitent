@@ -772,6 +772,36 @@ object {
   width: 100%;
   padding: 0; }
 
+.home .wrapper {
+  display: -ms-flexbox;
+  display: flex; }
+
+.home .prod-type-container {
+  margin: 3px;
+  height: 278px;
+  width: 238px;
+  padding: 10px;
+  border: 1px solid #e1e1e1;
+  border-top: 3px solid #e1e1e1;
+  text-align: center; }
+  .home .prod-type-container:hover {
+    border: 1px solid #d99054;
+    border-top: 3px solid #d99054; }
+
+.home .prod-type-btn {
+  font-family: "Novecento", sans serif;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  background-color: #248A83;
+  color: #fff;
+  padding: 13px 25px;
+  text-decoration: none; }
+  .home .prod-type-btn:hover {
+    color: #fff; }
+
+.home .prod-type-icons {
+  max-width: 25%; }
+
 .home .journal-container {
   display: -ms-flexbox;
   display: flex;
@@ -788,9 +818,6 @@ object {
 
 .home h3.entry-header {
   position: relative; }
-
-.home img.attachment-large.size-large.wp-post-image {
-  padding-bottom: 2px solid #e1e1e1; }
 
 .home div.journal-text-container {
   padding-left: 12px;
@@ -828,36 +855,6 @@ object {
     background-color: #248A83;
     border: 1px solid #248A83; }
 
-.home .wrapper {
-  display: -ms-flexbox;
-  display: flex; }
-
-.home .prod-type-container {
-  margin: 3px;
-  height: 278px;
-  width: 238px;
-  padding: 10px;
-  border: 1px solid #e1e1e1;
-  border-top: 3px solid #e1e1e1;
-  text-align: center; }
-  .home .prod-type-container:hover {
-    border: 1px solid #d99054;
-    border-top: 3px solid #d99054; }
-
-.home .prod-type-btn {
-  font-family: "Novecento", sans serif;
-  font-size: 0.75rem;
-  text-transform: uppercase;
-  background-color: #248A83;
-  color: #fff;
-  padding: 13px 25px;
-  text-decoration: none; }
-  .home .prod-type-btn:hover {
-    color: #fff; }
-
-.home .prod-type-icons {
-  max-width: 25%; }
-
 .home .adventure-container {
   display: -ms-flexbox;
   display: flex;
@@ -867,20 +864,26 @@ object {
   width: 100%;
   margin-right: 15px; }
 
+.home .adventure-main {
+  display: -ms-flexbox;
+  display: flex;
+  background: url("../../images/canoe-girl.jpg");
+  background-size: cover;
+  width: 560px;
+  height: 494px;
+  border: 1px solid gray; }
+
+.home .adventure-main-title {
+  font-size: 3rem;
+  line-height: 1.25;
+  letter-spacing: 2px; }
+
 .home .adventure-right {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   width: 100%; }
-
-.home .adventure-main {
-  display: -ms-flexbox;
-  display: flex;
-  background-color: green;
-  width: 560px;
-  height: 494px;
-  border: 1px solid gray; }
 
 .home .adventure-top {
   background-color: yellow;
