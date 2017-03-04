@@ -61,6 +61,9 @@
 										<?php endif; ?>
 									<?php the_title( sprintf( '<h3 class="home-entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' ); ?>
 									<?php endif; ?>
+									<div class = "read-entry-btn">
+					        	<a href="<?php the_permalink(); ?>">Read Entry</a>
+					    		</div>
 								</div>
 						</header><!-- .entry-header -->
 					</article><!-- #post-## -->

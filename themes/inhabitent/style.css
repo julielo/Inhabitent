@@ -800,6 +800,22 @@ object {
 .home .home-entry-meta {
   font-size: 0.75rem; }
 
+.home .read-entry-btn a {
+  font-family: "Novecento", sans serif;
+  font-size: 0.9rem;
+  line-height: 0.9rem;
+  color: #000;
+  background-color: #fff;
+  border: 1px solid black;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  margin: 2px;
+  text-decoration: none; }
+  .home .read-entry-btn a:hover {
+    color: #fff;
+    background-color: #248A83;
+    border: 1px solid #248A83; }
+
 .home h3.entry-header {
   position: relative; }
 
