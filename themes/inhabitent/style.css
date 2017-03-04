@@ -1116,6 +1116,10 @@ a:hover {
   width: 20%;
   padding-left: 73px; }
 
+.single .site-content {
+  display: -ms-flexbox;
+  display: flex; }
+
 .single .content-area {
   width: 100%;
   padding: 125px 78px;
