@@ -774,13 +774,20 @@ object {
 
 .home .journal-container {
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center; }
+
+.home .journal-posts-container {
+  -ms-flex-preferred-size: 34%;
+      flex-basis: 34%; }
 
 .home .home-post {
   border: 1px #248A83 solid;
-  margin: 5px; }
+  margin: 12px; }
 
 .home .home-entry-title a {
+  font-family: "Novecento", sans serif;
   color: #248A83;
   font-size: 1rem;
   text-decoration: none; }

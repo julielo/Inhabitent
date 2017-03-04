@@ -48,26 +48,27 @@
 			$postslist = get_posts( $args );
 			foreach ( $postslist as $post ) :
 				setup_postdata( $post ); ?>
-				<div class = "home-post">
-					<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-						<header class="entry-header">
-							<?php if ( has_post_thumbnail() ) : ?>
-								<?php the_post_thumbnail( 'medium' ); ?>
-								<?php the_title( sprintf( '<h3 class="home-entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' ); ?>
-								<?php endif; ?>
-
-								<?php if ( 'post' === get_post_type() ) : ?>
-									<div class="home-entry-meta">
-										<?php red_starter_posted_on(); ?> / <?php comments_number( '0 Comments', '1 Comment', '% Comments' ); ?> / <?php red_starter_posted_by(); ?>
-									</div><!-- .entry-meta -->
-								<?php endif; ?>
+				<div class = "journal-posts-container">
+					<div class = "home-post">
+						<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+							<header class="entry-header">
+								<?php if ( has_post_thumbnail() ) : ?>
+									<?php the_post_thumbnail( 'large' ); ?>
+										<?php if ( 'post' === get_post_type() ) : ?>
+											<div class="home-entry-meta">
+												<?php red_starter_posted_on(); ?> / <?php comments_number( '0 Comments', '1 Comment', '% Comments' ); ?> / <?php red_starter_posted_by(); ?>
+											</div><!-- .entry-meta -->
+										<?php endif; ?>
+									<?php the_title( sprintf( '<h3 class="home-entry-title"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' ); ?>
+									<?php endif; ?>
+								</div>
 						</header><!-- .entry-header -->
 					</article><!-- #post-## -->
-				</div>
+				</div> <!-- .journal-posts-container -->
 			<?php	endforeach; ?>
 			<?php wp_reset_postdata();
 			?>
-		</div>
+		</div> <!-- journal-container -->
 
 	<section class="container">
 		<h2 class="entry-title">Latest Adventures</h2>

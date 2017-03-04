@@ -29,14 +29,20 @@
 
   .journal-container {
     display: flex;
+    justify-content: center;
+  }
+
+  .journal-posts-container {
+    flex-basis: 34%;
   }
 
   .home-post {
     border: 1px $brand_color_green solid;
-    margin: 5px;
+    margin: 12px;
   }
 
   .home-entry-title a {
+    font-family: $font_accent;
     color: $brand_color_green;
     font-size: 1rem;
     text-decoration: none;
