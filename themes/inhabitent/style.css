@@ -745,12 +745,6 @@ object {
 .nav-div {
   width: 55%; }
 
-.home div#page.hfeed.site {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-direction: column;
-      flex-direction: column; }
-
 .home .home-hero {
   display: -ms-flexbox;
   display: flex;
@@ -1246,10 +1240,6 @@ a:hover {
   width: 800px;
   margin: 0 auto;
   padding-bottom: 40px; }
-
-.page div#page.hfeed.site {
-  display: -ms-flexbox;
-  display: flex; }
 
 .page .content-area {
   width: 100%;
