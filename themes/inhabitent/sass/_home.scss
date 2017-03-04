@@ -27,6 +27,44 @@
     padding: 0;
   }
 
+// Shop section
+.wrapper {
+  display: flex;
+}
+
+.prod-type-container {
+  margin: 3px;
+  height: 278px;
+  width: 238px;
+  padding: 10px;
+  border: 1px solid $brand_color_lightgrey;
+  border-top: 3px solid $brand_color_lightgrey;
+  text-align:center;
+  &:hover {
+    border: 1px solid $brand_color_orange;
+    border-top: 3px solid $brand_color_orange;
+  }
+}
+
+.prod-type-btn {
+  font-family: $font_accent;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  background-color: $brand_color_green;
+  color: #fff;
+  padding: 13px 25px;
+  text-decoration: none;
+  &:hover {
+    color: #fff;
+  }
+}
+
+.prod-type-icons {
+  max-width: 25%;
+}
+
+
+// Journal section
   .journal-container {
     display: flex;
     justify-content: center;
@@ -78,40 +116,7 @@
     }
   }
 
-  .wrapper {
-    display: flex;
-  }
-
-  .prod-type-container {
-    margin: 3px;
-    height: 278px;
-    width: 238px;
-    padding: 10px;
-    border: 1px solid $brand_color_lightgrey;
-    border-top: 3px solid $brand_color_lightgrey;
-    text-align:center;
-    &:hover {
-      border: 1px solid $brand_color_orange;
-      border-top: 3px solid $brand_color_orange;
-    }
-  }
-
-  .prod-type-btn {
-    font-family: $font_accent;
-    font-size: 0.75rem;
-    text-transform: uppercase;
-    background-color: $brand_color_green;
-    color: #fff;
-    padding: 13px 25px;
-    text-decoration: none;
-    &:hover {
-      color: #fff;
-    }
-  }
-
-  .prod-type-icons {
-    max-width: 25%;
-  }
+//Adventure section
 
   .adventure-container {
     display: flex;
