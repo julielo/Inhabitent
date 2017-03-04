@@ -1244,7 +1244,11 @@ a:hover {
   margin: 0 auto;
   padding-bottom: 40px; }
 
+.page .site-content {
+  display: -ms-flexbox;
+  display: flex; }
+
 .page .content-area {
-  width: 100%;
+  width: 69%;
   padding: 125px 78px;
   border-right: 1px solid #e1e1e1; }
