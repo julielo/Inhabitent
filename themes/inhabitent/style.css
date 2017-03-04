@@ -876,7 +876,9 @@ object {
 .home .adventure-main-title {
   font-size: 3rem;
   line-height: 1.25;
-  letter-spacing: 2px; }
+  letter-spacing: 2px;
+  color: #fff;
+  padding: 5px 10px 0 22px; }
 
 .home .adventure-right {
   display: -ms-flexbox;
