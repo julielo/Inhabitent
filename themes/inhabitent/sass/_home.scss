@@ -13,6 +13,17 @@
 
   }
 
+  h2.entry-title {
+    font-family: $font_accent;
+    font-size: 2.5rem;
+    line-height: 1.5;
+    letter-spacing: 2px;
+  }
+
+  div#primary.content-area {
+    width: 100%;
+  }
+
   .journal-container {
     display: flex;
   }

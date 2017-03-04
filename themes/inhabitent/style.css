@@ -760,6 +760,15 @@ object {
   background-size: cover, cover;
   height: 100vh; }
 
+.home h2.entry-title {
+  font-family: "Novecento", sans serif;
+  font-size: 2.5rem;
+  line-height: 1.5;
+  letter-spacing: 2px; }
+
+.home div#primary.content-area {
+  width: 100%; }
+
 .home .journal-container {
   display: -ms-flexbox;
   display: flex; }
