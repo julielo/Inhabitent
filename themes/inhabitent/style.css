@@ -762,9 +762,11 @@ object {
 
 .home h2.entry-title {
   font-family: "Novecento", sans serif;
-  font-size: 2.5rem;
-  line-height: 1.5;
-  letter-spacing: 2px; }
+  font-size: 2.4rem;
+  font-weight: 100;
+  line-height: 1.25;
+  letter-spacing: 2px;
+  text-align: center; }
 
 .home div#primary.content-area {
   width: 100%;
