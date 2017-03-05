@@ -946,8 +946,13 @@ object {
     background-color: #248A83;
     border: 1px solid #248A83; }
 
+.home .adventure-bottom {
+  display: -ms-flexbox;
+  display: flex; }
+
 .home .adventure-bottom1 {
-  background-color: gray;
+  background: linear-gradient(rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.25) 100%), url("../../images/mountain-hikers.jpg");
+  background-size: cover,cover;
   width: 268px;
   height: 227px;
   border: 1px solid gray;

@@ -76,24 +76,29 @@
 	<section class="container">
 		<h2 class="entry-title">Latest Adventures</h2>
 		<div class="adventure-container">
-		<div class = "adventure-left">
-			<div class="adventure-main">
-				<p class="adventure-main-title">Getting Back to Nature in a Canoe</p>
-				<div class = "read-more-btn-main">
-					<a href="<?php the_permalink(); ?>">Read More</a>
-				</div> <!-- read-more-btn -->
+			<div class = "adventure-left">
+				<div class="adventure-main">
+					<p class="adventure-main-title">Getting Back to Nature in a Canoe</p>
+					<div class = "read-more-btn-main">
+						<a href="<?php the_permalink(); ?>">Read More</a>
+					</div> <!-- read-more-btn -->
+				</div>
+			</div>
+			<div class="adventure-right">
+				<div class="adventure-top">
+					<p class="adventure-top-title">A Night with Friends at the Beach</p>
+					<div class = "read-more-btn-top">
+						<a href="<?php the_permalink(); ?>">Read More</a>
+					</div> <!-- read-more-btn -->
+				</div>
+				<!-- <div class = "adventure-wrapper"> -->
+					<div class="adventure-bottom">
+						<div class="adventure-bottom1"></div>
+						<div class="adventure-bottom2"></div>
+					</div>
+				<!-- </div> -->
 			</div>
 		</div>
-		<div class="adventure-right">
-			<div class="adventure-top">
-				<p class="adventure-top-title">A Night with Friends at the Beach</p>
-				<div class = "read-more-btn-top">
-					<a href="<?php the_permalink(); ?>">Read More</a>
-				</div> <!-- read-more-btn -->
-			<div class="adventure-bottom1"></div>
-			<div class="adventure-bottom2"></div>
-		</div>
-	</div>
 	</section>
 
 </main><!-- #main -->
