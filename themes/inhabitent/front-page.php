@@ -93,7 +93,12 @@
 				</div>
 				<!-- <div class = "adventure-wrapper"> -->
 					<div class="adventure-bottom">
-						<div class="adventure-bottom1"></div>
+						<div class="adventure-bottom1">
+							<p class="adventure-bottom-title">Taking in the View at Big Mountain</p>
+							<div class = "read-more-btn">
+								<a href="<?php the_permalink(); ?>">Read More</a>
+							</div> <!-- read-more-btn -->
+						</div>
 						<div class="adventure-bottom2"></div>
 					</div>
 				<!-- </div> -->

@@ -207,6 +207,26 @@
     margin-right: 23px;
   }
 
+  .adventure-bottom-title{
+    display: flex;
+    font-size: 1.6rem;
+    line-height: 1.25;
+    letter-spacing: 2px;
+    color: #fff;
+    padding: 5px 10px 0 22px;
+  }
+
+  .read-more-btn a {
+    display: flex;
+    @include clr-button;
+    &:hover {
+      color: #fff;
+  	 	background-color: $brand_color_green;
+  		border: 1px solid $brand_color_green;
+    }
+  }
+
+
   .adventure-bottom2 {
     background-color: blue;
     width: 268px;
