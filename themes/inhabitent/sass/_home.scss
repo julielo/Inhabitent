@@ -131,11 +131,12 @@
   .adventure-main {
     display: flex;
     flex-direction: column;
-    background: linear-gradient(rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ),
-    url('../../images/canoe-girl.jpg');
-    background-size: cover,cover;
-    width: 560px;
-    height: 494px;
+    background: linear-gradient(rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.4) 100% ),
+    url('../../images/canoe-girl.jpg') no-repeat;
+    background-position: bottom;
+    background-size: cover, 854px;
+    width: 539px;
+    height: 542px;
     border: 1px solid gray;
   }
 
@@ -165,13 +166,14 @@
   }
 
   .adventure-top {
-    background: linear-gradient(rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ),
-    url('../../images/beach-bonfire.jpg');
-    background-size: cover,cover;
+    background: linear-gradient(rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.4) 100% ),
+    url('../../images/beach-bonfire.jpg') no-repeat;
+    background-position: bottom;
+    background-size: cover, 585px;
     width: 560px;
     height: 250px;
     border: 1px solid gray;
-    margin-bottom: 15px;
+    margin-bottom: 21px;
   }
 
   .adventure-top-title{
@@ -188,13 +190,14 @@
   }
 
   .adventure-bottom1 {
-    background: linear-gradient(rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ),
-    url('../../images/mountain-hikers.jpg');
-    background-size: cover,cover;
-    width: 268px;
-    height: 227px;
+    background: linear-gradient(rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.4) 100% ),
+    url('../../images/mountain-hikers.jpg') no-repeat;
+    background-size: cover, 608px;
+    background-position: bottom;
+    width: 269px;
+    height: 271px;
     border: 1px solid gray;
-    margin-right: 23px;
+    margin-right: 21px;
   }
 
   .adventure-bottom-title{
@@ -207,11 +210,12 @@
   }
 
   .adventure-bottom2 {
-    background: linear-gradient(rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ),
-    url('../../images/night-sky.jpg');
-    background-size: cover,cover;
-    width: 268px;
-    height: 227px;
+    background: linear-gradient(rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.4) 100% ),
+    url('../../images/night-sky.jpg') no-repeat;
+    background-size: cover, 542px;
+    background-position: bottom;
+    width: 269px;
+    height: 271px;
     border: 1px solid gray;
   }
 }

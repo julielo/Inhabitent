@@ -869,99 +869,17 @@ object {
   display: flex;
   -ms-flex-direction: column;
       flex-direction: column;
-  background: linear-gradient(rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.25) 100%), url("../../images/canoe-girl.jpg");
-  background-size: cover,cover;
-  width: 560px;
-  height: 494px;
+  background: linear-gradient(rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.4) 100%), url("../../images/canoe-girl.jpg") no-repeat;
+  background-position: bottom;
+  background-size: cover, 854px;
+  width: 539px;
+  height: 542px;
   border: 1px solid gray; }
 
 .home .adventure-main-title {
   display: -ms-flexbox;
   display: flex;
   font-size: 3rem;
-  line-height: 1.25;
-  letter-spacing: 2px;
-  color: #fff;
-  padding: 5px 10px 0 22px; }
-
-.home .read-more-btn-main a {
-  display: -ms-flexbox;
-  display: flex;
-  font-family: "Novecento", sans serif;
-  font-size: 0.9rem;
-  line-height: 0.9rem;
-  color: #fff;
-  background-color: rgba(255, 255, 255, 0);
-  border: 1px solid #fff;
-  padding: 10px 20px;
-  text-transform: uppercase;
-  margin: 24px;
-  text-decoration: none;
-  width: 125px; }
-  .home .read-more-btn-main a:hover {
-    color: #fff;
-    background-color: #248A83;
-    border: 1px solid #248A83; }
-
-.home .adventure-right {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  width: 100%; }
-
-.home .adventure-top {
-  background: linear-gradient(rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.25) 100%), url("../../images/beach-bonfire.jpg");
-  background-size: cover,cover;
-  width: 560px;
-  height: 250px;
-  border: 1px solid gray;
-  margin-bottom: 15px; }
-
-.home .adventure-top-title {
-  display: -ms-flexbox;
-  display: flex;
-  font-size: 2.4rem;
-  line-height: 1.25;
-  letter-spacing: 2px;
-  color: #fff;
-  padding: 5px 10px 0 22px; }
-
-.home .read-more-btn-top a {
-  display: -ms-flexbox;
-  display: flex;
-  font-family: "Novecento", sans serif;
-  font-size: 0.9rem;
-  line-height: 0.9rem;
-  color: #fff;
-  background-color: rgba(255, 255, 255, 0);
-  border: 1px solid #fff;
-  padding: 10px 20px;
-  text-transform: uppercase;
-  margin: 24px;
-  text-decoration: none;
-  width: 125px; }
-  .home .read-more-btn-top a:hover {
-    color: #fff;
-    background-color: #248A83;
-    border: 1px solid #248A83; }
-
-.home .adventure-bottom {
-  display: -ms-flexbox;
-  display: flex; }
-
-.home .adventure-bottom1 {
-  background: linear-gradient(rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.25) 100%), url("../../images/mountain-hikers.jpg");
-  background-size: cover,cover;
-  width: 268px;
-  height: 227px;
-  border: 1px solid gray;
-  margin-right: 23px; }
-
-.home .adventure-bottom-title {
-  display: -ms-flexbox;
-  display: flex;
-  font-size: 1.6rem;
   line-height: 1.25;
   letter-spacing: 2px;
   color: #fff;
@@ -986,11 +904,59 @@ object {
     background-color: #248A83;
     border: 1px solid #248A83; }
 
+.home .adventure-right {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%; }
+
+.home .adventure-top {
+  background: linear-gradient(rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.4) 100%), url("../../images/beach-bonfire.jpg") no-repeat;
+  background-position: bottom;
+  background-size: cover, 585px;
+  width: 560px;
+  height: 250px;
+  border: 1px solid gray;
+  margin-bottom: 21px; }
+
+.home .adventure-top-title {
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 2.4rem;
+  line-height: 1.25;
+  letter-spacing: 2px;
+  color: #fff;
+  padding: 5px 10px 0 22px; }
+
+.home .adventure-bottom {
+  display: -ms-flexbox;
+  display: flex; }
+
+.home .adventure-bottom1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.4) 100%), url("../../images/mountain-hikers.jpg") no-repeat;
+  background-size: cover, 608px;
+  background-position: bottom;
+  width: 269px;
+  height: 271px;
+  border: 1px solid gray;
+  margin-right: 21px; }
+
+.home .adventure-bottom-title {
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 1.6rem;
+  line-height: 1.25;
+  letter-spacing: 2px;
+  color: #fff;
+  padding: 5px 10px 0 22px; }
+
 .home .adventure-bottom2 {
-  background: linear-gradient(rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.25) 100%), url("../../images/night-sky.jpg");
-  background-size: cover,cover;
-  width: 268px;
-  height: 227px;
+  background: linear-gradient(rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.4) 100%), url("../../images/night-sky.jpg") no-repeat;
+  background-size: cover, 542px;
+  background-position: bottom;
+  width: 269px;
+  height: 271px;
   border: 1px solid gray; }
 
 .site-footer {
