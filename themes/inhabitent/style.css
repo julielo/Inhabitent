@@ -766,7 +766,9 @@ object {
   font-weight: 100;
   line-height: 1.25;
   letter-spacing: 2px;
-  text-align: center; }
+  text-align: center;
+  color: #2f1339;
+  text-transform: uppercase; }
 
 .home div#primary.content-area {
   width: 100%;
