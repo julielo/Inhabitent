@@ -987,7 +987,8 @@ object {
     border: 1px solid #248A83; }
 
 .home .adventure-bottom2 {
-  background-color: blue;
+  background: linear-gradient(rgba(0, 0, 0, 0.25) 0%, rgba(0, 0, 0, 0.25) 100%), url("../../images/night-sky.jpg");
+  background-size: cover,cover;
   width: 268px;
   height: 227px;
   border: 1px solid gray; }

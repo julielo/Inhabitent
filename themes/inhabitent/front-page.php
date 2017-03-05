@@ -99,7 +99,12 @@
 								<a href="<?php the_permalink(); ?>">Read More</a>
 							</div> <!-- read-more-btn -->
 						</div>
-						<div class="adventure-bottom2"></div>
+						<div class="adventure-bottom2">
+							<p class="adventure-bottom-title">Star-Gazing at the Night Sky</p>
+							<div class = "read-more-btn">
+								<a href="<?php the_permalink(); ?>">Read More</a>
+							</div> <!-- read-more-btn -->
+						</div>
 					</div>
 				<!-- </div> -->
 			</div>
