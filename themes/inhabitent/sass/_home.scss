@@ -148,13 +148,13 @@
     padding: 5px 10px 0 22px;
   }
 
-  .read-more-btn-main a {
+  .read-more-btn a {
     display: flex;
     @include clr-button;
     &:hover {
       color: #fff;
-  	 	background-color: $brand_color_green;
-  		border: 1px solid $brand_color_green;
+      background-color: $brand_color_green;
+      border: 1px solid $brand_color_green;
     }
   }
 
@@ -183,16 +183,6 @@
     padding: 5px 10px 0 22px;
   }
 
-  .read-more-btn-top a {
-    display: flex;
-    @include clr-button;
-    &:hover {
-      color: #fff;
-  	 	background-color: $brand_color_green;
-  		border: 1px solid $brand_color_green;
-    }
-  }
-
   .adventure-bottom {
     display: flex;
   }
@@ -216,23 +206,12 @@
     padding: 5px 10px 0 22px;
   }
 
-  .read-more-btn a {
-    display: flex;
-    @include clr-button;
-    &:hover {
-      color: #fff;
-  	 	background-color: $brand_color_green;
-  		border: 1px solid $brand_color_green;
-    }
-  }
-
-
   .adventure-bottom2 {
     background: linear-gradient(rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ),
     url('../../images/night-sky.jpg');
     background-size: cover,cover;
     width: 268px;
     height: 227px;
-    border: 1px solid gray; 
+    border: 1px solid gray;
   }
 }

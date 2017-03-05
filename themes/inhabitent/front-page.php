@@ -79,7 +79,7 @@
 			<div class = "adventure-left">
 				<div class="adventure-main">
 					<p class="adventure-main-title">Getting Back to Nature in a Canoe</p>
-					<div class = "read-more-btn-main">
+					<div class = "read-more-btn">
 						<a href="<?php the_permalink(); ?>">Read More</a>
 					</div> <!-- read-more-btn -->
 				</div>
@@ -87,26 +87,24 @@
 			<div class="adventure-right">
 				<div class="adventure-top">
 					<p class="adventure-top-title">A Night with Friends at the Beach</p>
-					<div class = "read-more-btn-top">
+					<div class = "read-more-btn">
 						<a href="<?php the_permalink(); ?>">Read More</a>
 					</div> <!-- read-more-btn -->
 				</div>
-				<!-- <div class = "adventure-wrapper"> -->
-					<div class="adventure-bottom">
-						<div class="adventure-bottom1">
-							<p class="adventure-bottom-title">Taking in the View at Big Mountain</p>
-							<div class = "read-more-btn">
-								<a href="<?php the_permalink(); ?>">Read More</a>
-							</div> <!-- read-more-btn -->
-						</div>
-						<div class="adventure-bottom2">
-							<p class="adventure-bottom-title">Star-Gazing at the Night Sky</p>
-							<div class = "read-more-btn">
-								<a href="<?php the_permalink(); ?>">Read More</a>
-							</div> <!-- read-more-btn -->
-						</div>
+				<div class="adventure-bottom">
+					<div class="adventure-bottom1">
+						<p class="adventure-bottom-title">Taking in the View at Big Mountain</p>
+						<div class = "read-more-btn">
+							<a href="<?php the_permalink(); ?>">Read More</a>
+						</div> <!-- read-more-btn -->
 					</div>
-				<!-- </div> -->
+					<div class="adventure-bottom2">
+						<p class="adventure-bottom-title">Star-Gazing at the Night Sky</p>
+						<div class = "read-more-btn">
+							<a href="<?php the_permalink(); ?>">Read More</a>
+						</div> <!-- read-more-btn -->
+					</div>
+				</div>
 			</div>
 		</div>
 	</section>
