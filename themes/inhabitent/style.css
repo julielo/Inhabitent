@@ -772,17 +772,19 @@ object {
   width: 100%;
   padding: 0; }
 
-.home .wrapper {
+.home .prod-wrapper {
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center; }
 
 .home .prod-type-container {
-  margin: 3px;
-  height: 278px;
-  width: 238px;
+  margin: 10px;
+  height: 271px;
+  width: 267px;
   padding: 10px;
   border: 1px solid #e1e1e1;
-  border-top: 3px solid #e1e1e1;
+  border-top: 5px solid #e1e1e1;
   text-align: center; }
   .home .prod-type-container:hover {
     border: 1px solid #d99054;

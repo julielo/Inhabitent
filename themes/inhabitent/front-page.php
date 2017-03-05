@@ -16,7 +16,7 @@
 
 	<section class = "container">
 		<h2 class="entry-title">Shop Stuff</h2>
-			<div class="wrapper">
+			<div class="prod-wrapper">
 
 			<?php
 				$terms = get_terms( array(
