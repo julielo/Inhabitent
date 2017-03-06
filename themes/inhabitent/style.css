@@ -818,10 +818,17 @@ object {
 
 .home .home-post {
   border: 1px solid #e1e1e1;
-  margin: 12px; }
+  margin: 11px; }
 
 .home h3.entry-header {
   position: relative; }
+
+.home .journal-image-wrapper {
+  background-color: #e1e1e1;
+  height: 245px; }
+
+.home img.attachment-large.size-large.wp-post-image {
+  height: 240px; }
 
 .home div.journal-text-container {
   padding-left: 12px;

@@ -79,11 +79,20 @@
 
   .home-post {
     border: 1px solid $brand_color_lightgrey;
-    margin: 12px;
+    margin: 11px;
   }
 
   h3.entry-header {
     position: relative;
+  }
+
+  .journal-image-wrapper {
+    background-color: $brand_color_lightgrey;
+    height: 245px;
+  }
+
+  img.attachment-large.size-large.wp-post-image {
+    height: 240px;
   }
 
   div.journal-text-container {

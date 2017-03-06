@@ -23,7 +23,7 @@
 	    		'taxonomy' => 'product_type',
 					'orderby' => 'name',
 	    		'hide_empty' => false,
-				) );
+				));
 				?>
 
 				<?php foreach ($terms as $term) : ?>
