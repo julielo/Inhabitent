@@ -768,7 +768,9 @@ object {
   letter-spacing: 2px;
   text-align: center;
   color: #2f1339;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  padding: 76px 0 70px 0;
+  margin: 0; }
 
 .home div#primary.content-area {
   width: 100%;
