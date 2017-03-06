@@ -792,7 +792,7 @@ object {
   text-align: center; }
   .home .prod-type-container:hover {
     border: 1px solid #d99054;
-    border-top: 3px solid #d99054; }
+    border-top: 5px solid #d99054; }
 
 .home .prod-type-btn {
   font-family: "Novecento", sans serif;
@@ -803,7 +803,8 @@ object {
   padding: 13px 25px;
   text-decoration: none; }
   .home .prod-type-btn:hover {
-    color: #fff; }
+    color: #fff;
+    background-color: #19625d; }
 
 .home .prod-type-icons {
   max-width: 25%; }
@@ -870,8 +871,7 @@ object {
 
 .home .adventure-container {
   display: -ms-flexbox;
-  display: flex;
-  margin-bottom: 20px; }
+  display: flex; }
 
 .home .adventure-left {
   width: 100%;
@@ -971,6 +971,26 @@ object {
   width: 269px;
   height: 271px;
   border: 1px solid gray; }
+
+.home .button-wrapper {
+  padding-top: 35px;
+  padding-bottom: 70px; }
+
+.home .more-advent-btn a {
+  font-family: "Novecento", sans serif;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  background-color: #248A83;
+  color: #fff;
+  padding: 13px 25px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  line-height: 1;
+  width: 241px;
+  padding: 12px 24px; }
+  .home .more-advent-btn a:hover {
+    color: #fff;
+    background-color: #19625d; }
 
 .site-footer {
   background: url(../../images/dark-wood.png);

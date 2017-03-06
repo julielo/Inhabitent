@@ -24,7 +24,6 @@
     text-transform: uppercase;
     padding: 76px 0 70px 0;
     margin: 0;
-    
   }
 
   div#primary.content-area {
@@ -48,7 +47,7 @@
   text-align:center;
   &:hover {
     border: 1px solid $brand_color_orange;
-    border-top: 3px solid $brand_color_orange;
+    border-top: 5px solid $brand_color_orange;
   }
 }
 
@@ -62,6 +61,7 @@
   text-decoration: none;
   &:hover {
     color: #fff;
+    background-color: $brand_color_darkgreen;
   }
 }
 
@@ -132,10 +132,8 @@
   }
 
 //Adventure section
-
   .adventure-container {
     display: flex;
-    margin-bottom: 20px;
   }
 
   .adventure-left {
@@ -232,5 +230,22 @@
     width: 269px;
     height: 271px;
     border: 1px solid gray;
+  }
+
+  .button-wrapper {
+    padding-top: 35px;
+    padding-bottom: 70px;
+  }
+
+  .more-advent-btn a {
+    @include grn-button;
+    font-size: 1.2rem;
+    line-height: 1;
+    width: 241px;
+    padding: 12px 24px;
+    &:hover {
+      color: #fff;
+      background-color: $brand_color_darkgreen;
+    }
   }
 }

@@ -103,9 +103,14 @@
 						<div class = "read-more-btn">
 							<a href="<?php the_permalink(); ?>">Read More</a>
 						</div> <!-- read-more-btn -->
-					</div>
-				</div>
-			</div>
+					</div> <!-- adventure-bottom2 -->
+				</div> <!-- adventure-bottom -->
+			</div> <!-- adventure-right -->
+		</div> <!-- adventure-container -->
+		<div class="button-wrapper">
+			<div class = "more-advent-btn">
+				<a href="<?php the_permalink(); ?>">More Adventures</a>
+			</div> <!-- read-more-btn -->
 		</div>
 	</section>
 

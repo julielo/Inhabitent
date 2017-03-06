@@ -37,3 +37,13 @@
   text-decoration: none;
 	width: 125px;
 }
+
+@mixin grn-button {
+font-family: $font_accent;
+font-size: 0.75rem;
+text-transform: uppercase;
+background-color: $brand_color_green;
+color: #fff;
+padding: 13px 25px;
+text-decoration: none;
+}
