@@ -994,7 +994,8 @@ object {
 
 .site-footer {
   background: url(../../images/dark-wood.png);
-  background-size: 512px 512px; }
+  background-size: 512px 512px;
+  height: 354px; }
 
 footer {
   color: #fff; }
@@ -1009,17 +1010,44 @@ footer {
 .footer-info h3 {
   color: #d99054; }
 
+.contact {
+  padding: 36px 0 0 106px; }
+
 .contact a {
   color: #fff;
   text-decoration: none; }
+
+.business-hours {
+  padding: 32px 239px 0 0; }
 
 a:hover {
   text-decoration: underline; }
 
 .text-logo {
-  margin-top: 10px;
-  margin-right: 5px;
-  width: 250px; }
+  margin-top: 54px;
+  margin-right: 104px;
+  width: 280px; }
+
+.copyright {
+  text-align: center;
+  padding-top: 17px; }
+
+h3 {
+  font-family: "Novecento", sans serif;
+  font-size: 1.25rem;
+  line-height: 1;
+  letter-spacing: 2px; }
+
+p {
+  font-size: 1 rem;
+  line-height: 1.8;
+  margin-bottom: 0; }
+
+p span {
+  font-weight: 700; }
+
+i.fa {
+  font-size: 1.25rem; }
 
 .archive h1.page-title {
   font-family: "Novecento", sans serif;

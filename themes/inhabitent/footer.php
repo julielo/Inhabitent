@@ -12,7 +12,7 @@
 			<footer id="colophon" class="site-footer" role="contentinfo">
 				<div class="site-info">
 					<!-- <a href="<?php echo esc_url( 'https://wordpress.org/' ); ?>"><?php printf( esc_html( 'Proudly powered by %s' ), 'WordPress' ); ?></a> -->
-				</div><!-- .site-info -->
+				</div><!-- site-info -->
 				<div class="footer-info">
           <div class="contact">
             <h3>Contact Info</h3>
@@ -35,20 +35,20 @@
                 <a href="#"><i class="fa fa-google-plus-square" aria-hidden="true"></i></a>
               </span>
             </p>
-          </div><!--Contact  -->
+          </div><!--contact  -->
           <div class="business-hours">
             <h3>Business Hours</h3>
             <p><span>Monday-Friday:</span> 9am to 5pm</p>
             <p><span>Saturday:</span> 10am to 2pm</p>
             <p><span>Sunday:</span> Closed</p>
-          </div><!--business-hour-->
+          </div><!--business-hours-->
           <div class="text-logo">
             <a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
             	<img src="<?php echo get_template_directory_uri(); ?>/images/logos/inhabitent-logo-text.svg" alt="Image of Inhabitent logo" />
             </a>
           </div><!-- text-logo -->
-        </div>
-				<div class="site-info container">
+        </div><!-- footer-info -->
+				<div class="copyright">
 					<span>Copyright &copy; 2016 Inhabitent</span>
 				</div>
 
