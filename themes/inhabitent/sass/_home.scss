@@ -160,6 +160,9 @@
     color: #fff;
     padding: 5px 10px 0 22px;
     text-decoration: none;
+    &:hover {
+      color: $brand_color_yellow;
+    }
   }
 
   .read-more-btn a {
@@ -197,6 +200,9 @@
     color: #fff;
     padding: 5px 10px 0 22px;
     text-decoration: none;
+    &:hover {
+      color: $brand_color_yellow;
+    }
   }
 
   .adventure-bottom {
@@ -222,6 +228,9 @@
     color: #fff;
     padding: 5px 10px 0 22px;
     text-decoration: none;
+    &:hover {
+      color: $brand_color_yellow;
+    }
   }
 
   .adventure-bottom2 {

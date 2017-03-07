@@ -898,6 +898,8 @@ object {
   color: #fff;
   padding: 5px 10px 0 22px;
   text-decoration: none; }
+  .home .adventure-main-title a:hover {
+    color: #f0e4d1; }
 
 .home .read-more-btn a {
   display: -ms-flexbox;
@@ -943,6 +945,8 @@ object {
   color: #fff;
   padding: 5px 10px 0 22px;
   text-decoration: none; }
+  .home .adventure-top-title a:hover {
+    color: #f0e4d1; }
 
 .home .adventure-bottom {
   display: -ms-flexbox;
@@ -966,6 +970,8 @@ object {
   color: #fff;
   padding: 5px 10px 0 22px;
   text-decoration: none; }
+  .home .adventure-bottom-title a:hover {
+    color: #f0e4d1; }
 
 .home .adventure-bottom2 {
   background: linear-gradient(rgba(0, 0, 0, 0.4) 0%, rgba(0, 0, 0, 0.4) 100%), url("../../images/night-sky.jpg") no-repeat;
