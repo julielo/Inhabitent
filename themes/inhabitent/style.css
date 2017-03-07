@@ -1483,7 +1483,7 @@ i.fa {
   color: #248A83; }
   .search-form fieldset {
     border: 0;
-    padding-top: 0; }
+    padding-top: 3px; }
   .search-form fieldset .search-field {
     background: transparent;
     border: solid 0px transparent;
@@ -1496,6 +1496,8 @@ i.fa {
     outline: 0; }
   .search-form .fa-search {
     font-size: 1rem; }
+  .search-form label {
+    display: none; }
 
 .page-template div#primary.content-area {
   padding: 0; }
