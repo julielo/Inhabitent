@@ -78,7 +78,7 @@ function inhabitent_about_image() {
 
 	function inhabitent_archive_posts_sort( $query ) {
 
-    if ( is_post_type_archive('products') ) {
+    if ( is_post_type_archive('products') || is_tax() ){
 
       $query->set( 'posts_per_page', 16 );
 			$query->set( 'orderby', 'title' );
