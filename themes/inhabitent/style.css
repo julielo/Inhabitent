@@ -860,7 +860,11 @@ object {
   padding-top: 10px; }
 
 .home .home-entry-meta {
-  font-size: 0.75rem; }
+  font-size: 0.75rem;
+  padding-top: 4px; }
+
+.home .home-entry-title {
+  margin-top: 0; }
 
 .home .home-entry-title a {
   font-family: "Novecento", sans serif;
@@ -1366,10 +1370,9 @@ i.fa {
   text-transform: uppercase;
   font-size: 1rem; }
 
-.single div.entry-content p.BodyA span {
-  font-family: "Merriweather", serif;
-  font-size: 1rem;
-  line-height: 2; }
+.single .entry-meta a {
+  color: #fff;
+  text-decoration: none; }
 
 .single .tax-container {
   display: -ms-flexbox;
