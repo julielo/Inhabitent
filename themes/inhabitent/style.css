@@ -525,6 +525,24 @@ a {
   text-align: right;
   width: 50%; }
 
+.search-field {
+  width: 0px; }
+
+.search-width {
+  width: 100px; }
+
+.search-submit {
+  outline: 0;
+  border: 0;
+  background: #fff;
+  padding: 0; }
+
+form.search-form {
+  padding: 0; }
+
+fieldset {
+  border: 0; }
+
 /*--------------------------------------------------------------
 # Accessibility
 --------------------------------------------------------------*/
@@ -793,6 +811,9 @@ object {
   .home .prod-type-container:hover {
     border: 1px solid #d99054;
     border-top: 5px solid #d99054; }
+
+.home .prod-type-container p {
+  margin-bottom: 1.5rem; }
 
 .home .prod-type-btn {
   font-family: "Novecento", sans serif;

@@ -48,20 +48,20 @@ gulp.task('lint', function () {
         .pipe(eslint.failAfterError());
 });
 
-// gulp.task('browser-sync', function () {
-//     var files = [
-//         './build/css/*.css',
-//         './build/js/*.js',
-//         './*.php',
-//         './**/*.php',
-//     ];
-//
-//     browserSync.init(files, {
-//         proxy: 'localhost:8888/inhabitent',
-//     });
-//
-//     gulp.watch(files).on('change', browserSync.reload);
-// });
+gulp.task('browser-sync', function () {
+    var files = [
+        './build/css/*.css',
+        './build/js/*.js',
+        './*.php',
+        './**/*.php',
+    ];
+
+    browserSync.init(files, {
+        proxy: 'localhost:8888/inhabitent',
+    });
+
+    gulp.watch(files).on('change', browserSync.reload);
+});
 
 gulp.task('watch', function () {
     gulp.watch('./sass/*.scss', ['sass']);
