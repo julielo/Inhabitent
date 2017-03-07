@@ -78,7 +78,9 @@
 		<div class="adventure-container">
 			<div class = "adventure-left">
 				<div class="adventure-main">
-					<p class="adventure-main-title">Getting Back to Nature in a Canoe</p>
+					<p class="adventure-main-title">
+						<a href="<?php the_permalink(); ?>">Getting Back to Nature in a Canoe</a>
+					</p>
 					<div class = "read-more-btn">
 						<a href="<?php the_permalink(); ?>">Read More</a>
 					</div> <!-- read-more-btn -->
@@ -86,20 +88,26 @@
 			</div>
 			<div class="adventure-right">
 				<div class="adventure-top">
-					<p class="adventure-top-title">A Night with Friends at the Beach</p>
+					<p class="adventure-top-title">
+						<a href="<?php the_permalink(); ?>">A Night with Friends at the Beach</a>
+					</p>
 					<div class = "read-more-btn">
 						<a href="<?php the_permalink(); ?>">Read More</a>
 					</div> <!-- read-more-btn -->
 				</div>
 				<div class="adventure-bottom">
 					<div class="adventure-bottom1">
-						<p class="adventure-bottom-title">Taking in the View at Big Mountain</p>
+						<p class="adventure-bottom-title">
+							<a href="<?php the_permalink(); ?>">Taking in the View at Big Mountain</a>
+						</p>
 						<div class = "read-more-btn">
 							<a href="<?php the_permalink(); ?>">Read More</a>
 						</div> <!-- read-more-btn -->
 					</div>
 					<div class="adventure-bottom2">
-						<p class="adventure-bottom-title">Star-Gazing at the Night Sky</p>
+						<p class="adventure-bottom-title">
+							<a href="<?php the_permalink(); ?>">Star-Gazing at the Night Sky</a>
+						</p>
 						<div class = "read-more-btn">
 							<a href="<?php the_permalink(); ?>">Read More</a>
 						</div> <!-- read-more-btn -->

@@ -69,7 +69,6 @@
   max-width: 25%;
 }
 
-
 // Journal section
   .journal-container {
     display: flex;
@@ -153,13 +152,14 @@
     border: 1px solid gray;
   }
 
-  .adventure-main-title{
+  .adventure-main-title a {
     display: flex;
     font-size: 3rem;
     line-height: 1.25;
     letter-spacing: 2px;
     color: #fff;
     padding: 5px 10px 0 22px;
+    text-decoration: none;
   }
 
   .read-more-btn a {
@@ -189,13 +189,14 @@
     margin-bottom: 21px;
   }
 
-  .adventure-top-title{
+  .adventure-top-title a {
     display: flex;
     font-size: 2.4rem;
     line-height: 1.25;
     letter-spacing: 2px;
     color: #fff;
     padding: 5px 10px 0 22px;
+    text-decoration: none;
   }
 
   .adventure-bottom {
@@ -213,13 +214,14 @@
     margin-right: 21px;
   }
 
-  .adventure-bottom-title{
+  .adventure-bottom-title a{
     display: flex;
     font-size: 1.6rem;
     line-height: 1.25;
     letter-spacing: 2px;
     color: #fff;
     padding: 5px 10px 0 22px;
+    text-decoration: none;
   }
 
   .adventure-bottom2 {
