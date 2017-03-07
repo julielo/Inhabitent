@@ -1484,6 +1484,8 @@ i.fa {
     text-transform: uppercase; }
   .search-form input:focus {
     outline: 0; }
+  .search-form .fa-search {
+    font-size: 1rem; }
 
 .page-template div#primary.content-area {
   padding: 0; }
