@@ -1173,22 +1173,22 @@ i.fa {
   text-align: center;
   padding-bottom: 48px; }
 
-.single .prod-container-single {
+.single .single-products .prod-container-single {
   display: -ms-flexbox;
   display: flex;
   width: 1120px; }
 
-.single .prod-image {
+.single .single-products .prod-image {
   margin-right: 43px;
   margin-bottom: 115px;
   width: 536px; }
 
-.single .prod-content {
+.single .single-products .prod-content {
   width: 48%;
   font-size: 1rem;
   line-height: 2; }
 
-.single .prod-title-single {
+.single .single-products .prod-title-single {
   font-size: 2.4rem;
   line-height: 0rem;
   font-family: "Novecento", sans serif;
@@ -1196,21 +1196,21 @@ i.fa {
   text-transform: uppercase;
   font-weight: bold; }
 
-.single .prod-price-single {
+.single .single-products .prod-price-single {
   font-family: "Novecento", sans serif;
   font-size: 1.8rem; }
 
-.single .prod-desc-single {
+.single .single-products .prod-desc-single {
   line-height: 1.75; }
 
-.single .social-media-wrapper {
+.single .single-products .social-media-wrapper {
   display: -ms-flexbox;
   display: flex;
   position: absolute;
   top: 499px;
   right: 313px; }
 
-.single .facebook-btn a {
+.single .single-products .facebook-btn a {
   font-family: "Novecento", sans serif;
   font-size: 0.9rem;
   line-height: 0.9rem;
@@ -1221,12 +1221,12 @@ i.fa {
   text-transform: uppercase;
   margin: 2px;
   text-decoration: none; }
-  .single .facebook-btn a:hover {
+  .single .single-products .facebook-btn a:hover {
     color: #fff;
     background-color: #248A83;
     border: 1px solid #248A83; }
 
-.single .twitter-btn a {
+.single .single-products .twitter-btn a {
   font-family: "Novecento", sans serif;
   font-size: 0.9rem;
   line-height: 0.9rem;
@@ -1237,12 +1237,12 @@ i.fa {
   text-transform: uppercase;
   margin: 2px;
   text-decoration: none; }
-  .single .twitter-btn a:hover {
+  .single .single-products .twitter-btn a:hover {
     color: #fff;
     background-color: #248A83;
     border: 1px solid #248A83; }
 
-.single .pinterest-btn a {
+.single .single-products .pinterest-btn a {
   font-family: "Novecento", sans serif;
   font-size: 0.9rem;
   line-height: 0.9rem;
@@ -1253,12 +1253,12 @@ i.fa {
   text-transform: uppercase;
   margin: 2px;
   text-decoration: none; }
-  .single .pinterest-btn a:hover {
+  .single .single-products .pinterest-btn a:hover {
     color: #fff;
     background-color: #248A83;
     border: 1px solid #248A83; }
 
-.single .fa {
+.single .single-products .fa {
   padding: 5px; }
 
 .blog .site-content {
@@ -1417,6 +1417,61 @@ i.fa {
   text-decoration: none; }
   .single .tagged a:hover {
     color: #000; }
+
+.single .social-media-wrapper {
+  display: -ms-flexbox;
+  display: flex; }
+
+.single .facebook-btn a {
+  font-family: "Novecento", sans serif;
+  font-size: 0.9rem;
+  line-height: 0.9rem;
+  color: #000;
+  background-color: #fff;
+  border: 1px solid #000;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  margin: 2px;
+  text-decoration: none; }
+  .single .facebook-btn a:hover {
+    color: #fff;
+    background-color: #248A83;
+    border: 1px solid #248A83; }
+
+.single .twitter-btn a {
+  font-family: "Novecento", sans serif;
+  font-size: 0.9rem;
+  line-height: 0.9rem;
+  color: #000;
+  background-color: #fff;
+  border: 1px solid #000;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  margin: 2px;
+  text-decoration: none; }
+  .single .twitter-btn a:hover {
+    color: #fff;
+    background-color: #248A83;
+    border: 1px solid #248A83; }
+
+.single .pinterest-btn a {
+  font-family: "Novecento", sans serif;
+  font-size: 0.9rem;
+  line-height: 0.9rem;
+  color: #000;
+  background-color: #fff;
+  border: 1px solid #000;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  margin: 2px;
+  text-decoration: none; }
+  .single .pinterest-btn a:hover {
+    color: #fff;
+    background-color: #248A83;
+    border: 1px solid #248A83; }
+
+.single .fa {
+  padding: 5px; }
 
 .single .widget-area {
   width: 37%;

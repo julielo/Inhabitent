@@ -14,9 +14,18 @@ get_header(); ?>
 			<div class="journal-wrapper">
 				<?php get_template_part( 'template-parts/content', 'single' ); ?>
 
-			</div>
-
-			
+				<div class = "social-media-wrapper">
+					<div class="facebook-btn">
+							<a href="#"><i class="fa fa-facebook"></i>Like</a>
+					</div>
+					<div class="twitter-btn">
+							<a href="#"><i class="fa fa-twitter"></i>Tweet</a>
+					</div>
+					<div class="pinterest-btn">
+							<a href="#"><i class="fa fa-pinterest"></i>Pin</a>
+					</div>
+				</div> <!-- social-media-wrapper -->
+			</div> <!-- journal-wrapper -->
 
 			<?php
 				// If comments are open or we have at least one comment, load up the comment template.

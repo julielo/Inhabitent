@@ -102,6 +102,41 @@
     }
   }
 
+  .social-media-wrapper {
+    display: flex;
+  }
+
+  .facebook-btn a {
+    @include button;
+    &:hover {
+      color: #fff;
+  	 	background-color: $brand_color_green;
+  		border: 1px solid $brand_color_green;
+    }
+  }
+
+  .twitter-btn a {
+    @include button;
+    &:hover {
+      color: #fff;
+  	 	background-color: $brand_color_green;
+  		border: 1px solid $brand_color_green;
+    }
+  }
+
+  .pinterest-btn a {
+    @include button;
+    &:hover {
+      color: #fff;
+  	 	background-color: $brand_color_green;
+  		border: 1px solid $brand_color_green;
+    }
+  }
+
+  .fa {
+    padding: 5px;
+  }
+
 
   .widget-area {
     width: 37%;
