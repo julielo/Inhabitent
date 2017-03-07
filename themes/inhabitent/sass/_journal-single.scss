@@ -49,6 +49,22 @@
     text-decoration: none;
   }
 
+  .entry-footer {
+    font-family: $font_accent;
+    color: $color__text-main;
+    text-transform: uppercase;
+    margin-top: 20px;
+  }
+
+  .entry-footer a {
+    color: $brand_color_green;
+    text-decoration: none;
+  }
+
+  .entry-footer span {
+    padding-right: 30px;
+  }
+
   .tax-container {
     display: flex;
   }

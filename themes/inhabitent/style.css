@@ -1374,6 +1374,19 @@ i.fa {
   color: #fff;
   text-decoration: none; }
 
+.single .entry-footer {
+  font-family: "Novecento", sans serif;
+  color: #404040;
+  text-transform: uppercase;
+  margin-top: 20px; }
+
+.single .entry-footer a {
+  color: #248A83;
+  text-decoration: none; }
+
+.single .entry-footer span {
+  padding-right: 30px; }
+
 .single .tax-container {
   display: -ms-flexbox;
   display: flex; }
