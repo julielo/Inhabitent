@@ -525,24 +525,6 @@ a {
   text-align: right;
   width: 50%; }
 
-.search-field {
-  width: 0px; }
-
-.search-width {
-  width: 100px; }
-
-.search-submit {
-  outline: 0;
-  border: 0;
-  background: #fff;
-  padding: 0; }
-
-form.search-form {
-  padding: 0; }
-
-fieldset {
-  border: 0; }
-
 /*--------------------------------------------------------------
 # Accessibility
 --------------------------------------------------------------*/
@@ -1488,13 +1470,20 @@ i.fa {
   color: #2f1339; }
 
 .search-form {
-  padding-top: 1rem; }
+  padding-top: 1rem;
+  color: #248A83; }
+  .search-form fieldset {
+    border: 0; }
   .search-form fieldset .search-field {
     background: transparent;
     border: solid 0px transparent;
     width: 0; }
   .search-form fieldset .new-width {
     width: 170px; }
+  .search-form input {
+    text-transform: uppercase; }
+  .search-form input:focus {
+    outline: 0; }
 
 .page-template div#primary.content-area {
   padding: 0; }
