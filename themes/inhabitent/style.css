@@ -1140,8 +1140,13 @@ i.fa {
   background-color: #fff;
   padding-right: 13px; }
 
-.tax-product_type .taxonomy-description p {
-  text-align: center; }
+.archive .page-title {
+  padding-top: 72px;
+  padding-bottom: 20px; }
+
+.archive .taxonomy-description p {
+  text-align: center;
+  padding-bottom: 48px; }
 
 .single .prod-container-single {
   display: -ms-flexbox;
