@@ -43,17 +43,12 @@ a:hover {
   width: 280px;
 }
 
-// Copyright section
-.copyright {
-  text-align: center;
-  padding-top: 17px;
-}
-
 h3 {
   font-family: $font_accent;
-  font-size: 1.25rem;
-  line-height: 1;
+  font-size: 1.2rem;
+  line-height: 1.25;
   letter-spacing: 2px;
+  text-transform: uppercase;
 }
 
 p {
@@ -67,5 +62,14 @@ p span {
 }
 
 i.fa {
-  font-size: 1.25rem;
+  font-size: 1.3rem;
+  margin: 0 0.35rem 0 0.2rem;
+}
+
+// Copyright section
+.copyright {
+  font-family: $font_accent;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 68px;
 }

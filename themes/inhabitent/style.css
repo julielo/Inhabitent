@@ -1028,15 +1028,12 @@ a:hover {
   margin-right: 104px;
   width: 280px; }
 
-.copyright {
-  text-align: center;
-  padding-top: 17px; }
-
 h3 {
   font-family: "Novecento", sans serif;
-  font-size: 1.25rem;
-  line-height: 1;
-  letter-spacing: 2px; }
+  font-size: 1.2rem;
+  line-height: 1.25;
+  letter-spacing: 2px;
+  text-transform: uppercase; }
 
 p {
   font-size: 1 rem;
@@ -1047,7 +1044,14 @@ p span {
   font-weight: 700; }
 
 i.fa {
-  font-size: 1.25rem; }
+  font-size: 1.3rem;
+  margin: 0 0.35rem 0 0.2rem; }
+
+.copyright {
+  font-family: "Novecento", sans serif;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 68px; }
 
 .archive h1.page-title {
   font-family: "Novecento", sans serif;
