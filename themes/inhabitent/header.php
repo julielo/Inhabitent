@@ -28,17 +28,15 @@
 						<div class="logo">
 	            <a href="<?php echo home_url(); ?>"> <img src="<?php echo get_template_directory_uri(); ?>/images/logos/inhabitent-logo-tent.svg" alt="Image of Inhabitent logo" /></a>
 	          </div>
-
-
 					</div><!-- .site-branding -->
-
-					<nav id="site-navigation" class="main-navigation" role="navigation">
-						<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html( 'Primary Menu' ); ?></button>
-						<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
-
-					</nav><!-- #site-navigation -->
-					<span class="header-search"><?php get_search_form(); ?> </span>
-				</div>
+					<div class = "nav-wrapper">
+						<nav id="site-navigation" class="main-navigation" role="navigation">
+							<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html( 'Primary Menu' ); ?></button>
+							<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
+						</nav><!-- #site-navigation -->
+						<span class="header-search"><?php get_search_form(); ?> </span>
+					</div> <!-- nav-wrapper -->
+				</div> <!-- header-container -->
 			</header><!-- #masthead -->
 
 			<div id="content" class="site-content">

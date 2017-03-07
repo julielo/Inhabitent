@@ -1,9 +1,10 @@
 // Search form
 .search-form    {
-    padding-top:1rem;
+    // padding-top:1rem;
     color: $brand_color_green;
     fieldset {
       border: 0;
+      padding-top: 0;
     }
     fieldset .search-field{
         background:transparent;

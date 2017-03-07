@@ -525,6 +525,53 @@ a {
   text-align: right;
   width: 50%; }
 
+.header-container {
+  position: fixed;
+  top: 0;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  border-bottom: 1px solid lightgrey;
+  width: 100%;
+  z-index: 999;
+  background: rgba(255, 255, 255, 0.5);
+  padding: 0 93px; }
+
+.site-branding {
+  -ms-flex-pack: start;
+      justify-content: flex-start;
+  padding-top: 7px; }
+
+.logo {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  width: 50px;
+  margin-left: 10px; }
+
+.nav-wrapper {
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 4px; }
+
+.main-navigation {
+  -ms-flex-pack: end;
+      justify-content: flex-end;
+  padding: 5px; }
+
+.main-navigation a {
+  font-family: "Novecento", sans serif;
+  color: #248A83; }
+  .main-navigation a:hover {
+    color: #404040;
+    text-decoration: none; }
+
+.main-navigation li {
+  margin-right: 22px; }
+
+.nav-div {
+  width: 55%; }
+
 /*--------------------------------------------------------------
 # Accessibility
 --------------------------------------------------------------*/
@@ -707,43 +754,6 @@ object {
 .container {
   width: 1120px;
   margin: 0 auto; }
-
-.header-container {
-  position: fixed;
-  top: 0;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: justify;
-      justify-content: space-between;
-  border-bottom: 1px solid lightgrey;
-  width: 100%;
-  z-index: 999;
-  background: rgba(255, 255, 255, 0.5); }
-
-.site-branding {
-  -ms-flex-pack: start;
-      justify-content: flex-start; }
-
-.logo {
-  -ms-flex-item-align: start;
-      align-self: flex-start;
-  width: 50px;
-  margin-left: 10px; }
-
-.main-navigation {
-  -ms-flex-pack: end;
-      justify-content: flex-end;
-  padding: 5px; }
-
-.main-navigation a {
-  font-family: "Novecento", sans serif;
-  color: #248A83; }
-
-.main-navigation li {
-  margin-right: 40px; }
-
-.nav-div {
-  width: 55%; }
 
 .home div#content.site-content {
   display: -ms-flexbox;
@@ -1470,10 +1480,10 @@ i.fa {
   color: #2f1339; }
 
 .search-form {
-  padding-top: 1rem;
   color: #248A83; }
   .search-form fieldset {
-    border: 0; }
+    border: 0;
+    padding-top: 0; }
   .search-form fieldset .search-field {
     background: transparent;
     border: solid 0px transparent;

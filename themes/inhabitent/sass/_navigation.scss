@@ -129,3 +129,54 @@ a {
 		width: 50%;
 	}
 }
+
+// header navigation
+.header-container {
+    position: fixed;
+    top: 0;
+    display:flex;
+    justify-content: space-between;
+    border-bottom: 1px solid lightgrey;
+    width: 100%;
+    z-index: 999;
+    background: rgba(255, 255, 255, 0.5);
+		padding: 0 93px;
+  }
+
+.site-branding {
+  justify-content: flex-start;
+	padding-top: 7px;
+}
+
+.logo {
+  align-self: flex-start;
+  width: 50px;
+  margin-left: 10px;
+
+}
+.nav-wrapper {
+	display: flex;
+	padding-top: 4px;
+}
+
+.main-navigation {
+  justify-content: flex-end;
+  padding: 5px;
+}
+
+.main-navigation a {
+  font-family: $font_accent;
+  color: $brand_color_green;
+	&:hover {
+		color: #404040;
+		text-decoration: none;
+	}
+}
+
+.main-navigation li {
+    margin-right: 22px;
+
+}
+.nav-div {
+    width: 55%;
+}
