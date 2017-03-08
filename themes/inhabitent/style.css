@@ -1107,7 +1107,8 @@ i.fa {
   line-height: 1.25;
   letter-spacing: 2px;
   text-align: center;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  margin-top: 100px; }
 
 .archive .shop-category-container {
   display: -ms-flexbox;
@@ -1180,7 +1181,7 @@ i.fa {
   padding-right: 13px; }
 
 .tax-product_type .page-title {
-  padding-top: 72px;
+  padding-top: 75px;
   padding-bottom: 20px; }
 
 .tax-product_type .taxonomy-description p {
