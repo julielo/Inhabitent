@@ -1478,6 +1478,13 @@ i.fa {
   text-transform: uppercase;
   padding-top: 45px; }
 
+.single .comment.parent {
+  border-top: 0; }
+
+.single .comment {
+  border-top: 1px solid #e1e1e1;
+  padding: 25px 0; }
+
 .single .comment-list, .single .children {
   list-style-type: none; }
 

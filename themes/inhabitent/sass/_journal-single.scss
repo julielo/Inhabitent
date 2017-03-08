@@ -142,15 +142,25 @@
     padding-left: 73px;
   }
 
-h2.comments-title {
-  font-family: $font_accent;
-  color: $brand_color_purple;
-  font-size: 2.1rem;
-  line-height: 1.25;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  padding-top: 45px;
-}
+  h2.comments-title {
+    font-family: $font_accent;
+    color: $brand_color_purple;
+    font-size: 2.1rem;
+    line-height: 1.25;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding-top: 45px;
+  }
+
+  .comment.parent {
+    border-top: 0;
+  }
+
+  .comment {
+    border-top: 1px solid $brand_color_lightgrey;
+    padding: 25px 0;
+  }
+
   .comment-list, .children {
     list-style-type:none;
   }
