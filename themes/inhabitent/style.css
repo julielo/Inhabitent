@@ -567,7 +567,8 @@ a {
     text-decoration: none; }
 
 .main-navigation li {
-  margin-right: 22px; }
+  margin-right: 22px;
+  text-transform: uppercase; }
 
 .nav-div {
   width: 55%; }
@@ -628,6 +629,19 @@ a {
   clear: both;
   content: "";
   display: table; }
+
+.blog .widget-area, .single-post .widget-area, .category .widget-area, .tag .widget-area, .page-template-default .widget-area, .search .widget-area {
+  width: 30%;
+  margin-top: 100px;
+  padding-left: 73px; }
+
+.blog h2, .single-post h2, .category h2, .tag h2, .page-template-default h2, .search h2 {
+  font-family: "Novecento", sans serif;
+  font-size: 1.5rem;
+  line-height: 1.25;
+  letter-spacing: 2px;
+  color: #2f1339;
+  text-transform: uppercase; }
 
 /*--------------------------------------------------------------
 # Widgets
@@ -743,13 +757,6 @@ object {
 /*--------------------------------------------------------------
 # Page Templates
 --------------------------------------------------------------*/
-.widget-area {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-direction: column;
-      flex-direction: column;
-  margin-top: 100px; }
-
 /* Front page */
 .container {
   width: 1120px;
@@ -1321,10 +1328,6 @@ i.fa {
     background-color: #248A83;
     border: 1px solid #248A83; }
 
-.blog .widget-area {
-  width: 20%;
-  padding-left: 73px; }
-
 .single-post .site-content {
   display: -ms-flexbox;
   display: flex; }
@@ -1467,10 +1470,6 @@ i.fa {
 
 .single-post .fa {
   padding: 5px; }
-
-.single-post .widget-area {
-  width: 37%;
-  padding-left: 73px; }
 
 .single-post h2.comments-title {
   font-family: "Novecento", sans serif;
@@ -1625,12 +1624,12 @@ i.fa {
   line-height: 1.25;
   letter-spacing: 2px;
   text-align: left;
-  color: #2f1339;
   text-transform: uppercase;
   padding: 10px 0; }
 
-.page-template-default h2 {
+.page-template-default .entry-content h2 {
   font-family: "Novecento", sans serif;
+  color: #2f1339;
   font-size: 2.1rem;
   line-height: 1.25;
   letter-spacing: 2px;
@@ -1711,7 +1710,3 @@ i.fa {
     color: #fff;
     background-color: #248A83;
     border: 1px solid #248A83; }
-
-.category .widget-area, .tag .widget-area {
-  width: 37%;
-  padding-left: 73px; }

@@ -1,0 +1,16 @@
+.blog, .single-post, .category, .tag, .page-template-default, .search {
+  .widget-area {
+    width: 30%;
+    margin-top: 100px;
+    padding-left: 73px;
+  }
+
+  h2 {
+    font-family: $font_accent;
+    color: $brand_color_purple;
+    font-size: 1.5rem;
+    line-height: 1.25;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+}
