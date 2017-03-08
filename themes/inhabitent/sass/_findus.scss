@@ -27,4 +27,32 @@
     letter-spacing: 2px;
     text-transform: uppercase;
   }
+
+  form {
+    display: flex;
+    flex-direction: column;
+    label {
+      font-family: $font_accent;
+      font-size: 1.1rem;
+      line-height: 1.75;
+      color: $brand_color_purple;
+      text-transform: uppercase;
+    }
+
+    input, textarea {
+      background-color: #f4f4f4;
+    }
+
+    .required {
+      color: $brand_color_orange;
+    }
+
+    .wpcf7-submit {
+      @include grn-button;
+      font-family: $font_accent;
+      line-height: 1;
+      box-shadow: none;
+      border-radius: 0;
+    }
+  }
 }

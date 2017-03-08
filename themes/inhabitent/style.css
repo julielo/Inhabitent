@@ -637,10 +637,10 @@ a {
 
 .blog h2, .single-post h2, .category h2, .tag h2, .page-template-default h2, .search h2 {
   font-family: "Novecento", sans serif;
+  color: #2f1339;
   font-size: 1.5rem;
   line-height: 1.25;
   letter-spacing: 2px;
-  color: #2f1339;
   text-transform: uppercase; }
 
 /*--------------------------------------------------------------
@@ -1634,6 +1634,34 @@ i.fa {
   line-height: 1.25;
   letter-spacing: 2px;
   text-transform: uppercase; }
+
+.page-template-default form {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column; }
+  .page-template-default form label {
+    font-family: "Novecento", sans serif;
+    font-size: 1.1rem;
+    line-height: 1.75;
+    color: #2f1339;
+    text-transform: uppercase; }
+  .page-template-default form input, .page-template-default form textarea {
+    background-color: #f4f4f4; }
+  .page-template-default form .required {
+    color: #d99054; }
+  .page-template-default form .wpcf7-submit {
+    font-family: "Novecento", sans serif;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+    background-color: #248A83;
+    color: #fff;
+    padding: 13px 25px;
+    text-decoration: none;
+    font-family: "Novecento", sans serif;
+    line-height: 1;
+    box-shadow: none;
+    border-radius: 0; }
 
 .category .site-content, .tag .site-content {
   display: -ms-flexbox;
