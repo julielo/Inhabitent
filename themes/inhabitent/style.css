@@ -1325,22 +1325,22 @@ i.fa {
   width: 20%;
   padding-left: 73px; }
 
-.single .site-content {
+.single-post .site-content {
   display: -ms-flexbox;
   display: flex; }
 
-.single .content-area {
-  width: 100%;
-  padding: 125px 78px;
+.single-post .content-area {
+  width: 86%;
+  padding: 75px 60px 75px 111px;
   border-right: 1px solid #e1e1e1; }
 
-.single .journal-wrapper {
+.single-post .journal-wrapper {
   width: 100%; }
 
-.single .entry-header {
+.single-post .entry-header {
   position: relative; }
 
-.single h1.entry-title {
+.single-post h1.entry-title {
   position: absolute;
   top: 10px;
   font-family: "Novecento", sans serif;
@@ -1354,7 +1354,7 @@ i.fa {
   padding: 10px 16px;
   text-transform: uppercase; }
 
-.single .entry-meta {
+.single-post .entry-meta {
   position: absolute;
   right: 0;
   bottom: 8px;
@@ -1365,59 +1365,59 @@ i.fa {
   text-transform: uppercase;
   font-size: 1rem; }
 
-.single .entry-meta a {
+.single-post .entry-meta a {
   color: #fff;
   text-decoration: none; }
 
-.single .entry-footer {
+.single-post .entry-footer {
   font-family: "Novecento", sans serif;
   color: #404040;
   text-transform: uppercase;
   margin-top: 20px; }
 
-.single .entry-footer a {
+.single-post .entry-footer a {
   color: #248A83;
   text-decoration: none; }
 
-.single .entry-footer span {
+.single-post .entry-footer span {
   padding-right: 30px; }
 
-.single .tax-container {
+.single-post .tax-container {
   display: -ms-flexbox;
   display: flex; }
 
-.single .posted {
+.single-post .posted {
   font-family: "Novecento", sans serif;
   font-size: 1rem;
   line-height: 1.75;
   padding-right: 15px; }
 
-.single .posted a {
+.single-post .posted a {
   font-family: "Novecento", sans serif;
   color: #248A83;
   text-transform: uppercase;
   text-decoration: none; }
-  .single .posted a:hover {
+  .single-post .posted a:hover {
     color: #000; }
 
-.single .tagged {
+.single-post .tagged {
   font-family: "Novecento", sans serif;
   font-size: 1rem;
   line-height: 1.75; }
 
-.single .tagged a {
+.single-post .tagged a {
   font-family: "Novecento", sans serif;
   color: #248A83;
   text-transform: uppercase;
   text-decoration: none; }
-  .single .tagged a:hover {
+  .single-post .tagged a:hover {
     color: #000; }
 
-.single .social-media-wrapper1 {
+.single-post .social-media-wrapper1 {
   display: -ms-flexbox;
   display: flex; }
 
-.single .facebook-btn a {
+.single-post .facebook-btn a {
   font-family: "Novecento", sans serif;
   font-size: 0.9rem;
   line-height: 0.9rem;
@@ -1428,12 +1428,12 @@ i.fa {
   text-transform: uppercase;
   margin: 2px;
   text-decoration: none; }
-  .single .facebook-btn a:hover {
+  .single-post .facebook-btn a:hover {
     color: #fff;
     background-color: #248A83;
     border: 1px solid #248A83; }
 
-.single .twitter-btn a {
+.single-post .twitter-btn a {
   font-family: "Novecento", sans serif;
   font-size: 0.9rem;
   line-height: 0.9rem;
@@ -1444,12 +1444,12 @@ i.fa {
   text-transform: uppercase;
   margin: 2px;
   text-decoration: none; }
-  .single .twitter-btn a:hover {
+  .single-post .twitter-btn a:hover {
     color: #fff;
     background-color: #248A83;
     border: 1px solid #248A83; }
 
-.single .pinterest-btn a {
+.single-post .pinterest-btn a {
   font-family: "Novecento", sans serif;
   font-size: 0.9rem;
   line-height: 0.9rem;
@@ -1460,19 +1460,19 @@ i.fa {
   text-transform: uppercase;
   margin: 2px;
   text-decoration: none; }
-  .single .pinterest-btn a:hover {
+  .single-post .pinterest-btn a:hover {
     color: #fff;
     background-color: #248A83;
     border: 1px solid #248A83; }
 
-.single .fa {
+.single-post .fa {
   padding: 5px; }
 
-.single .widget-area {
+.single-post .widget-area {
   width: 37%;
   padding-left: 73px; }
 
-.single h2.comments-title {
+.single-post h2.comments-title {
   font-family: "Novecento", sans serif;
   color: #2f1339;
   font-size: 2.1rem;
@@ -1481,21 +1481,21 @@ i.fa {
   text-transform: uppercase;
   padding-top: 45px; }
 
-.single .comment.parent {
+.single-post .comment .parent {
   border-top: 0; }
 
-.single .comment {
+.single-post .comment {
   border-top: 1px solid #e1e1e1;
   padding: 25px 0; }
 
-.single .comment-list, .single .children {
+.single-post .comment-list, .single-post .children {
   list-style-type: none; }
 
-.single .comment-reply-link, .single .comment-metadata a {
+.single-post .comment-reply-link, .single-post .comment-metadata a {
   color: #248A83;
   text-decoration: none; }
 
-.single .comment-respond label {
+.single-post .comment-respond label {
   color: #2f1339; }
 
 .search-form {
