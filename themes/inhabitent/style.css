@@ -1574,7 +1574,25 @@ i.fa {
   width: 100%;
   padding: 0; }
 
+.page-template-about .entry-header {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+  height: 600px; }
+
+.page-template-about .about-title {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center; }
+
 .page-template-about h1.entry-title {
+  font-family: "Novecento", sans serif;
+  color: #fff;
+  font-size: 3rem;
+  line-height: 1.25;
+  letter-spacing: 2px;
+  text-transform: uppercase;
   margin: 0; }
 
 .page-template-about h2 {

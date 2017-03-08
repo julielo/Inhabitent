@@ -4,15 +4,23 @@
     padding: 0;
   }
 
+  .entry-header {
+    display: flex;
+    justify-content: center;
+    height: 600px;
+  }
+
+  .about-title {
+    align-self: center;
+  }
+
   h1.entry-title{
-    // position: absolute;
-    // top: 190px;
-    // left: 545px;
-    // font-family: $font_accent;
-    // font-size: 3rem;
-    // line-height: 3;
-    // color: #fff;
-    // text-transform: uppercase;
+    font-family: $font_accent;
+    color: #fff;
+    font-size: 3rem;
+    line-height: 1.25;
+    letter-spacing: 2px;
+    text-transform: uppercase;
     margin: 0;
   }
 
