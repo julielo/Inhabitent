@@ -1469,6 +1469,15 @@ i.fa {
   width: 37%;
   padding-left: 73px; }
 
+.single h2.comments-title {
+  font-family: "Novecento", sans serif;
+  color: #2f1339;
+  font-size: 2.1rem;
+  line-height: 1.25;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding-top: 45px; }
+
 .single .comment-list, .single .children {
   list-style-type: none; }
 
