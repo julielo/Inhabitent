@@ -1564,7 +1564,9 @@ i.fa {
   position: relative; }
 
 .category h1.page-title, .tag h1.page-title {
-  text-align: left; }
+  text-align: left;
+  border-bottom: 1px solid #e1e1e1;
+  padding-bottom: 10px; }
 
 .category h2.entry-title a, .tag h2.entry-title a {
   position: absolute;
