@@ -190,6 +190,11 @@
   input, textarea {
     background-color: #f4f4f4;
   }
+
+  .required {
+    color: $brand_color_orange;
+  }
+
   .comment-form-comment {
     width: 100%;
     textarea {
@@ -197,12 +202,20 @@
     }
   }
 
-  #author input {
-    width: 100%;
+  .comment-form-author {
+    display: flex;
+    flex-wrap: wrap;
+    input#author {
+      width: 100%;
+    }
   }
 
-  #email input {
+  .comment-form-email {
+    display: flex;
+    flex-wrap: wrap;
+    input#email {
     width: 100%;
+    }
   }
 
   .comment-form-url {

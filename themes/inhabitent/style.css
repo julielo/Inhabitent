@@ -1515,14 +1515,26 @@ i.fa {
       flex-wrap: wrap; }
   .single-post .comment-form input, .single-post .comment-form textarea {
     background-color: #f4f4f4; }
+  .single-post .comment-form .required {
+    color: #d99054; }
   .single-post .comment-form .comment-form-comment {
     width: 100%; }
     .single-post .comment-form .comment-form-comment textarea {
       width: 100%; }
-  .single-post .comment-form #author input {
-    width: 100%; }
-  .single-post .comment-form #email input {
-    width: 100%; }
+  .single-post .comment-form .comment-form-author {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
+    .single-post .comment-form .comment-form-author input#author {
+      width: 100%; }
+  .single-post .comment-form .comment-form-email {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap; }
+    .single-post .comment-form .comment-form-email input#email {
+      width: 100%; }
   .single-post .comment-form .comment-form-url {
     width: 100%; }
     .single-post .comment-form .comment-form-url #url {
