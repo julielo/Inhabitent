@@ -1629,6 +1629,13 @@ i.fa {
   text-transform: uppercase;
   padding: 10px 0; }
 
+.page-template-default h2 {
+  font-family: "Novecento", sans serif;
+  font-size: 2.1rem;
+  line-height: 1.25;
+  letter-spacing: 2px;
+  text-transform: uppercase; }
+
 .category .site-content, .tag .site-content {
   display: -ms-flexbox;
   display: flex; }
