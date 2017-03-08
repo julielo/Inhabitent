@@ -1157,11 +1157,11 @@ i.fa {
   background-color: #fff;
   padding-right: 13px; }
 
-.archive .page-title {
+.archive .tax-product_type .page-title {
   padding-top: 72px;
   padding-bottom: 20px; }
 
-.archive .taxonomy-description p {
+.archive .tax-product_type .taxonomy-description p {
   text-align: center;
   padding-bottom: 48px; }
 

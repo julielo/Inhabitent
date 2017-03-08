@@ -147,16 +147,17 @@ remove_filter( 'get_the_excerpt', 'wp_trim_excerpt' );
 add_filter( 'get_the_excerpt', 'red_wp_trim_excerpt' );
 
 /**
- * Custom archive title.
+ * Remove Product Type title.
  *
  * @param  string Title of archive page.
  * @return string
- */
-
-function custom_archive_title( $title ) {
-    // Remove any HTML, words, numbers, and spaces before the archive title.
-    return preg_replace( '#^[\w\d\s]+:\s*#', '', strip_tags( $title ) );
+ *
+ **/
+function remove_product_type_title( $title ) {
+    if ( is_tax( 'product_type' ) ) {
+        $title = single_term_title( '', false);
+    }
+    return $title;
 }
-
-add_filter( 'get_the_archive_title', 'custom_archive_title' );
+add_filter( 'get_the_archive_title', 'remove_product_type_title' );
 ?>
