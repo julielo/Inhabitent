@@ -1,5 +1,5 @@
 // prod single page
-.single .single-products {
+.single {
   .prod-container-single {
     display: flex;
     width: 1120px;
@@ -37,7 +37,7 @@
     line-height: 1.75;
   }
 
-  .social-media-wrapper {
+  .site-main .social-media-wrapper {
     display: flex;
     position: absolute;
     top: 499px;

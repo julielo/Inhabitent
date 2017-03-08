@@ -14,7 +14,7 @@ get_header(); ?>
 			<div class="journal-wrapper">
 				<?php get_template_part( 'template-parts/content', 'single' ); ?>
 
-				<div class = "social-media-wrapper">
+				<div class = "social-media-wrapper1">
 					<div class="facebook-btn">
 							<a href="#"><i class="fa fa-facebook"></i>Like</a>
 					</div>
