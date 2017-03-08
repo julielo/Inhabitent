@@ -1299,6 +1299,9 @@ i.fa {
   text-transform: uppercase;
   font-size: 1rem; }
 
+.blog span {
+  font-weight: normal; }
+
 .blog .read-more-btn {
   margin-bottom: 85px; }
 
