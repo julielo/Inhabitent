@@ -557,7 +557,7 @@ a {
 .main-navigation {
   -ms-flex-pack: end;
       justify-content: flex-end;
-  padding: 5px; }
+  padding: 11px; }
 
 .main-navigation a {
   font-family: "Novecento", sans serif;
