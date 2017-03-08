@@ -1,0 +1,56 @@
+.category, .tag {
+  .site-content {
+    display: flex;
+  }
+
+  .content-area {
+    width: 100%;
+    padding: 125px 78px;
+    border-right: 1px solid $brand_color_lightgrey;
+  }
+
+  .entry-header {
+    position: relative;
+  }
+
+  h2.entry-title a {
+    position: absolute;
+    top: 10px;
+    font-family: $font_accent;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 2.1rem;
+    line-height: 1.25;
+    letter-spacing: 2px;
+    background-color: $brand_color_green;
+    max-width: 75%;
+    padding: 10px 16px;
+    text-transform: uppercase;
+    text-decoration: none;
+    &:hover {
+      color: $brand_color_yellow;
+    }
+  }
+
+  .entry-meta{
+    position: absolute;
+    right: 0;
+    bottom: 8px;
+    font-family: $font_accent;
+    background-color: $brand_color_green;
+    color: #fff;
+    padding: 0 25px;
+    text-transform: uppercase;
+    font-size: 1rem;
+  }
+
+  .entry-meta a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .widget-area {
+    width: 37%;
+    padding-left: 73px;
+  }
+}
