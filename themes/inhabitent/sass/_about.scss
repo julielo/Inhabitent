@@ -26,16 +26,19 @@
 
   h2 {
     font-family: $font_accent;
-    font-size: 2rem;
-    line-height: 2;
+    font-size: 2.1rem;
+    line-height: 1.25;
     letter-spacing: 2px;
     text-align: center;
+    color: $brand_color_purple;
+    text-transform: uppercase;
+    padding: 10px 0;
   }
 
   .about-container {
     width: 800px;
     margin: 0 auto;
-    padding-bottom: 40px
+    padding-bottom: 65px
   }
 
 }
