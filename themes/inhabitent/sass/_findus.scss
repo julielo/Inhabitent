@@ -4,8 +4,19 @@
   }
 
   .content-area {
-    width: 69%;
-    padding: 125px 78px;
+    width: 68%;
+    padding: 75px 60px 75px 111px;
     border-right: 1px solid $brand_color_lightgrey;
+  }
+
+  .entry-title {
+    font-family: $font_accent;
+    font-size: 2.4rem;
+    line-height: 1.25;
+    letter-spacing: 2px;
+    text-align: left;
+    color: $brand_color_purple;
+    text-transform: uppercase;
+    padding: 10px 0;
   }
 }

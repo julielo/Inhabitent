@@ -1615,9 +1615,19 @@ i.fa {
   display: flex; }
 
 .page-template-default .content-area {
-  width: 69%;
-  padding: 125px 78px;
+  width: 68%;
+  padding: 75px 60px 75px 111px;
   border-right: 1px solid #e1e1e1; }
+
+.page-template-default .entry-title {
+  font-family: "Novecento", sans serif;
+  font-size: 2.4rem;
+  line-height: 1.25;
+  letter-spacing: 2px;
+  text-align: left;
+  color: #2f1339;
+  text-transform: uppercase;
+  padding: 10px 0; }
 
 .category .site-content, .tag .site-content {
   display: -ms-flexbox;
