@@ -1348,7 +1348,7 @@ i.fa {
   display: flex; }
 
 .single-post .content-area {
-  width: 86%;
+  width: 68%;
   padding: 75px 60px 75px 111px;
   border-right: 1px solid #e1e1e1; }
 
@@ -1356,11 +1356,12 @@ i.fa {
   width: 100%; }
 
 .single-post .entry-header {
-  position: relative; }
+  position: relative;
+  padding-top: 24px; }
 
 .single-post h1.entry-title {
   position: absolute;
-  top: 10px;
+  top: 35px;
   font-family: "Novecento", sans serif;
   color: #ffffff;
   font-weight: bold;
