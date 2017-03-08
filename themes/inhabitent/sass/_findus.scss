@@ -31,6 +31,7 @@
   form {
     display: flex;
     flex-direction: column;
+    border-radius: 0;
     label {
       font-family: $font_accent;
       font-size: 1.1rem;
@@ -39,7 +40,13 @@
       text-transform: uppercase;
     }
 
-    input, textarea {
+    textarea {
+      background-color: #f4f4f4;
+    }
+
+    input {
+      width: 384px;
+      height: 39px;
       background-color: #f4f4f4;
     }
 
@@ -52,7 +59,7 @@
       font-family: $font_accent;
       line-height: 1;
       box-shadow: none;
-      border-radius: 0;
+      width: 100px;
     }
   }
 }

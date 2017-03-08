@@ -1639,14 +1639,19 @@ i.fa {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-direction: column;
-      flex-direction: column; }
+      flex-direction: column;
+  border-radius: 0; }
   .page-template-default form label {
     font-family: "Novecento", sans serif;
     font-size: 1.1rem;
     line-height: 1.75;
     color: #2f1339;
     text-transform: uppercase; }
-  .page-template-default form input, .page-template-default form textarea {
+  .page-template-default form textarea {
+    background-color: #f4f4f4; }
+  .page-template-default form input {
+    width: 384px;
+    height: 39px;
     background-color: #f4f4f4; }
   .page-template-default form .required {
     color: #d99054; }
@@ -1661,7 +1666,7 @@ i.fa {
     font-family: "Novecento", sans serif;
     line-height: 1;
     box-shadow: none;
-    border-radius: 0; }
+    width: 100px; }
 
 .category .site-content, .tag .site-content {
   display: -ms-flexbox;
