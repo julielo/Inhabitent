@@ -1,23 +1,19 @@
-.page-template {
-
-  div#primary.content-area {
+.page-template-about {
+  .content-area {
+    width: 100%;
     padding: 0;
   }
 
-  .page-template-about {
-    height: 600px;
-    padding-top: 100px;
-  }
-
-  h1.entry-title .about-title {
-    position: absolute;
-    top: 190px;
-    left: 545px;
-    font-family: $font_accent;
-    font-size: 3rem;
-    line-height: 3;
-    color: #fff;
-    text-transform: uppercase;
+  h1.entry-title{
+    // position: absolute;
+    // top: 190px;
+    // left: 545px;
+    // font-family: $font_accent;
+    // font-size: 3rem;
+    // line-height: 3;
+    // color: #fff;
+    // text-transform: uppercase;
+    margin: 0;
   }
 
   h2 {

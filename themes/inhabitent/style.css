@@ -1165,22 +1165,22 @@ i.fa {
   text-align: center;
   padding-bottom: 48px; }
 
-.single .prod-container-single {
+.single-products .prod-container-single {
   display: -ms-flexbox;
   display: flex;
   width: 1120px; }
 
-.single .prod-image {
+.single-products .prod-image {
   margin-right: 43px;
   margin-bottom: 115px;
   width: 536px; }
 
-.single .prod-content {
+.single-products .prod-content {
   width: 48%;
   font-size: 1rem;
   line-height: 2; }
 
-.single .prod-title-single {
+.single-products .prod-title-single {
   font-size: 2.4rem;
   line-height: 0rem;
   font-family: "Novecento", sans serif;
@@ -1188,21 +1188,21 @@ i.fa {
   text-transform: uppercase;
   font-weight: bold; }
 
-.single .prod-price-single {
+.single-products .prod-price-single {
   font-family: "Novecento", sans serif;
   font-size: 1.8rem; }
 
-.single .prod-desc-single {
+.single-products .prod-desc-single {
   line-height: 1.75; }
 
-.single .site-main .social-media-wrapper {
+.single-products .site-main .social-media-wrapper {
   display: -ms-flexbox;
   display: flex;
   position: absolute;
   top: 499px;
   right: 313px; }
 
-.single .facebook-btn a {
+.single-products .facebook-btn a {
   font-family: "Novecento", sans serif;
   font-size: 0.9rem;
   line-height: 0.9rem;
@@ -1213,12 +1213,12 @@ i.fa {
   text-transform: uppercase;
   margin: 2px;
   text-decoration: none; }
-  .single .facebook-btn a:hover {
+  .single-products .facebook-btn a:hover {
     color: #fff;
     background-color: #248A83;
     border: 1px solid #248A83; }
 
-.single .twitter-btn a {
+.single-products .twitter-btn a {
   font-family: "Novecento", sans serif;
   font-size: 0.9rem;
   line-height: 0.9rem;
@@ -1229,12 +1229,12 @@ i.fa {
   text-transform: uppercase;
   margin: 2px;
   text-decoration: none; }
-  .single .twitter-btn a:hover {
+  .single-products .twitter-btn a:hover {
     color: #fff;
     background-color: #248A83;
     border: 1px solid #248A83; }
 
-.single .pinterest-btn a {
+.single-products .pinterest-btn a {
   font-family: "Novecento", sans serif;
   font-size: 0.9rem;
   line-height: 0.9rem;
@@ -1245,12 +1245,12 @@ i.fa {
   text-transform: uppercase;
   margin: 2px;
   text-decoration: none; }
-  .single .pinterest-btn a:hover {
+  .single-products .pinterest-btn a:hover {
     color: #fff;
     background-color: #248A83;
     border: 1px solid #248A83; }
 
-.single .fa {
+.single-products .fa {
   padding: 5px; }
 
 .blog .site-content {
@@ -1570,40 +1570,30 @@ i.fa {
   .search-form .fa-search {
     font-size: 1rem; }
 
-.page-template div#primary.content-area {
+.page-template-about .content-area {
+  width: 100%;
   padding: 0; }
 
-.page-template .page-template-about {
-  height: 600px;
-  padding-top: 100px; }
+.page-template-about h1.entry-title {
+  margin: 0; }
 
-.page-template h1.entry-title .about-title {
-  position: absolute;
-  top: 190px;
-  left: 545px;
-  font-family: "Novecento", sans serif;
-  font-size: 3rem;
-  line-height: 3;
-  color: #fff;
-  text-transform: uppercase; }
-
-.page-template h2 {
+.page-template-about h2 {
   font-family: "Novecento", sans serif;
   font-size: 2rem;
   line-height: 2;
   letter-spacing: 2px;
   text-align: center; }
 
-.page-template .about-container {
+.page-template-about .about-container {
   width: 800px;
   margin: 0 auto;
   padding-bottom: 40px; }
 
-.page .site-content {
+.page-template-default .site-content {
   display: -ms-flexbox;
   display: flex; }
 
-.page .content-area {
+.page-template-default .content-area {
   width: 69%;
   padding: 125px 78px;
   border-right: 1px solid #e1e1e1; }
