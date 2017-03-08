@@ -171,6 +171,15 @@
   }
 
   .comment-respond label {
+    font-family: $font_accent;
+    font-size: 1.1rem;
+    line-height: 1.75;
     color: $brand_color_purple;
+    text-transform: uppercase;
+  }
+
+  .comment-reply-title {
+    font-size: 1.75rem;
+    line-height: 1.3;
   }
 }

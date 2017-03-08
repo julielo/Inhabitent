@@ -1496,7 +1496,15 @@ i.fa {
   text-decoration: none; }
 
 .single-post .comment-respond label {
-  color: #2f1339; }
+  font-family: "Novecento", sans serif;
+  font-size: 1.1rem;
+  line-height: 1.75;
+  color: #2f1339;
+  text-transform: uppercase; }
+
+.single-post .comment-reply-title {
+  font-size: 1.75rem;
+  line-height: 1.3; }
 
 .search-form {
   color: #248A83; }
