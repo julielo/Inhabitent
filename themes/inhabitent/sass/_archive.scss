@@ -5,12 +5,16 @@
 
   .content-area {
     width: 100%;
-    padding: 125px 78px;
+    padding: 75px 78px;
     border-right: 1px solid $brand_color_lightgrey;
   }
 
   .entry-header {
     position: relative;
+  }
+
+  h1.page-title {
+    text-align: left;
   }
 
   h2.entry-title a {

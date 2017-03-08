@@ -1557,11 +1557,14 @@ i.fa {
 
 .category .content-area, .tag .content-area {
   width: 100%;
-  padding: 125px 78px;
+  padding: 75px 78px;
   border-right: 1px solid #e1e1e1; }
 
 .category .entry-header, .tag .entry-header {
   position: relative; }
+
+.category h1.page-title, .tag h1.page-title {
+  text-align: left; }
 
 .category h2.entry-title a, .tag h2.entry-title a {
   position: absolute;
