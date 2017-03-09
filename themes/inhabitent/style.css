@@ -630,12 +630,12 @@ a {
   content: "";
   display: table; }
 
-.blog .widget-area, .single-post .widget-area, .category .widget-area, .tag .widget-area, .page-template-default .widget-area, .search .widget-area {
+.blog .widget-area, .single-post .widget-area, .category .widget-area, .tag .widget-area, .page-template-default .widget-area, .search .widget-area, .error404 .widget-area {
   width: 30%;
   margin-top: 100px;
   padding-left: 51px; }
 
-.blog h2, .single-post h2, .category h2, .tag h2, .page-template-default h2, .search h2 {
+.blog h2, .single-post h2, .category h2, .tag h2, .page-template-default h2, .search h2, .error404 h2 {
   font-family: "Novecento", sans serif;
   color: #2f1339;
   font-size: 1.5rem;
@@ -643,17 +643,17 @@ a {
   letter-spacing: 2px;
   text-transform: uppercase; }
 
-.blog a, .single-post a, .category a, .tag a, .page-template-default a, .search a {
+.blog a, .single-post a, .category a, .tag a, .page-template-default a, .search a, .error404 a {
   color: #248A83;
   text-decoration: none; }
 
-.blog i.fa, .single-post i.fa, .category i.fa, .tag i.fa, .page-template-default i.fa, .search i.fa {
+.blog i.fa, .single-post i.fa, .category i.fa, .tag i.fa, .page-template-default i.fa, .search i.fa, .error404 i.fa {
   font-size: 1rem; }
 
-.blog .textwidget, .blog .business-hours-widget-class, .single-post .textwidget, .single-post .business-hours-widget-class, .category .textwidget, .category .business-hours-widget-class, .tag .textwidget, .tag .business-hours-widget-class, .page-template-default .textwidget, .page-template-default .business-hours-widget-class, .search .textwidget, .search .business-hours-widget-class {
+.blog .textwidget, .blog .business-hours-widget-class, .single-post .textwidget, .single-post .business-hours-widget-class, .category .textwidget, .category .business-hours-widget-class, .tag .textwidget, .tag .business-hours-widget-class, .page-template-default .textwidget, .page-template-default .business-hours-widget-class, .search .textwidget, .search .business-hours-widget-class, .error404 .textwidget, .error404 .business-hours-widget-class {
   padding-bottom: 15px; }
 
-.blog ul, .single-post ul, .category ul, .tag ul, .page-template-default ul, .search ul {
+.blog ul, .single-post ul, .category ul, .tag ul, .page-template-default ul, .search ul, .error404 ul {
   list-style: none;
   margin: 0;
   padding: 0; }
