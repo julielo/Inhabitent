@@ -1,0 +1,63 @@
+.error404 {
+  .site-content {
+    display: flex;
+  }
+
+  .content-area {
+    width: 68%;
+    padding: 75px 60px 75px 111px;
+    border-right: 1px solid $brand_color_lightgrey;
+  }
+
+  h1.page-title {
+    font-family: $font_accent;
+    font-size: 2.4rem;
+    line-height: 1.25;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border-bottom: 1px solid $brand_color_lightgrey;
+  }
+
+  .entry-title {
+    font-family: $font_accent;
+    font-size: 2.1rem;
+    line-height: 1.25;
+    letter-spacing: 2px;
+  }
+
+  .read-more-btn a {
+    display: flex;
+    @include button;
+    width: 143px;
+    height: 44px;
+    padding: 15px 20px;
+    &:hover {
+      color: #fff;
+      background-color: $brand_color_green;
+      border: 1px solid $brand_color_green;
+    }
+  }
+
+  a {
+    text-decoration: none;
+    color: $brand_color_green;
+  }
+
+  form {
+    color: $brand_color_mediumgrey;
+    border: 1px solid $brand_color_lightgrey;
+    width: 200px;
+    height: 44px;
+    background-color: #fff;
+  }
+
+  ul {
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    list-style: none;
+  }
+
+}

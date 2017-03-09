@@ -1822,3 +1822,65 @@ i.fa {
     color: #fff;
     background-color: #248A83;
     border: 1px solid #248A83; }
+
+.error404 .site-content {
+  display: -ms-flexbox;
+  display: flex; }
+
+.error404 .content-area {
+  width: 68%;
+  padding: 75px 60px 75px 111px;
+  border-right: 1px solid #e1e1e1; }
+
+.error404 h1.page-title {
+  font-family: "Novecento", sans serif;
+  font-size: 2.4rem;
+  line-height: 1.25;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  border-bottom: 1px solid #e1e1e1; }
+
+.error404 .entry-title {
+  font-family: "Novecento", sans serif;
+  font-size: 2.1rem;
+  line-height: 1.25;
+  letter-spacing: 2px; }
+
+.error404 .read-more-btn a {
+  display: -ms-flexbox;
+  display: flex;
+  font-family: "Novecento", sans serif;
+  font-size: 0.9rem;
+  line-height: 0.9rem;
+  color: #000;
+  background-color: #fff;
+  border: 1px solid #000;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  margin: 2px;
+  text-decoration: none;
+  width: 143px;
+  height: 44px;
+  padding: 15px 20px; }
+  .error404 .read-more-btn a:hover {
+    color: #fff;
+    background-color: #248A83;
+    border: 1px solid #248A83; }
+
+.error404 a {
+  text-decoration: none;
+  color: #248A83; }
+
+.error404 form {
+  color: #808080;
+  border: 1px solid #e1e1e1;
+  width: 200px;
+  height: 44px;
+  background-color: #fff; }
+
+.error404 ul {
+  padding: 0;
+  margin: 0; }
+
+.error404 li {
+  list-style: none; }
