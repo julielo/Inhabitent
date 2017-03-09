@@ -39,15 +39,15 @@
   }
 
   .search-pagination {
-    // display: flex;
-    @include button;
-    width: 70px;
-    height: 44px;
-    padding: 15px 20px;
+    margin-top: 40px;
+  }
+
+  .page-numbers {
+    @include grn-button;
     &:hover {
-      color: #fff;
-      background-color: $brand_color_green;
-      border: 1px solid $brand_color_green;
+      color: #fff; 
+      background-color: $brand_color_darkgreen;
+      border: 1px solid $brand_color_darkgreen;
     }
   }
 }
