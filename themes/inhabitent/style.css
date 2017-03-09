@@ -1190,7 +1190,8 @@ i.fa {
 .single-products .prod-container-single {
   display: -ms-flexbox;
   display: flex;
-  width: 1120px; }
+  width: 1120px;
+  padding-top: 100px; }
 
 .single-products .prod-image {
   margin-right: 43px;
@@ -1699,7 +1700,8 @@ i.fa {
 .category h1.page-title, .tag h1.page-title {
   text-align: left;
   border-bottom: 1px solid #e1e1e1;
-  padding-bottom: 20px; }
+  padding-bottom: 20px;
+  margin: 0; }
 
 .category h2.entry-title, .tag h2.entry-title {
   position: absolute;
@@ -1838,7 +1840,8 @@ i.fa {
   line-height: 1.25;
   letter-spacing: 2px;
   text-transform: uppercase;
-  border-bottom: 1px solid #e1e1e1; }
+  border-bottom: 1px solid #e1e1e1;
+  padding: 30px; }
 
 .error404 .entry-title {
   font-family: "Novecento", sans serif;
