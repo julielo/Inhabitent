@@ -42,13 +42,7 @@ Main screen
 * Aside from the amount of work involved in coding and styling, I also encountered issues where my stylesheets would not load (Gulp crashed at least once) which hampered my progress in completing this project.
 
 ## To Do
-* Style the following pages: Main, Journal comment form, About, Find Us, 404, search-form
-
-* fix search button
-
-* Adventure section
-
-* Resolve issue with Gulp and stylesheets
+* Adventure section: make dynamic
 
 * Add more comments and clean up code
 
