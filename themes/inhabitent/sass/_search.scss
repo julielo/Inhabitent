@@ -45,7 +45,7 @@
   .page-numbers {
     @include grn-button;
     &:hover {
-      color: #fff; 
+      color: #fff;
       background-color: $brand_color_darkgreen;
       border: 1px solid $brand_color_darkgreen;
     }

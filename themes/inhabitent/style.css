@@ -1568,23 +1568,30 @@ i.fa {
     box-shadow: none;
     border-radius: 0; }
 
-.search-form {
+.header-search .search-form {
   color: #248A83; }
-  .search-form fieldset {
+  .header-search .search-form fieldset {
     border: 0;
     padding-top: 3px; }
-  .search-form fieldset .search-field {
+  .header-search .search-form fieldset .search-field {
     background: transparent;
     border: solid 0px transparent;
     width: 0; }
-  .search-form fieldset .new-width {
+  .header-search .search-form fieldset .new-width {
+    border: solid 0px transparent;
     width: 185px; }
-  .search-form input {
+  .header-search .search-form input {
     text-transform: uppercase; }
-  .search-form input:focus {
+  .header-search .search-form input:focus {
     outline: 0; }
-  .search-form .fa-search {
+  .header-search .search-form .fa-search {
     font-size: 1rem; }
+
+.search-no-results .page-content .search-form fieldset {
+  width: 190px;
+  border: 0; }
+  .search-no-results .page-content .search-form fieldset .fa-search {
+    display: none; }
 
 .page-template-about .content-area {
   width: 100%;
